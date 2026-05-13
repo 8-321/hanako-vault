@@ -1,6 +1,9 @@
 {
   "accentColor": "#7c5cfc",
   "theme": "obsidian",
+  "enabledCssSnippets": [
+    "hanako-chat"
+  ],
   "cssTheme": "",
   "interfaceFontFamily": "",
   "textFontFamily": "",
