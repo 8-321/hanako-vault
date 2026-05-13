@@ -1,7 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "附件库",
+  "newFileFolderPath": "收件箱",
   "attachmentFolderPath": "附件库",
   "showLineNumber": true,
   "strictLineBreaks": false,
