@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "踩坑记录模板",
+      "path": "模板/踩坑记录模板.md"
+    },
+    {
+      "basename": "2026-05-13",
+      "path": "日记/2026-05-13.md"
+    },
+    {
+      "basename": "2026-05-13 ｜我在后台反复擦亮那盏小灯",
+      "path": "日记/2026-05-13 ｜我在后台反复擦亮那盏小灯.md"
+    },
+    {
+      "basename": "2026-05-13 ｜我把红字压下去了",
+      "path": "日记/2026-05-13 ｜我把红字压下去了.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -103,10 +119,6 @@
     {
       "basename": "脚本执行-4e6239a5f7",
       "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/脚本执行-4e6239a5f7.md"
-    },
-    {
-      "basename": "2026-05-13",
-      "path": "日记/2026-05-13.md"
     }
   ],
   "omittedPaths": [],
