@@ -1,0 +1,9 @@
+{
+  "session_id": "2026-05-07T12-52-40-339Z_019e027f-5713-7638-81d1-47caeee07945",
+  "created_at": "2026-05-09T07:56:24.983Z",
+  "updated_at": "2026-05-09T07:56:24.983Z",
+  "summary": "## 重要事实\n无\n\n## 事情经过\n20:52 用户请求安装 opencode，助手搜索后尝试下载安装包\n15:27 用户反馈官网链接打不开，助手改用 PowerShell 下载成功\n15:30 安装包已下载至 D:/Hanako/opencode-setup.exe（114MB），等待用户双击安装",
+  "messageCount": 27,
+  "snapshot": "## 重要事实\n无\n\n## 事情经过\n20:52 用户请求安装 opencode，助手搜索后尝试下载安装包\n15:27 用户反馈官网链接打不开，助手改用 PowerShell 下载成功\n15:30 安装包已下载至 D:/Hanako/opencode-setup.exe（114MB），等待用户双击安装",
+  "snapshot_at": "2026-05-12T13:38:09.143Z"
+}

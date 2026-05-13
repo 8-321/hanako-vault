@@ -1,0 +1,19 @@
+{
+  "baseFontSize": 16,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "附件库",
+  "attachmentFolderPath": "附件库",
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showFrontmatter": false,
+  "autoConvertHtml": true,
+  "spellcheck": false,
+  "promptDelete": false,
+  "trashOption": "local"
+}

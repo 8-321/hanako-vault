@@ -1,0 +1,67 @@
+# Hanako 系统配置
+# 由设置页面管理，手动编辑也可以
+
+agent:
+  name: 含
+  yuan: ming
+user:
+  name: kel
+api:
+  provider: minimax
+embedding_api:
+  provider: ""
+models:
+  chat:
+    id: gpt-5.5
+    provider: an
+  utility:
+    id: claude-haiku-4-5
+    provider: an
+  utility_large:
+    id: deepseek-v4-pro
+    provider: an
+  embedding: ""
+  embedding_dimensions: 1024
+memory:
+  token_budget: 2500
+  decay_per_day: 0.02
+  hit_bonus: 5
+  base_importance: 10
+  compile_threshold: 4.5
+  forget_speed: 1
+  enabled: true
+experience:
+  enabled: true
+search:
+  provider: bing_browser
+  api_key: ""
+skills:
+  enabled:
+    - diary
+    - drawio-skill
+    - hana-plugin-creator
+    - hanako-self-improvement
+    - quiet-musing
+    - skill-creator
+    - user-guide
+    - hanako-constitution
+    - hanako-self-improvement
+    - lobehub-autopilot
+    - brainstorming
+    - huang-user-profile
+    - huashu-nuwa
+desk:
+  home_folder: D:\Hanako
+cwd_history:
+  - D:/Hanako
+  - C:/Users/huang/Desktop
+  - D:/BELLA KE/项目AI/调教AI
+  - D:/BELLA KE/项目AI/中转站
+last_cwd: D:\Hanako
+bridge:
+  wechat:
+    botToken: a2361cc19652@im.bot:06000036b5ac90f11c7bec6e9227f589612704
+    enabled: true
+    owner: o9cq80yorUu1bMYKPM3_7eX7bS2A@im.wechat
+tools:
+  disabled: []

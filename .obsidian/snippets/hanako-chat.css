@@ -1,0 +1,17 @@
+/* Hanako 对话记录美化 */
+
+.callout[data-callout="question"] {
+  --callout-color: 66, 135, 245;
+  background-color: rgba(66, 135, 245, 0.08);
+  border-left: 4px solid rgb(66, 135, 245);
+  border-radius: 8px;
+}
+
+.callout[data-callout="note"] {
+  --callout-color: 158, 158, 158;
+  background-color: rgba(158, 158, 158, 0.05);
+  border-left: 3px solid rgb(158, 158, 158);
+  border-radius: 6px;
+  font-size: 0.9em;
+  opacity: 0.85;
+}

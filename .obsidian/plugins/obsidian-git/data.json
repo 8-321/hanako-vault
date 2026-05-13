@@ -1,0 +1,12 @@
+{
+  "commitMessage": "vault backup: {{date}}",
+  "autoPullInterval": 10,
+  "autoPushInterval": 10,
+  "autoSaveInterval": 5,
+  "currentBranch": "main",
+  "gitPath": "E:/GIT/Git/cmd/git.exe",
+  "basePath": "",
+  "showStatusBar": true,
+  "syncMethod": "merge",
+  "refreshSourceControl": true
+}

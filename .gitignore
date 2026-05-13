@@ -1,0 +1,26 @@
+# Obsidian
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/manifest.json
+.obsidian/plugins/*/styles.css
+
+# 巡检临时文件
+巡检/**/duplicate-*
+巡检/**/patrol-artifacts/
+巡检/**/归档/
+
+# 密钥
+中转站配置/API密钥库.md
+
+# 大附件
+附件库/avatars/
+附件库/**/*.png
+附件库/**/*.jpg
+附件库/**/*.tgz
+附件库/**/*.exe
+
+# 系统
+.DS_Store
+Thumbs.db
+node_modules/
