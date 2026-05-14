@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CURSOR",
+      "path": "CURSOR.md"
+    },
+    {
       "basename": "踩坑记录模板",
       "path": "模板/踩坑记录模板.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "HANAKO",
       "path": "HANAKO.md"
-    },
-    {
-      "basename": "CURSOR",
-      "path": "CURSOR.md"
     },
     {
       "basename": "CODEX",
