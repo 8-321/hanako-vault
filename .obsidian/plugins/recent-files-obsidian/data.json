@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "周记索引",
+      "path": "复盘/周记/周记索引.md"
+    },
+    {
+      "basename": "月记索引",
+      "path": "复盘/月记/月记索引.md"
+    },
+    {
       "basename": "2026-05-13",
       "path": "日记/2026-05-13.md"
     },
@@ -187,14 +195,6 @@
     {
       "basename": "脚本执行-4e6239a5f7",
       "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/脚本执行-4e6239a5f7.md"
-    },
-    {
-      "basename": "月记索引",
-      "path": "复盘/月记/月记索引.md"
-    },
-    {
-      "basename": "周记索引",
-      "path": "复盘/周记/周记索引.md"
     },
     {
       "basename": "hanzhang",
