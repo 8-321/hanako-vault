@@ -1,32 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CURSOR",
-      "path": "CURSOR.md"
-    },
-    {
-      "basename": "踩坑记录模板",
-      "path": "模板/踩坑记录模板.md"
-    },
-    {
-      "basename": "2026-05-13",
-      "path": "日记/2026-05-13.md"
-    },
-    {
-      "basename": "2026-05-13 ｜我在后台反复擦亮那盏小灯",
-      "path": "日记/2026-05-13 ｜我在后台反复擦亮那盏小灯.md"
-    },
-    {
-      "basename": "2026-05-13 ｜我把红字压下去了",
-      "path": "日记/2026-05-13 ｜我把红字压下去了.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "HANAKO",
-      "path": "HANAKO.md"
+      "basename": "Hanako个人助手协议",
+      "path": "Hanako个人助手协议.md"
+    },
+    {
+      "basename": "CURSOR",
+      "path": "CURSOR.md"
     },
     {
       "basename": "CODEX",
@@ -41,24 +25,20 @@
       "path": "AI调教体系索引.md"
     },
     {
-      "basename": "总索引-点我",
-      "path": "总索引-点我.md"
+      "basename": "2026-05-13",
+      "path": "日记/2026-05-13.md"
     },
     {
-      "basename": "资源索引总表",
-      "path": "资源索引总表.md"
+      "basename": "2026-05-12 ｜ kel 说，你自己去加这个功能",
+      "path": "日记/2026-05-12 ｜ kel 说，你自己去加这个功能.md"
     },
     {
       "basename": "主页",
       "path": "主页.md"
     },
     {
-      "basename": "欢迎",
-      "path": "hanako/欢迎.md"
-    },
-    {
-      "basename": "OpenClaw规范",
-      "path": "AI调教/知识沉淀/OpenClaw规范.md"
+      "basename": "使用案例",
+      "path": "使用案例.md"
     },
     {
       "basename": "Claude思考协议",
@@ -73,52 +53,152 @@
       "path": "AI调教/知识沉淀/工程实践标准.md"
     },
     {
-      "basename": "小任务TDD流程",
-      "path": "工作流/小任务TDD流程.md"
+      "basename": "003-执行验收标准",
+      "path": "AI调教/系统提示词/003-执行验收标准.md"
     },
     {
-      "basename": "大项目执行流程",
-      "path": "工作流/大项目执行流程.md"
+      "basename": "002-子代理调度协议",
+      "path": "AI调教/系统提示词/002-子代理调度协议.md"
     },
     {
-      "basename": "facts",
-      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/memory/facts.md"
+      "basename": "001-主控核心协议",
+      "path": "AI调教/系统提示词/001-主控核心协议.md"
+    },
+    {
+      "basename": "QA测试模式",
+      "path": "AI调教/场景提示词/QA测试模式.md"
+    },
+    {
+      "basename": "深度思考模式",
+      "path": "AI调教/场景提示词/深度思考模式.md"
+    },
+    {
+      "basename": "编程助手模式",
+      "path": "AI调教/场景提示词/编程助手模式.md"
+    },
+    {
+      "basename": "API密钥库",
+      "path": "中转站配置/API密钥库.md"
+    },
+    {
+      "basename": "模型映射表",
+      "path": "中转站配置/模型映射表.md"
+    },
+    {
+      "basename": "patrol-log",
+      "path": "巡检/含舟/patrol-log.md"
+    },
+    {
+      "basename": "README",
+      "path": "巡检/含野/README.md"
+    },
+    {
+      "basename": "patrol-log",
+      "path": "巡检/含野/patrol-log.md"
+    },
+    {
+      "basename": "README",
+      "path": "巡检/含/README.md"
+    },
+    {
+      "basename": "patrol-log",
+      "path": "巡检/含/patrol-log.md"
+    },
+    {
+      "basename": "周记模板",
+      "path": "模板/周记模板.md"
+    },
+    {
+      "basename": "知识沉淀模板",
+      "path": "模板/知识沉淀模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "模板/日记模板.md"
+    },
+    {
+      "basename": "工单模板",
+      "path": "模板/工单模板.md"
+    },
+    {
+      "basename": "踩坑记录模板",
+      "path": "模板/踩坑记录模板.md"
+    },
+    {
+      "basename": "公共中转站部署方案",
+      "path": "技术资料库/公共中转站部署方案.md"
+    },
+    {
+      "basename": "模型中转站搭建完整手册",
+      "path": "技术资料库/模型中转站搭建完整手册.md"
+    },
+    {
+      "basename": "AGENTS七维度全局系统规范",
+      "path": "技术资料库/AGENTS七维度全局系统规范.md"
+    },
+    {
+      "basename": "AI_Coding全景资料库",
+      "path": "技术资料库/AI Coding/AI_Coding全景资料库.md"
+    },
+    {
+      "basename": "Hanako对话自动同步方案",
+      "path": "工具配置/Hanako对话自动同步方案.md"
+    },
+    {
+      "basename": "Codex接手文档",
+      "path": "工具配置/Codex接手文档.md"
+    },
+    {
+      "basename": "Codex-对接Hanako数据-小白版",
+      "path": "工具配置/Codex-对接Hanako数据-小白版.md"
+    },
+    {
+      "basename": "AI_Agent配置安装指南",
+      "path": "工具配置/AI_Agent配置安装指南.md"
+    },
+    {
+      "basename": "codex-config-5829e8b56e",
+      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/codex-config-5829e8b56e.md"
+    },
+    {
+      "basename": "tech-limitations-00b64c6ca9",
+      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/tech-limitations-00b64c6ca9.md"
+    },
+    {
+      "basename": "技能安装-e89e6faf49",
+      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/技能安装-e89e6faf49.md"
+    },
+    {
+      "basename": "插件配置-f782650891",
+      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/插件配置-f782650891.md"
+    },
+    {
+      "basename": "脚本执行-4e6239a5f7",
+      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/脚本执行-4e6239a5f7.md"
+    },
+    {
+      "basename": "月记索引",
+      "path": "复盘/月记/月记索引.md"
+    },
+    {
+      "basename": "周记索引",
+      "path": "复盘/周记/周记索引.md"
     },
     {
       "basename": "hanzhang",
       "path": "附件库/avatars/hanzhang.png"
     },
     {
-      "basename": "hanye",
-      "path": "附件库/avatars/hanye.png"
-    },
-    {
-      "basename": "hanshu",
-      "path": "附件库/avatars/hanshu.png"
+      "basename": "hanshuni",
+      "path": "附件库/avatars/hanshuni.png"
     },
     {
       "basename": "hanako",
       "path": "附件库/avatars/hanako.png"
     },
     {
-      "basename": "8bd1c2cd6364df077596bd60eab144c1",
-      "path": "附件库/黑曜石初级玩法截图/8bd1c2cd6364df077596bd60eab144c1.jpg"
-    },
-    {
-      "basename": "5e3cbfb3dfc4634447490aa7289d20a5",
-      "path": "附件库/黑曜石初级玩法截图/5e3cbfb3dfc4634447490aa7289d20a5.jpg"
-    },
-    {
-      "basename": "1fec6cb3fadff57e8e39e39a7283a844",
-      "path": "附件库/黑曜石初级玩法截图/1fec6cb3fadff57e8e39e39a7283a844.jpg"
-    },
-    {
-      "basename": "0f4bce7f148e5e25a75aa5e34f46ea03",
-      "path": "附件库/黑曜石初级玩法截图/0f4bce7f148e5e25a75aa5e34f46ea03.jpg"
-    },
-    {
-      "basename": "脚本执行-4e6239a5f7",
-      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/脚本执行-4e6239a5f7.md"
+      "basename": "a551474f4322de2e8e2a3f9e5f95a243",
+      "path": "附件库/黑曜石初级玩法截图/a551474f4322de2e8e2a3f9e5f95a243.jpg"
     }
   ],
   "omittedPaths": [],
