@@ -18,3 +18,9 @@ tags: [Hanako, Codex, Obsidian, 工具]
 - 三类 AI 对话统一进 `对话/` 目录，Hanako 和 Codex 的通过文件名前缀区分。
 - 定时任务都在 Hanako cron 和 Windows Task Scheduler 两套体系里——前者管对话同步，后者管 Vault 备份。
 - 格式统一为：YAML frontmatter 只保留 `date` + `tags`，正文 3 段以内，不写套话。
+
+## 关联
+- [[系统/技能/2026-05-15 Codex对话同步到Obsidian]]
+- [[系统/技能/2026-05-14 Codex OpenHanako二开安全底座]]
+- [[项目/2026-05-15 Vault结构清理]]
+- [[对话记录/Codex 2026-05-15 制作一个codex和openhanako 的综合体]]
