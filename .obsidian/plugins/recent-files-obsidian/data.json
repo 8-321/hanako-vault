@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "使用案例",
+      "path": "使用案例.md"
+    },
+    {
+      "basename": "主页",
+      "path": "主页.md"
+    },
+    {
+      "basename": "资源索引总表",
+      "path": "资源索引总表.md"
+    },
+    {
+      "basename": "AI调教体系索引",
+      "path": "AI调教体系索引.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Hanako个人助手协议",
+      "path": "Hanako个人助手协议.md"
+    },
+    {
+      "basename": "Hanako 控制台",
+      "path": "Hanako 控制台.md"
+    },
+    {
+      "basename": "HANAKO",
+      "path": "HANAKO.md"
+    },
+    {
+      "basename": "CURSOR",
+      "path": "CURSOR.md"
+    },
+    {
+      "basename": "CODEX",
+      "path": "CODEX.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "2026-05-07 对话 2026-05-07",
+      "path": "对话记录/2026-05-07 对话 2026-05-07.md"
+    },
+    {
       "basename": "Codex 2026-05-13 是小白，后面需要用到很多很多的技能，你帮我配置下你自己",
       "path": "对话记录/Codex 2026-05-13 是小白，后面需要用到很多很多的技能，你帮我配置下你自己.md"
     },
@@ -47,10 +95,6 @@
     {
       "basename": "2026-05-09 每天写日记，你现在和我探讨下你的名字，我的微信名字是kel,",
       "path": "对话记录/2026-05-09 每天写日记，你现在和我探讨下你的名字，我的微信名字是kel,.md"
-    },
-    {
-      "basename": "2026-05-07 对话 2026-05-07",
-      "path": "对话记录/2026-05-07 对话 2026-05-07.md"
     },
     {
       "basename": "2026-05-07 调研有关自媒体方面的所有知识，形成知识库总结，同时过程记录知",
@@ -105,40 +149,8 @@
       "path": "日记/2026-05-14 ｜ Codex 夜间日记.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Hanako个人助手协议",
-      "path": "Hanako个人助手协议.md"
-    },
-    {
-      "basename": "CURSOR",
-      "path": "CURSOR.md"
-    },
-    {
-      "basename": "CODEX",
-      "path": "CODEX.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "AI调教体系索引",
-      "path": "AI调教体系索引.md"
-    },
-    {
       "basename": "2026-05-12 ｜ kel 说，你自己去加这个功能",
       "path": "日记/2026-05-12 ｜ kel 说，你自己去加这个功能.md"
-    },
-    {
-      "basename": "主页",
-      "path": "主页.md"
-    },
-    {
-      "basename": "使用案例",
-      "path": "使用案例.md"
     },
     {
       "basename": "Claude思考协议",
@@ -187,10 +199,6 @@
     {
       "basename": "patrol-log",
       "path": "巡检/含舟/patrol-log.md"
-    },
-    {
-      "basename": "README",
-      "path": "巡检/含野/README.md"
     }
   ],
   "omittedPaths": [],
