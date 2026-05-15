@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Codex 2026-05-13 调研现有github有关自媒体相关项目，红蓝对抗，三方合作",
+      "path": "对话记录/Codex 2026-05-13 调研现有github有关自媒体相关项目，红蓝对抗，三方合作.md"
+    },
+    {
+      "basename": "Codex 2026-05-12 记得我是谁吗？",
+      "path": "对话记录/Codex 2026-05-12 记得我是谁吗？.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 You are running inside Hanako Codex (2)",
+      "path": "对话记录/Codex 2026-05-15 You are running inside Hanako Codex (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-15 You are running inside Hanako Codex",
+      "path": "对话记录/Codex 2026-05-15 You are running inside Hanako Codex.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 A，可以继续",
+      "path": "对话记录/Codex 2026-05-15 A，可以继续.md"
+    },
+    {
+      "basename": "Codex 2026-05-12 做一个视频",
+      "path": "对话记录/Codex 2026-05-12 做一个视频.md"
+    },
+    {
+      "basename": "Codex 2026-05-13 是开源工具-架构研究 agent。请只做只读研究，不改文件",
+      "path": "对话记录/Codex 2026-05-13 是开源工具-架构研究 agent。请只做只读研究，不改文件.md"
+    },
+    {
+      "basename": "Codex 2026-05-13 是红队风险分析 agent。请只做只读分析，不改文件",
+      "path": "对话记录/Codex 2026-05-13 是红队风险分析 agent。请只做只读分析，不改文件.md"
+    },
+    {
       "basename": "2026-05-09 自己可以弄无成本的gemini -gpt 的会 员吗",
       "path": "对话记录/2026-05-09 自己可以弄无成本的gemini -gpt 的会 员吗.md"
     },
@@ -151,22 +183,6 @@
     {
       "basename": "README",
       "path": "巡检/含野/README.md"
-    },
-    {
-      "basename": "patrol-log",
-      "path": "巡检/含野/patrol-log.md"
-    },
-    {
-      "basename": "README",
-      "path": "巡检/含/README.md"
-    },
-    {
-      "basename": "patrol-log",
-      "path": "巡检/含/patrol-log.md"
-    },
-    {
-      "basename": "周记模板",
-      "path": "模板/周记模板.md"
     }
   ],
   "omittedPaths": [],
