@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Hanako 控制台",
+      "path": "系统/Hanako 控制台.md"
+    },
+    {
+      "basename": "资源索引总表",
+      "path": "系统/资源索引总表.md"
+    },
+    {
+      "basename": "工单模板",
+      "path": "系统/模板/模板/工单模板.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "系统/技能/技能/diary/SKILL.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "系统/技能/技能/diary-scribe/SKILL.md"
+    },
+    {
+      "basename": "2026-05-06 Windows磁盘清理安全边界",
+      "path": "系统/技能/2026-05-06 Windows磁盘清理安全边界.md"
+    },
+    {
+      "basename": "2026-05-07 自媒体知识库与头像生成配置",
+      "path": "系统/技能/2026-05-07 自媒体知识库与头像生成配置.md"
+    },
+    {
+      "basename": "2026-05-06 Obsidian AI知识中枢搭建",
+      "path": "系统/技能/2026-05-06 Obsidian AI知识中枢搭建.md"
+    },
+    {
       "basename": "2026-05-15 Vault结构清理",
       "path": "项目/2026-05-15 Vault结构清理.md"
     },
@@ -85,10 +117,6 @@
       "path": "系统/中转站配置/模型映射表.md"
     },
     {
-      "basename": "工单模板",
-      "path": "系统/模板/模板/工单模板.md"
-    },
-    {
       "basename": "踩坑记录模板",
       "path": "系统/模板/模板/踩坑记录模板.md"
     },
@@ -171,14 +199,6 @@
     {
       "basename": "2026-05-06 研读工作空间所有文件，进行配置我的黑曜石，确保我在另一个cl",
       "path": "对话记录/2026-05-06 研读工作空间所有文件，进行配置我的黑曜石，确保我在另一个cl.md"
-    },
-    {
-      "basename": "2026-05-06 帮我清理下C盘",
-      "path": "对话记录/2026-05-06 帮我清理下C盘.md"
-    },
-    {
-      "basename": "patrol-log",
-      "path": "巡检/含舟/patrol-log.md"
     }
   ],
   "omittedPaths": [],
