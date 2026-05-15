@@ -1,48 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "使用案例",
-      "path": "使用案例.md"
-    },
-    {
       "basename": "主页",
       "path": "主页.md"
     },
     {
-      "basename": "资源索引总表",
-      "path": "资源索引总表.md"
-    },
-    {
-      "basename": "AI调教体系索引",
-      "path": "AI调教体系索引.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Hanako个人助手协议",
-      "path": "Hanako个人助手协议.md"
-    },
-    {
-      "basename": "Hanako 控制台",
-      "path": "Hanako 控制台.md"
-    },
-    {
-      "basename": "HANAKO",
-      "path": "HANAKO.md"
-    },
-    {
-      "basename": "CURSOR",
-      "path": "CURSOR.md"
-    },
-    {
-      "basename": "CODEX",
-      "path": "CODEX.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
     },
     {
       "basename": "2026-05-07 对话 2026-05-07",
@@ -107,94 +71,6 @@
     {
       "basename": "2026-05-06 帮我清理下C盘",
       "path": "对话记录/2026-05-06 帮我清理下C盘.md"
-    },
-    {
-      "basename": "月记索引",
-      "path": "复盘/月记/月记索引.md"
-    },
-    {
-      "basename": "2026-05-15",
-      "path": "00 - 每日笔记/2026-05-15.md"
-    },
-    {
-      "basename": "2026-05-14",
-      "path": "00 - 每日笔记/2026-05-14.md"
-    },
-    {
-      "basename": "小任务TDD流程",
-      "path": "工作流/小任务TDD流程.md"
-    },
-    {
-      "basename": "大项目执行流程",
-      "path": "工作流/大项目执行流程.md"
-    },
-    {
-      "basename": "周记索引",
-      "path": "复盘/周记/周记索引.md"
-    },
-    {
-      "basename": "2026-05-13",
-      "path": "日记/2026-05-13.md"
-    },
-    {
-      "basename": "2026-05-13 ｜我把红字压下去了",
-      "path": "日记/2026-05-13 ｜我把红字压下去了.md"
-    },
-    {
-      "basename": "2026-05-13 ｜我在后台反复擦亮那盏小灯",
-      "path": "日记/2026-05-13 ｜我在后台反复擦亮那盏小灯.md"
-    },
-    {
-      "basename": "2026-05-14 ｜ Codex 夜间日记",
-      "path": "日记/2026-05-14 ｜ Codex 夜间日记.md"
-    },
-    {
-      "basename": "2026-05-12 ｜ kel 说，你自己去加这个功能",
-      "path": "日记/2026-05-12 ｜ kel 说，你自己去加这个功能.md"
-    },
-    {
-      "basename": "Claude思考协议",
-      "path": "AI调教/知识沉淀/Claude思考协议.md"
-    },
-    {
-      "basename": "中转站架构",
-      "path": "AI调教/知识沉淀/中转站架构.md"
-    },
-    {
-      "basename": "工程实践标准",
-      "path": "AI调教/知识沉淀/工程实践标准.md"
-    },
-    {
-      "basename": "003-执行验收标准",
-      "path": "AI调教/系统提示词/003-执行验收标准.md"
-    },
-    {
-      "basename": "002-子代理调度协议",
-      "path": "AI调教/系统提示词/002-子代理调度协议.md"
-    },
-    {
-      "basename": "001-主控核心协议",
-      "path": "AI调教/系统提示词/001-主控核心协议.md"
-    },
-    {
-      "basename": "QA测试模式",
-      "path": "AI调教/场景提示词/QA测试模式.md"
-    },
-    {
-      "basename": "深度思考模式",
-      "path": "AI调教/场景提示词/深度思考模式.md"
-    },
-    {
-      "basename": "编程助手模式",
-      "path": "AI调教/场景提示词/编程助手模式.md"
-    },
-    {
-      "basename": "API密钥库",
-      "path": "中转站配置/API密钥库.md"
-    },
-    {
-      "basename": "模型映射表",
-      "path": "中转站配置/模型映射表.md"
     },
     {
       "basename": "patrol-log",
