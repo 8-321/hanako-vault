@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-15",
+      "path": "00 - 每日笔记/2026-05-15.md"
+    },
+    {
+      "basename": "2026-05-14",
+      "path": "00 - 每日笔记/2026-05-14.md"
+    },
+    {
+      "basename": "小任务TDD流程",
+      "path": "工作流/小任务TDD流程.md"
+    },
+    {
+      "basename": "大项目执行流程",
+      "path": "工作流/大项目执行流程.md"
+    },
+    {
       "basename": "周记索引",
       "path": "复盘/周记/周记索引.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "tech-limitations-00b64c6ca9",
       "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/tech-limitations-00b64c6ca9.md"
-    },
-    {
-      "basename": "技能安装-e89e6faf49",
-      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/技能安装-e89e6faf49.md"
-    },
-    {
-      "basename": "插件配置-f782650891",
-      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/插件配置-f782650891.md"
-    },
-    {
-      "basename": "脚本执行-4e6239a5f7",
-      "path": "工具配置/codex-bridge/hanako-mirror/agents/hanako/experience/脚本执行-4e6239a5f7.md"
-    },
-    {
-      "basename": "hanzhang",
-      "path": "附件库/avatars/hanzhang.png"
     }
   ],
   "omittedPaths": [],
