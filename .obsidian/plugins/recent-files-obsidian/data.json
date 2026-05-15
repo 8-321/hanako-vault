@@ -9,6 +9,94 @@
       "path": "README.md"
     },
     {
+      "basename": "README",
+      "path": "巡检/含野/README.md"
+    },
+    {
+      "basename": "patrol-log",
+      "path": "巡检/含野/patrol-log.md"
+    },
+    {
+      "basename": "README",
+      "path": "巡检/含/README.md"
+    },
+    {
+      "basename": "patrol-log",
+      "path": "巡检/含/patrol-log.md"
+    },
+    {
+      "basename": "2026-05-15 Vault结构清理",
+      "path": "项目/2026-05-15 Vault结构清理.md"
+    },
+    {
+      "basename": "2026-05-15 Codex与Obsidian联动",
+      "path": "项目/2026-05-15 Codex与Obsidian联动.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "系统/Agent规则/CLAUDE.md"
+    },
+    {
+      "basename": "API密钥库",
+      "path": "系统/中转站配置/API密钥库.md"
+    },
+    {
+      "basename": "模型映射表",
+      "path": "系统/中转站配置/模型映射表.md"
+    },
+    {
+      "basename": "工单模板",
+      "path": "系统/模板/模板/工单模板.md"
+    },
+    {
+      "basename": "踩坑记录模板",
+      "path": "系统/模板/模板/踩坑记录模板.md"
+    },
+    {
+      "basename": "Hanako对话自动同步方案",
+      "path": "系统/工具/工具配置/Hanako对话自动同步方案.md"
+    },
+    {
+      "basename": "Codex接手文档",
+      "path": "系统/工具/工具配置/Codex接手文档.md"
+    },
+    {
+      "basename": "Codex-对接Hanako数据-小白版",
+      "path": "系统/工具/工具配置/Codex-对接Hanako数据-小白版.md"
+    },
+    {
+      "basename": "收件箱索引",
+      "path": "收件箱/收件箱索引.md"
+    },
+    {
+      "basename": "2026-05-15",
+      "path": "日志/2026-05-15.md"
+    },
+    {
+      "basename": "2026-05-14",
+      "path": "日志/2026-05-14.md"
+    },
+    {
+      "basename": "2026-05-13",
+      "path": "日志/2026-05-13.md"
+    },
+    {
+      "basename": "2026-05-14 ｜ Codex 夜间日记",
+      "path": "日志/2026-05-14 ｜ Codex 夜间日记.md"
+    },
+    {
+      "basename": "0f4bce7f148e5e25a75aa5e34f46ea03",
+      "path": "附件库/黑曜石初级玩法截图/0f4bce7f148e5e25a75aa5e34f46ea03.jpg"
+    },
+    {
+      "basename": "使用案例",
+      "path": "笔记/使用案例.md"
+    },
+    {
+      "basename": "AI调教体系索引",
+      "path": "笔记/AI调教体系索引.md"
+    },
+    {
       "basename": "2026-05-07 对话 2026-05-07",
       "path": "对话记录/2026-05-07 对话 2026-05-07.md"
     },
