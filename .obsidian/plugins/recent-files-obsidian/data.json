@@ -1,16 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "AI调教体系索引",
-      "path": "笔记/AI调教体系索引.md"
+      "basename": "2026-05-13",
+      "path": "日记/2026-05-13.md"
+    },
+    {
+      "basename": "2026-05-14",
+      "path": "日记/2026-05-14.md"
+    },
+    {
+      "basename": "b75547e108e5406d3dc4eba7da4b3606",
+      "path": "附件库/黑曜石初级玩法截图/b75547e108e5406d3dc4eba7da4b3606.jpg"
+    },
+    {
+      "basename": "908783ae2e744c93c9899518223b8b8b",
+      "path": "附件库/黑曜石初级玩法截图/908783ae2e744c93c9899518223b8b8b.jpg"
+    },
+    {
+      "basename": "18210bba71af1bc4c9470aa59a558d3d",
+      "path": "附件库/黑曜石初级玩法截图/18210bba71af1bc4c9470aa59a558d3d.jpg"
+    },
+    {
+      "basename": "4531f7a8166aaeadfb8e1d82621412f3",
+      "path": "附件库/黑曜石初级玩法截图/4531f7a8166aaeadfb8e1d82621412f3.jpg"
+    },
+    {
+      "basename": "05f67dc8967a95424871d8f6a0d6dcfc",
+      "path": "附件库/黑曜石初级玩法截图/05f67dc8967a95424871d8f6a0d6dcfc.jpg"
+    },
+    {
+      "basename": "5e3cbfb3dfc4634447490aa7289d20a5",
+      "path": "附件库/黑曜石初级玩法截图/5e3cbfb3dfc4634447490aa7289d20a5.jpg"
+    },
+    {
+      "basename": "0f4bce7f148e5e25a75aa5e34f46ea03",
+      "path": "附件库/黑曜石初级玩法截图/0f4bce7f148e5e25a75aa5e34f46ea03.jpg"
+    },
+    {
+      "basename": "1fec6cb3fadff57e8e39e39a7283a844",
+      "path": "附件库/黑曜石初级玩法截图/1fec6cb3fadff57e8e39e39a7283a844.jpg"
+    },
+    {
+      "basename": "飞书知识库-小柯的成长实验室",
+      "path": "笔记/飞书知识库-小柯的成长实验室.md"
     },
     {
       "basename": "使用案例",
       "path": "笔记/使用案例.md"
     },
     {
-      "basename": "飞书知识库-小柯的成长实验室",
-      "path": "笔记/飞书知识库-小柯的成长实验室.md"
+      "basename": "2026-05-14 Codex 公众号写作封图排版",
+      "path": "系统/技能/2026-05-14 Codex 公众号写作封图排版.md"
+    },
+    {
+      "basename": "AI调教体系索引",
+      "path": "笔记/AI调教体系索引.md"
     },
     {
       "basename": "工程实践标准",
@@ -73,16 +117,8 @@
       "path": "对话记录/Codex 2026-05-16 A，可以继续.md"
     },
     {
-      "basename": "2026-05-13",
-      "path": "日记/2026-05-13.md"
-    },
-    {
       "basename": "月记索引",
       "path": "回顾/月记/月记索引.md"
-    },
-    {
-      "basename": "2026-05-14",
-      "path": "日记/2026-05-14.md"
     },
     {
       "basename": "2026-05-16",
@@ -163,42 +199,6 @@
     {
       "basename": "2026-05-12 ｜ kel 说，你自己去加这个功能",
       "path": "日志/2026-05-12 ｜ kel 说，你自己去加这个功能.md"
-    },
-    {
-      "basename": "Codex 2026-05-15 You are running inside Hanako Codex (2)",
-      "path": "对话记录/Codex 2026-05-15 You are running inside Hanako Codex (2).md"
-    },
-    {
-      "basename": "Codex 2026-05-15 You are running inside Hanako Codex",
-      "path": "对话记录/Codex 2026-05-15 You are running inside Hanako Codex.md"
-    },
-    {
-      "basename": "主页",
-      "path": "主页.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "README",
-      "path": "巡检/含野/README.md"
-    },
-    {
-      "basename": "patrol-log",
-      "path": "巡检/含野/patrol-log.md"
-    },
-    {
-      "basename": "README",
-      "path": "巡检/含/README.md"
-    },
-    {
-      "basename": "patrol-log",
-      "path": "巡检/含/patrol-log.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "系统/Agent规则/CLAUDE.md"
     }
   ],
   "omittedPaths": [],

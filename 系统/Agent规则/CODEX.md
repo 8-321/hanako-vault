@@ -133,3 +133,9 @@ API Key:  从 CODEX_API_KEY 环境变量获取
 2. 踩到一个有价值的坑或 bug
 3. 完成复杂的重构或有价值的设计决策
 4. 中转站配置、模型映射有变动
+
+## Obsidian 日记与对话记录
+
+- 黑曜石总备份不再循环刷新 `对话记录` 和 `conversations` 目录，避免重复出错的 Codex 对话文件被一次次推进备份。
+- Codex 需要写日记时，使用 `D:\小柯 Ke\黑曜石Vault\scripts\write-three-vault-diary.ps1` 追加同一条带标记的日记到 HanakoVault、小柯自媒体Vault、小柯日常Vault。
+- 同一条日记必须带稳定 `Marker`；文件里已存在这个标记时跳过，不能重复追加。
