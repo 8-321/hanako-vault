@@ -139,3 +139,11 @@ API Key:  从 CODEX_API_KEY 环境变量获取
 - 黑曜石总备份不再循环刷新 `对话记录` 和 `conversations` 目录，避免重复出错的 Codex 对话文件被一次次推进备份。
 - Codex 需要写日记时，使用 `D:\小柯 Ke\黑曜石Vault\scripts\write-three-vault-diary.ps1` 追加同一条带标记的日记到 HanakoVault、小柯自媒体Vault、小柯日常Vault。
 - 同一条日记必须带稳定 `Marker`；文件里已存在这个标记时跳过，不能重复追加。
+
+## 每次对话收尾
+
+- 每次 Codex 对话结束前，运行 `D:\小柯 Ke\黑曜石Vault\scripts\complete-codex-conversation.ps1`。
+- 收尾脚本必须写入一份对话备份卡到 `D:\小柯 Ke\黑曜石Vault\收件箱\Codex对话备份`。
+- 收尾脚本必须写入一份 Skill 草稿卡到 `D:\小柯 Ke\黑曜石Vault\技能\自动生成`。
+- Skill 草稿只沉淀可复用做法和触发场景；不要把嘈杂的原始聊天全文重复塞进黑曜石。
+- Skill 草稿先留在黑曜石中，Kel 明确要求转正时再安装成真正的 `SKILL.md`。
