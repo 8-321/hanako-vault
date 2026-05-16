@@ -143,7 +143,10 @@ API Key:  从 CODEX_API_KEY 环境变量获取
 ## 每次对话收尾
 
 - 每次 Codex 对话结束前，运行 `D:\小柯 Ke\黑曜石Vault\scripts\complete-codex-conversation.ps1`。
-- 收尾脚本必须写入一份对话备份卡到 `D:\小柯 Ke\黑曜石Vault\收件箱\Codex对话备份`。
-- 收尾脚本必须写入一份 Skill 草稿卡到 `D:\小柯 Ke\黑曜石Vault\技能\自动生成`。
-- Skill 草稿只沉淀可复用做法和触发场景；不要把嘈杂的原始聊天全文重复塞进黑曜石。
-- Skill 草稿先留在黑曜石中，Kel 明确要求转正时再安装成真正的 `SKILL.md`。
+- 这是五层流程：Capture 对话备份、Distill Skill 候选、Index 两个索引、Review 黑曜石候选、Promote 正式技能。
+- 收尾脚本必须写入对话备份卡到 `D:\小柯 Ke\黑曜石Vault\收件箱\Codex对话备份\<YYYY-MM>`。
+- 收尾脚本必须写入 Skill 候选卡到 `D:\小柯 Ke\黑曜石Vault\技能\自动生成\候选\<YYYY-MM>`。
+- 收尾脚本必须更新 `D:\小柯 Ke\黑曜石Vault\备份索引\Codex对话沉淀索引.md` 和 `D:\小柯 Ke\黑曜石Vault\技能\Skill候选索引.md`。
+- Skill 候选只沉淀可复用做法和触发场景；不要把嘈杂的原始聊天全文重复塞进黑曜石。
+- Skill 候选先留在黑曜石中，Kel 明确要求转正时再安装成真正的 `SKILL.md`。
+- 系统说明见 `D:\小柯 Ke\黑曜石Vault\99 - Agent指南与规范\Codex对话沉淀系统.md`。
