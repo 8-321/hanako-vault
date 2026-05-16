@@ -149,4 +149,5 @@ API Key:  从 CODEX_API_KEY 环境变量获取
 - 收尾脚本必须更新 `D:\小柯 Ke\黑曜石Vault\备份索引\Codex对话沉淀索引.md` 和 `D:\小柯 Ke\黑曜石Vault\技能\Skill候选索引.md`。
 - Skill 候选只沉淀可复用做法和触发场景；不要把嘈杂的原始聊天全文重复塞进黑曜石。
 - Skill 候选先留在黑曜石中，Kel 明确要求转正时再安装成真正的 `SKILL.md`。
+- 转正前先运行 `D:\小柯 Ke\黑曜石Vault\scripts\promote-skill-candidate.ps1 -DryRun` 看目标路径。
 - 系统说明见 `D:\小柯 Ke\黑曜石Vault\99 - Agent指南与规范\Codex对话沉淀系统.md`。
