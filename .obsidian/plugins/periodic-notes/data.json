@@ -11,21 +11,21 @@
       "day": {
         "enabled": true,
         "format": "YYYY-MM-DD",
-        "folder": "日记",
+        "folder": "日常",
         "openAtStartup": false,
         "templatePath": ""
       },
       "week": {
         "enabled": true,
         "format": "gggg-[W]ww 周记",
-        "folder": "回顾/周记",
+        "folder": "复盘/周记",
         "openAtStartup": false,
         "templatePath": ""
       },
       "month": {
         "enabled": true,
         "format": "YYYY-MM 月记",
-        "folder": "回顾/月记",
+        "folder": "复盘/月记",
         "openAtStartup": false,
         "templatePath": ""
       }
