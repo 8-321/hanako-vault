@@ -9,26 +9,6 @@
       "path": "主页.md"
     },
     {
-      "basename": "周记索引",
-      "path": "回顾/周记/周记索引.md"
-    },
-    {
-      "basename": "月记索引",
-      "path": "回顾/月记/月记索引.md"
-    },
-    {
-      "basename": "Agent工具生态配置",
-      "path": "工具生态/Agent工具生态配置.md"
-    },
-    {
-      "basename": "2026-W20 ｜ 周报",
-      "path": "06 - 周期回顾/周报/2026-W20 ｜ 周报.md"
-    },
-    {
-      "basename": "2026-05-16",
-      "path": "00 - 每日笔记/2026-05-16.md"
-    },
-    {
       "basename": "2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成",
       "path": "收件箱/Codex对话备份/2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成.md"
     },
@@ -51,18 +31,6 @@
     {
       "basename": "收件箱索引-自媒体",
       "path": "收件箱/收件箱索引-自媒体.md"
-    },
-    {
-      "basename": "飞书知识库-小柯的成长实验室",
-      "path": "笔记/飞书知识库-小柯的成长实验室.md"
-    },
-    {
-      "basename": "B站",
-      "path": "AI学习知识库/B站.md"
-    },
-    {
-      "basename": "patrol-log",
-      "path": "巡检/patrol-log.md"
     },
     {
       "basename": "2026-05-15 Codex与Obsidian联动",
@@ -95,34 +63,6 @@
     {
       "basename": "2026-05-14 Codex 公众号写作封图排版",
       "path": "系统/技能/2026-05-14 Codex 公众号写作封图排版.md"
-    },
-    {
-      "basename": "踩坑记录模板",
-      "path": "模板/踩坑记录模板.md"
-    },
-    {
-      "basename": "工单模板",
-      "path": "模板/工单模板.md"
-    },
-    {
-      "basename": "2026-05-14 ｜ 今晚只是守着",
-      "path": "日记/2026-05-14 ｜ 今晚只是守着.md"
-    },
-    {
-      "basename": "2026-05-15 ｜我在后台守着灯，陪 kel 把工具一点点变聪明",
-      "path": "日记/2026-05-15 ｜我在后台守着灯，陪 kel 把工具一点点变聪明.md"
-    },
-    {
-      "basename": "2026-05-18 ｜ kel 说，不对味",
-      "path": "日记/2026-05-18 ｜ kel 说，不对味.md"
-    },
-    {
-      "basename": "2026-05-17 ｜ kel 想给世界一个提示词入口",
-      "path": "日记/2026-05-17 ｜ kel 想给世界一个提示词入口.md"
-    },
-    {
-      "basename": "2026-05-09 ｜ 数据事故后的第一天",
-      "path": "日记/2026-05-09 ｜ 数据事故后的第一天.md"
     },
     {
       "basename": "Codex 2026-05-18 Automation- Hanako nightly Automation",
