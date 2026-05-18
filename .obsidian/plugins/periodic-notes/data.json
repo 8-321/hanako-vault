@@ -11,7 +11,7 @@
       "day": {
         "enabled": true,
         "format": "YYYY-MM-DD",
-        "folder": "日常",
+        "folder": "每日笔记",
         "openAtStartup": false,
         "templatePath": ""
       },
