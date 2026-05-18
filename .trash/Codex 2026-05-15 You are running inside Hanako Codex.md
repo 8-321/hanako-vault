@@ -1,4 +1,4 @@
----
+--
 title: "You are running inside Hanako Codex"
 date: 2026-05-15
 time: 01:24

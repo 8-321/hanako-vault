@@ -1,4 +1,4 @@
----
+--
 title: "Automation: Hanako patrol
 Automation"
 date: 2026-05-18
