@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "使用说明",
+      "path": "使用说明.md"
+    },
+    {
+      "basename": "主页",
+      "path": "主页.md"
+    },
+    {
+      "basename": "周记索引",
+      "path": "回顾/周记/周记索引.md"
+    },
+    {
+      "basename": "月记索引",
+      "path": "回顾/月记/月记索引.md"
+    },
+    {
+      "basename": "Agent工具生态配置",
+      "path": "工具生态/Agent工具生态配置.md"
+    },
+    {
       "basename": "2026-W20 ｜ 周报",
       "path": "06 - 周期回顾/周报/2026-W20 ｜ 周报.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "18210bba71af1bc4c9470aa59a558d3d",
       "path": "附件库/黑曜石初级玩法截图/18210bba71af1bc4c9470aa59a558d3d.jpg"
-    },
-    {
-      "basename": "4531f7a8166aaeadfb8e1d82621412f3",
-      "path": "附件库/黑曜石初级玩法截图/4531f7a8166aaeadfb8e1d82621412f3.jpg"
-    },
-    {
-      "basename": "5e3cbfb3dfc4634447490aa7289d20a5",
-      "path": "附件库/黑曜石初级玩法截图/5e3cbfb3dfc4634447490aa7289d20a5.jpg"
-    },
-    {
-      "basename": "0f4bce7f148e5e25a75aa5e34f46ea03",
-      "path": "附件库/黑曜石初级玩法截图/0f4bce7f148e5e25a75aa5e34f46ea03.jpg"
-    },
-    {
-      "basename": "1fec6cb3fadff57e8e39e39a7283a844",
-      "path": "附件库/黑曜石初级玩法截图/1fec6cb3fadff57e8e39e39a7283a844.jpg"
-    },
-    {
-      "basename": "使用案例",
-      "path": "笔记/使用案例.md"
     }
   ],
   "omittedPaths": [],
