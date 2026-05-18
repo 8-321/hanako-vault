@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "systemName": "Codex 对话沉淀系统",
+  "conversationRoot": "收件箱\\Codex对话备份",
+  "skillCandidateRoot": "技能\\自动生成\\候选",
+  "conversationIndex": "备份索引\\Codex对话沉淀索引.md",
+  "skillIndex": "技能\\Skill候选索引.md",
+  "systemDoc": "99 - Agent指南与规范\\Codex对话沉淀系统.md",
+  "backupScript": "scripts\\backup-obsidian-records.ps1",
+  "defaultStatus": "candidate",
+  "defaultSkillType": "workflow",
+  "installTargets": {
+    "codex": "D:\\CodexHome\\skills",
+    "hanako": "C:\\Users\\huang\\.hanako\\skills",
+    "user": "C:\\Users\\huang\\.agents\\skills"
+  },
+  "taxonomy": {
+    "conversationTypes": [
+      "implementation",
+      "debugging",
+      "research",
+      "cleanup",
+      "writing",
+      "ops",
+      "decision"
+    ],
+    "skillTypes": [
+      "workflow",
+      "tool",
+      "knowledge",
+      "template",
+      "policy"
+    ],
+    "statuses": [
+      "candidate",
+      "needs-review",
+      "ready-to-promote",
+      "promoted",
+      "rejected"
+    ]
+  },
+  "promotionChecklist": [
+    "触发场景明确",
+    "流程可重复执行",
+    "不含密钥或隐私原文",
+    "本地路径已经验证",
+    "至少有一次成功运行证据",
+    "安装目标明确"
+  ]
+}
