@@ -24,3 +24,6 @@
 .DS_Store
 Thumbs.db
 node_modules/
+
+# 备份日志
+备份索引/运行日志/
