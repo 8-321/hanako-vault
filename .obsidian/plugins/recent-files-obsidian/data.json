@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "使用说明",
-      "path": "使用说明.md"
+      "basename": "小任务TDD流程",
+      "path": "知识/小任务TDD流程.md"
     },
     {
-      "basename": "主页",
-      "path": "主页.md"
+      "basename": "小柯的成长实验室-愿景",
+      "path": "知识/小柯的成长实验室-愿景.md"
+    },
+    {
+      "basename": "小柯的成长实验室-日志模板",
+      "path": "知识/小柯的成长实验室-日志模板.md"
+    },
+    {
+      "basename": "小柯的成长实验室-公众号",
+      "path": "知识/小柯的成长实验室-公众号.md"
+    },
+    {
+      "basename": "小柯的成长实验室-个人档案",
+      "path": "知识/小柯的成长实验室-个人档案.md"
     },
     {
       "basename": "2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成",
@@ -15,6 +27,62 @@
     {
       "basename": "2026-05-16 184903 - 系统化 Codex 对话沉淀流程",
       "path": "收件箱/Codex对话备份/2026-05/2026-05-16 184903 - 系统化 Codex 对话沉淀流程.md"
+    },
+    {
+      "basename": "2026-05-09",
+      "path": "日常/2026-05-09.md"
+    },
+    {
+      "basename": "2026-05-07",
+      "path": "日常/2026-05-07.md"
+    },
+    {
+      "basename": "2026-05-06",
+      "path": "日常/2026-05-06.md"
+    },
+    {
+      "basename": "2026-05-14 ｜ 今晚只是守着",
+      "path": "日常/2026-05-14 ｜ 今晚只是守着.md"
+    },
+    {
+      "basename": "2026-05-13 ｜我把红字压下去了",
+      "path": "日常/2026-05-13 ｜我把红字压下去了.md"
+    },
+    {
+      "basename": "2026-05-12",
+      "path": "日常/2026-05-12.md"
+    },
+    {
+      "basename": "2026-05-11",
+      "path": "日常/2026-05-11.md"
+    },
+    {
+      "basename": "Codex对话沉淀索引",
+      "path": "复盘/Codex对话沉淀索引.md"
+    },
+    {
+      "basename": "周记索引",
+      "path": "复盘/周记/周记索引.md"
+    },
+    {
+      "basename": "2026-W20 ｜ 周报",
+      "path": "复盘/周报/2026-W20 ｜ 周报.md"
+    },
+    {
+      "basename": "月记索引",
+      "path": "复盘/月记/月记索引.md"
+    },
+    {
+      "basename": "duplicate-conversation-cleanup-20260516-161935",
+      "path": "复盘/清理记录/duplicate-conversation-cleanup-20260516-161935.md"
+    },
+    {
+      "basename": "使用说明",
+      "path": "使用说明.md"
+    },
+    {
+      "basename": "主页",
+      "path": "主页.md"
     },
     {
       "basename": "收件箱索引",
@@ -131,14 +199,6 @@
     {
       "basename": "b75547e108e5406d3dc4eba7da4b3606",
       "path": "附件库/黑曜石初级玩法截图/b75547e108e5406d3dc4eba7da4b3606.jpg"
-    },
-    {
-      "basename": "908783ae2e744c93c9899518223b8b8b",
-      "path": "附件库/黑曜石初级玩法截图/908783ae2e744c93c9899518223b8b8b.jpg"
-    },
-    {
-      "basename": "18210bba71af1bc4c9470aa59a558d3d",
-      "path": "附件库/黑曜石初级玩法截图/18210bba71af1bc4c9470aa59a558d3d.jpg"
     }
   ],
   "omittedPaths": [],
