@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-W20 ｜ 周报",
+      "path": "06 - 周期回顾/周报/2026-W20 ｜ 周报.md"
+    },
+    {
+      "basename": "2026-05-16",
+      "path": "00 - 每日笔记/2026-05-16.md"
+    },
+    {
+      "basename": "2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成",
+      "path": "收件箱/Codex对话备份/2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成.md"
+    },
+    {
+      "basename": "2026-05-16 184903 - 系统化 Codex 对话沉淀流程",
+      "path": "收件箱/Codex对话备份/2026-05/2026-05-16 184903 - 系统化 Codex 对话沉淀流程.md"
+    },
+    {
+      "basename": "收件箱索引",
+      "path": "收件箱/收件箱索引.md"
+    },
+    {
+      "basename": "收件箱索引-日常",
+      "path": "收件箱/收件箱索引-日常.md"
+    },
+    {
+      "basename": "外部内容扫描报告",
+      "path": "收件箱/外部内容扫描报告.md"
+    },
+    {
+      "basename": "收件箱索引-自媒体",
+      "path": "收件箱/收件箱索引-自媒体.md"
+    },
+    {
       "basename": "飞书知识库-小柯的成长实验室",
       "path": "笔记/飞书知识库-小柯的成长实验室.md"
     },
@@ -97,10 +129,6 @@
       "path": "对话记录/2026-05-09 自己可以弄无成本的gemini -gpt 的会 员吗.md"
     },
     {
-      "basename": "外部内容扫描报告",
-      "path": "收件箱/外部内容扫描报告.md"
-    },
-    {
       "basename": "Codex 2026-05-16 Automation- Hanako patrol Automation (2)",
       "path": "对话记录/Codex 2026-05-16 Automation- Hanako patrol Automation (2).md"
     },
@@ -171,26 +199,6 @@
     {
       "basename": "使用案例",
       "path": "笔记/使用案例.md"
-    },
-    {
-      "basename": "AI调教体系索引",
-      "path": "笔记/AI调教体系索引.md"
-    },
-    {
-      "basename": "工程实践标准",
-      "path": "笔记/AI调教/知识沉淀/工程实践标准.md"
-    },
-    {
-      "basename": "月记索引",
-      "path": "回顾/月记/月记索引.md"
-    },
-    {
-      "basename": "资源索引总表",
-      "path": "系统/资源索引总表.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "系统/技能/技能/diary/SKILL.md"
     }
   ],
   "omittedPaths": [],
