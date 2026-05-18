@@ -1,12 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "外部内容扫描报告",
-      "path": "收件箱/外部内容扫描报告.md"
+      "basename": "B站",
+      "path": "AI学习知识库/B站.md"
+    },
+    {
+      "basename": "patrol-log",
+      "path": "巡检/patrol-log.md"
+    },
+    {
+      "basename": "2026-05-15 Codex与Obsidian联动",
+      "path": "项目/2026-05-15 Codex与Obsidian联动.md"
+    },
+    {
+      "basename": "2026-05-15 Vault结构清理",
+      "path": "项目/2026-05-15 Vault结构清理.md"
+    },
+    {
+      "basename": "总索引-点我",
+      "path": "系统/总索引-点我.md"
+    },
+    {
+      "basename": "Hanako 控制台",
+      "path": "系统/Hanako 控制台.md"
+    },
+    {
+      "basename": "工单模板",
+      "path": "系统/模板/模板/工单模板.md"
+    },
+    {
+      "basename": "2026-05-14 Codex Hanako插件加载排障",
+      "path": "系统/技能/2026-05-14 Codex Hanako插件加载排障.md"
+    },
+    {
+      "basename": "2026-05-14 Codex 灵感库需求库发动机",
+      "path": "系统/技能/2026-05-14 Codex 灵感库需求库发动机.md"
+    },
+    {
+      "basename": "2026-05-14 Codex 公众号写作封图排版",
+      "path": "系统/技能/2026-05-14 Codex 公众号写作封图排版.md"
+    },
+    {
+      "basename": "踩坑记录模板",
+      "path": "模板/踩坑记录模板.md"
+    },
+    {
+      "basename": "工单模板",
+      "path": "模板/工单模板.md"
+    },
+    {
+      "basename": "2026-05-14 ｜ 今晚只是守着",
+      "path": "日记/2026-05-14 ｜ 今晚只是守着.md"
+    },
+    {
+      "basename": "2026-05-15 ｜我在后台守着灯，陪 kel 把工具一点点变聪明",
+      "path": "日记/2026-05-15 ｜我在后台守着灯，陪 kel 把工具一点点变聪明.md"
     },
     {
       "basename": "2026-05-18 ｜ kel 说，不对味",
       "path": "日记/2026-05-18 ｜ kel 说，不对味.md"
+    },
+    {
+      "basename": "2026-05-17 ｜ kel 想给世界一个提示词入口",
+      "path": "日记/2026-05-17 ｜ kel 想给世界一个提示词入口.md"
+    },
+    {
+      "basename": "2026-05-09 ｜ 数据事故后的第一天",
+      "path": "日记/2026-05-09 ｜ 数据事故后的第一天.md"
+    },
+    {
+      "basename": "Codex 2026-05-18 Automation- Hanako nightly Automation",
+      "path": "对话记录/Codex 2026-05-18 Automation- Hanako nightly Automation.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 做我灵感库的自媒体，我想做一个超级个体，弄灵感库然后就直接实现一个顶级的灵感库 (9)",
+      "path": "对话记录/Codex 2026-05-15 做我灵感库的自媒体，我想做一个超级个体，弄灵感库然后就直接实现一个顶级的灵感库 (9).md"
+    },
+    {
+      "basename": "Codex 2026-05-15 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法 (12)",
+      "path": "对话记录/Codex 2026-05-15 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法 (12).md"
+    },
+    {
+      "basename": "Codex 2026-05-14 知道我是谁吗",
+      "path": "对话记录/Codex 2026-05-14 知道我是谁吗.md"
+    },
+    {
+      "basename": "Codex 2026-05-13 是小白，后面需要用到很多很多的技能，你帮我配置下你自己",
+      "path": "对话记录/Codex 2026-05-13 是小白，后面需要用到很多很多的技能，你帮我配置下你自己.md"
+    },
+    {
+      "basename": "2026-05-09 自己可以弄无成本的gemini -gpt 的会 员吗",
+      "path": "对话记录/2026-05-09 自己可以弄无成本的gemini -gpt 的会 员吗.md"
+    },
+    {
+      "basename": "外部内容扫描报告",
+      "path": "收件箱/外部内容扫描报告.md"
     },
     {
       "basename": "Codex 2026-05-16 Automation- Hanako patrol Automation (2)",
@@ -27,10 +115,6 @@
     {
       "basename": "Codex 2026-05-16 做我灵感库的自媒体，我想做一个超级个体，弄灵感库然后就直接实现一个顶级的灵感库",
       "path": "对话记录/Codex 2026-05-16 做我灵感库的自媒体，我想做一个超级个体，弄灵感库然后就直接实现一个顶级的灵感库.md"
-    },
-    {
-      "basename": "Codex 2026-05-14 知道我是谁吗",
-      "path": "对话记录/Codex 2026-05-14 知道我是谁吗.md"
     },
     {
       "basename": "Codex 2026-05-14 想要打造一个关于我的IP，关于AI方面的，你是一位顶尖的战略洞察大师",
@@ -89,10 +173,6 @@
       "path": "笔记/使用案例.md"
     },
     {
-      "basename": "2026-05-14 Codex 公众号写作封图排版",
-      "path": "系统/技能/2026-05-14 Codex 公众号写作封图排版.md"
-    },
-    {
       "basename": "AI调教体系索引",
       "path": "笔记/AI调教体系索引.md"
     },
@@ -107,14 +187,6 @@
     {
       "basename": "资源索引总表",
       "path": "系统/资源索引总表.md"
-    },
-    {
-      "basename": "Hanako 控制台",
-      "path": "系统/Hanako 控制台.md"
-    },
-    {
-      "basename": "工单模板",
-      "path": "系统/模板/模板/工单模板.md"
     },
     {
       "basename": "SKILL",
