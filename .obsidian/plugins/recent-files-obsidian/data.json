@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "自动截图一天用电脑发的所有内容整合事项",
+      "path": "内容/自动截图一天用电脑发的所有内容整合事项.md"
+    },
+    {
       "basename": "UI大师提示词-来源AI大世界2",
       "path": "系统/技能/skill日常/UI大师提示词-来源AI大世界2.md"
     },
@@ -9,12 +13,12 @@
       "path": "系统/技能/skill日常/调研情报skill-来源AI大世界2.md"
     },
     {
-      "basename": "黑曜石Vault管家",
-      "path": "系统/技能/黑曜石Vault管家.md"
-    },
-    {
       "basename": "微信小程序 UI 转译提示词",
       "path": "系统/技能/skill日常/微信小程序 UI 转译提示词.md"
+    },
+    {
+      "basename": "黑曜石Vault管家",
+      "path": "系统/技能/黑曜石Vault管家.md"
     },
     {
       "basename": "数学建模图表美化提示词",
@@ -195,10 +199,6 @@
     {
       "basename": "Codex 2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付 (2)",
       "path": "对话记录/2026-05/Codex 2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付 (2).md"
-    },
-    {
-      "basename": "Codex 2026-05-15 You are running inside Hanako Codex (2)",
-      "path": "对话记录/2026-05/Codex 2026-05-15 You are running inside Hanako Codex (2).md"
     }
   ],
   "omittedPaths": [],
