@@ -420,12 +420,18 @@ powershell -ExecutionPolicy Bypass -File scripts\start-bolt-forge.ps1
 > - Current URL: http://127.0.0.1:5173/
 > 
 > ## My request for Codex:
-> 无法访问此网站
-> 127.0.0.1 拒绝了我们的连接请求。
-> 请试试以下办法：
-> 
-> 检查网络连接
-> 检查代理服务器和防火墙
+> 无法访问此网站
+
+> 127.0.0.1 拒绝了我们的连接请求。
+
+> 请试试以下办法：
+
+> 
+
+> 检查网络连接
+
+> 检查代理服务器和防火墙
+
 > ERR_CONNECTION_REFUSED，我是小白，怎么弄这些，我需要可视化
 
 **Codex**
@@ -461,20 +467,34 @@ powershell -ExecutionPolicy Bypass -File scripts\start-bolt-forge.ps1
 > - Current URL: http://127.0.0.1:5173/
 > 
 > ## My request for Codex:
-> 任务中枢
-> failed
-> 帮我配置下你自己
-> 
-> 交给 Codex
-> 运行命令
-> npm test
-> error: unexpected argument '--ask-for-approval' found
-> 
->   tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'
-> 
-> Usage: codex exec [OPTIONS] [PROMPT]
->        codex exec [OPTIONS] <COMMAND> [ARGS]
-> 
+> 任务中枢
+
+> failed
+
+> 帮我配置下你自己
+
+> 
+
+> 交给 Codex
+
+> 运行命令
+
+> npm test
+
+> error: unexpected argument '--ask-for-approval' found
+
+> 
+
+>   tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'
+
+> 
+
+> Usage: codex exec [OPTIONS] [PROMPT]
+
+>        codex exec [OPTIONS] <COMMAND> [ARGS]
+
+> 
+
 > For more information, try '--help'.
 
 **Codex**
@@ -577,23 +597,40 @@ kel，我先把这个“交给 Codex”按钮修到能稳定跑起来。现在�
 > - Current URL: http://127.0.0.1:5173/
 > 
 > ## My request for Codex:
-> 3. OpenHanako — 有记忆有灵魂的 AI 私人助理
-> 
-> **一句话描述：** 深度参与的开源 AI Agent 项目，贡献插件和定制方案。
-> 
-> **项目本身是什么：**
-> - 一个有记忆、有人格、能多 Agent 协作的桌面 AI 助理
-> - 核心技术亮点：记忆系统、人格模板、多 Agent 频道协作、安全沙盒、插件架构、多平台接入（Telegram/飞书/QQ/微信）
-> - 支持 5 种语言国际化
-> 
-> **我们做了什么：**
-> - 为 Hanako 开发了多个插件：
->   - **安芯跃动·创作者工作站**（hanako-creator-station）：Agent 指挥台 + 信息流 + 工作台三合一界面，支持 Obsidian 知识库集成
->   - **B站内容摄入插件**（hanako-bilibili-intake）
->   - **RSS 订阅插件**（hanako-rss）
->   - **待办管理插件**（hanako-todo-plugin）
->   - **网页访问插件**（hanako-web-access）
-> 
+> 3. OpenHanako — 有记忆有灵魂的 AI 私人助理
+
+> 
+
+> **一句话描述：** 深度参与的开源 AI Agent 项目，贡献插件和定制方案。
+
+> 
+
+> **项目本身是什么：**
+
+> - 一个有记忆、有人格、能多 Agent 协作的桌面 AI 助理
+
+> - 核心技术亮点：记忆系统、人格模板、多 Agent 频道协作、安全沙盒、插件架构、多平台接入（Telegram/飞书/QQ/微信）
+
+> - 支持 5 种语言国际化
+
+> 
+
+> **我们做了什么：**
+
+> - 为 Hanako 开发了多个插件：
+
+>   - **安芯跃动·创作者工作站**（hanako-creator-station）：Agent 指挥台 + 信息流 + 工作台三合一界面，支持 Obsidian 知识库集成
+
+>   - **B站内容摄入插件**（hanako-bilibili-intake）
+
+>   - **RSS 订阅插件**（hanako-rss）
+
+>   - **待办管理插件**（hanako-todo-plugin）
+
+>   - **网页访问插件**（hanako-web-access）
+
+> 
+
 > **价值：** 具备 AI Agent 架构理解、插件系统开发、开源社区参与的能力。
 
 > [!question]+ 你

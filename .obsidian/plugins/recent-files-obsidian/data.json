@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-15 Vault结构清理",
+      "path": "项目/2026-05-15 Vault结构清理.md"
+    },
+    {
+      "basename": "收件箱索引",
+      "path": "收件箱/收件箱索引.md"
+    },
+    {
+      "basename": "2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成",
+      "path": "对话记录/2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成.md"
+    },
+    {
+      "basename": "2026-05-18 自动化-巡逻巡检",
+      "path": "对话记录/2026-05/2026-05-18 自动化-巡逻巡检.md"
+    },
+    {
+      "basename": "2026-05-18 自动化-每晚巡检",
+      "path": "对话记录/2026-05/2026-05-18 自动化-每晚巡检.md"
+    },
+    {
+      "basename": "2026-05-16 184903 - 系统化 Codex 对话沉淀流程",
+      "path": "对话记录/2026-05/2026-05-16 184903 - 系统化 Codex 对话沉淀流程.md"
+    },
+    {
+      "basename": "2026-05-15 Codex对话",
+      "path": "对话记录/2026-05/2026-05-15 Codex对话.md"
+    },
+    {
+      "basename": "2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付",
+      "path": "对话记录/2026-05/2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付.md"
+    },
+    {
+      "basename": "2026-05-15 寻找搜集整合github上面的高星级项目整理出来以格式整理出",
+      "path": "对话记录/2026-05/2026-05-15 寻找搜集整合github上面的高星级项目整理出来以格式整理出.md"
+    },
+    {
+      "basename": "2026-05-15 日常对话",
+      "path": "对话记录/2026-05/2026-05-15 日常对话.md"
+    },
+    {
+      "basename": "2026-05-15 问答对话",
+      "path": "对话记录/2026-05/2026-05-15 问答对话.md"
+    },
+    {
+      "basename": "2026-05-15 继续推进",
+      "path": "对话记录/2026-05/2026-05-15 继续推进.md"
+    },
+    {
       "basename": "2026-05-11 Codex对话",
       "path": "对话记录/2026-05/2026-05-11 Codex对话.md"
     },
@@ -57,10 +105,6 @@
       "path": "复盘/清理记录/duplicate-conversation-cleanup-20260516-161935.md"
     },
     {
-      "basename": "2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成",
-      "path": "对话记录/2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成.md"
-    },
-    {
       "basename": "Codex 2026-05-18 Automation- Hanako nightly Automation",
       "path": "对话记录/2026-05/Codex 2026-05-18 Automation- Hanako nightly Automation.md"
     },
@@ -79,14 +123,6 @@
     {
       "basename": "Codex 2026-05-14 --- OK------",
       "path": "对话记录/2026-05/Codex 2026-05-14 --- OK------.md"
-    },
-    {
-      "basename": "整理日志",
-      "path": "对话记录/2026-05/整理日志.md"
-    },
-    {
-      "basename": "2026-05-15 寻找搜集整合github上面的高星级项目整理出来以格式整理出",
-      "path": "对话记录/2026-05/2026-05-15 寻找搜集整合github上面的高星级项目整理出来以格式整理出.md"
     },
     {
       "basename": "Codex 2026-05-14 是 HTML 信息架构调研 agent。工作目录是 E--1-New",
@@ -149,10 +185,6 @@
       "path": "知识/技术/AI调教/AI调教体系索引.md"
     },
     {
-      "basename": "2026-05-15 Vault结构清理",
-      "path": "项目/2026-05-15 Vault结构清理.md"
-    },
-    {
       "basename": "2026-05-15 Codex与Obsidian联动",
       "path": "项目/2026-05-15 Codex与Obsidian联动.md"
     },
@@ -163,42 +195,6 @@
     {
       "basename": "Codex对话沉淀系统",
       "path": "系统/Codex对话沉淀系统.md"
-    },
-    {
-      "basename": "总索引-点我",
-      "path": "系统/总索引-点我.md"
-    },
-    {
-      "basename": "资源索引总表",
-      "path": "系统/资源索引总表.md"
-    },
-    {
-      "basename": "API密钥库",
-      "path": "系统/中转站配置/API密钥库.md"
-    },
-    {
-      "basename": "模型映射表",
-      "path": "系统/中转站配置/模型映射表.md"
-    },
-    {
-      "basename": "黑曜石Vault管家",
-      "path": "系统/技能/黑曜石Vault管家.md"
-    },
-    {
-      "basename": "Skill候选索引",
-      "path": "系统/技能/Skill候选索引.md"
-    },
-    {
-      "basename": "Codex 对话收尾备份与 Skill 草稿生成",
-      "path": "系统/技能/自动生成/候选/2026-05/Codex 对话收尾备份与 Skill 草稿生成.md"
-    },
-    {
-      "basename": "系统化 Codex 对话沉淀流程",
-      "path": "系统/技能/自动生成/候选/2026-05/系统化 Codex 对话沉淀流程.md"
-    },
-    {
-      "basename": "周记索引",
-      "path": "复盘/周记/周记索引.md"
     }
   ],
   "omittedPaths": [],
