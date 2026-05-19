@@ -81,10 +81,6 @@
       "path": "系统/中转站配置/模型映射表.md"
     },
     {
-      "basename": "踩坑记录模板",
-      "path": "系统/模板/模板/踩坑记录模板.md"
-    },
-    {
       "basename": "黑曜石Vault管家",
       "path": "系统/技能/黑曜石Vault管家.md"
     },
@@ -93,76 +89,12 @@
       "path": "系统/技能/Skill候选索引.md"
     },
     {
-      "basename": "2026-05-15 Codex对话同步到Obsidian",
-      "path": "系统/技能/技能-中文/2026-05-15 Codex对话同步到Obsidian.md"
-    },
-    {
-      "basename": "2026-05-06 Obsidian AI知识中枢搭建",
-      "path": "系统/技能/技能-中文/2026-05-06 Obsidian AI知识中枢搭建.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "系统/技能/技能-英文/conversation-archiver/SKILL.md"
-    },
-    {
       "basename": "Codex 对话收尾备份与 Skill 草稿生成",
       "path": "系统/技能/自动生成/候选/2026-05/Codex 对话收尾备份与 Skill 草稿生成.md"
     },
     {
       "basename": "系统化 Codex 对话沉淀流程",
       "path": "系统/技能/自动生成/候选/2026-05/系统化 Codex 对话沉淀流程.md"
-    },
-    {
-      "basename": "小柯公众号",
-      "path": "系统/技能/自媒体-技能/小柯公众号.md"
-    },
-    {
-      "basename": "微信公众号封图",
-      "path": "系统/技能/自媒体-技能/微信公众号封图.md"
-    },
-    {
-      "basename": "2026-05-14 Codex OpenHanako二开安全底座",
-      "path": "系统/技能/技能-中文/2026-05-14 Codex OpenHanako二开安全底座.md"
-    },
-    {
-      "basename": "2026-05-13 Codex API中转站商业逻辑",
-      "path": "系统/技能/技能-中文/2026-05-13 Codex API中转站商业逻辑.md"
-    },
-    {
-      "basename": "2026-05-09 Hanako日记与Heartbeat整理",
-      "path": "系统/技能/技能-中文/2026-05-09 Hanako日记与Heartbeat整理.md"
-    },
-    {
-      "basename": "2026-05-09 AI中转站成本与代充风险判断",
-      "path": "系统/技能/技能-中文/2026-05-09 AI中转站成本与代充风险判断.md"
-    },
-    {
-      "basename": "2026-05-07 自媒体知识库与头像生成配置",
-      "path": "系统/技能/技能-中文/2026-05-07 自媒体知识库与头像生成配置.md"
-    },
-    {
-      "basename": "2026-05-06 Windows磁盘清理安全边界",
-      "path": "系统/技能/技能-中文/2026-05-06 Windows磁盘清理安全边界.md"
-    },
-    {
-      "basename": "微信小程序 UI 转译提示词",
-      "path": "系统/技能/日常-skill/微信小程序 UI 转译提示词.md"
-    },
-    {
-      "basename": "数学建模图表美化提示词",
-      "path": "系统/技能/日常-skill/数学建模图表美化提示词.md"
-    },
-    {
-      "basename": "解决问题",
-      "path": "系统/技能/日常-skill/解决问题.md"
-    },
-    {
-      "basename": "交互式学习",
-      "path": "系统/技能/日常-skill/交互式学习.md"
-    },
-    {
-      "basename": "调研工具",
-      "path": "系统/技能/日常-skill/调研工具.md"
     },
     {
       "basename": "小柯的成长实验室-愿景",
