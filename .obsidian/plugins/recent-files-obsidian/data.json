@@ -1,8 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "复盘/README.md"
+    },
+    {
+      "basename": "patrol-log",
+      "path": "复盘/patrol-log.md"
+    },
+    {
+      "basename": "Codex对话沉淀索引",
+      "path": "复盘/Codex对话沉淀索引.md"
+    },
+    {
+      "basename": "2026-W20 ｜ 周报",
+      "path": "复盘/周报/2026-W20 ｜ 周报.md"
+    },
+    {
+      "basename": "月记索引",
+      "path": "复盘/月记/月记索引.md"
+    },
+    {
+      "basename": "duplicate-conversation-cleanup-20260516-161935",
+      "path": "复盘/清理记录/duplicate-conversation-cleanup-20260516-161935.md"
+    },
+    {
+      "basename": "2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成",
+      "path": "对话记录/2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成.md"
+    },
+    {
+      "basename": "Codex 2026-05-18 Automation- Hanako nightly Automation",
+      "path": "对话记录/2026-05/Codex 2026-05-18 Automation- Hanako nightly Automation.md"
+    },
+    {
+      "basename": "潜能探索-奋马职业AI网站小程序",
+      "path": "内容/潜能探索-奋马职业AI网站小程序.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 对话 (QnA)",
+      "path": "对话记录/2026-05/Codex 2026-05-15 对话 (QnA).md"
+    },
+    {
+      "basename": "Codex 2026-05-14 继续，我要看到成品噢",
+      "path": "对话记录/2026-05/Codex 2026-05-14 继续，我要看到成品噢.md"
+    },
+    {
+      "basename": "Codex 2026-05-14 --- OK------",
+      "path": "对话记录/2026-05/Codex 2026-05-14 --- OK------.md"
+    },
+    {
       "basename": "整理日志",
       "path": "对话记录/2026-05/整理日志.md"
+    },
+    {
+      "basename": "2026-05-15 寻找搜集整合github上面的高星级项目整理出来以格式整理出",
+      "path": "对话记录/2026-05/2026-05-15 寻找搜集整合github上面的高星级项目整理出来以格式整理出.md"
+    },
+    {
+      "basename": "Codex 2026-05-14 是 HTML 信息架构调研 agent。工作目录是 E--1-New",
+      "path": "对话记录/2026-05/Codex 2026-05-14 是 HTML 信息架构调研 agent。工作目录是 E--1-New.md"
+    },
+    {
+      "basename": "Codex 2026-05-14 Context- User wants a sellable first",
+      "path": "对话记录/2026-05/Codex 2026-05-14 Context- User wants a sellable first.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 对话",
+      "path": "对话记录/2026-05/Codex 2026-05-15 对话.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付 (2)",
+      "path": "对话记录/2026-05/Codex 2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付 (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-15 You are running inside Hanako Codex (2)",
+      "path": "对话记录/2026-05/Codex 2026-05-15 You are running inside Hanako Codex (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-15 Codex 对话 (2)",
+      "path": "对话记录/2026-05/Codex 2026-05-15 Codex 对话 (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-15 A，可以继续",
+      "path": "对话记录/2026-05/Codex 2026-05-15 A，可以继续.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 Codex 对话",
+      "path": "对话记录/2026-05/Codex 2026-05-15 Codex 对话.md"
     },
     {
       "basename": "AI智能体控制手机完整教程",
@@ -105,16 +189,8 @@
       "path": "知识/飞书/小柯的成长实验室-日志模板.md"
     },
     {
-      "basename": "README",
-      "path": "复盘/README.md"
-    },
-    {
       "basename": "周记索引",
       "path": "复盘/周记/周记索引.md"
-    },
-    {
-      "basename": "2026-W20 ｜ 周报",
-      "path": "复盘/周报/2026-W20 ｜ 周报.md"
     },
     {
       "basename": "2026-05-06",
