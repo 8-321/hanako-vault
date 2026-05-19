@@ -31,8 +31,8 @@
 
 | 文件 | 适用场景 |
 |:---|:---|
-| [[大项目执行流程]] | 复杂多Agent协作，红蓝对抗，验收闭环 |
-| [[小任务TDD流程]] | 用 superpowers 全流程：brainstorm → plan → TDD → review |
+| [[知识/工作流/大项目执行流程]] | 复杂多Agent协作，红蓝对抗，验收闭环 |
+| [[知识/工作流/小任务TDD流程]] | 用 superpowers 全流程：brainstorm → plan → TDD → review |
 
 ## 📂 中转站配置
 

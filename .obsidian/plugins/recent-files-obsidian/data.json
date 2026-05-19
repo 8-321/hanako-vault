@@ -1,36 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "使用说明",
-      "path": "使用说明.md"
+      "basename": "AI智能体控制手机完整教程",
+      "path": "知识/技术/AI智能体控制手机/AI智能体控制手机完整教程.md"
     },
     {
-      "basename": "B站",
-      "path": "知识/B站.md"
+      "basename": "模型中转站搭建完整手册",
+      "path": "知识/技术/AI中转站/模型中转站搭建完整手册.md"
     },
     {
-      "basename": "小任务TDD流程",
-      "path": "知识/小任务TDD流程.md"
-    },
-    {
-      "basename": "Agent工具生态配置",
-      "path": "知识/Agent工具生态配置.md"
-    },
-    {
-      "basename": "AI调教体系索引",
-      "path": "知识/AI调教体系索引.md"
-    },
-    {
-      "basename": "飞书备份索引",
-      "path": "知识/飞书备份索引.md"
+      "basename": "公共中转站部署方案",
+      "path": "知识/技术/AI中转站/公共中转站部署方案.md"
     },
     {
       "basename": "AGENTS七维度全局系统规范",
-      "path": "知识/技术/AGENTS七维度全局系统规范.md"
+      "path": "知识/技术/AI调教/AGENTS七维度全局系统规范.md"
     },
     {
       "basename": "AI_Coding全景资料库",
-      "path": "知识/技术/AI Coding/AI_Coding全景资料库.md"
+      "path": "知识/技术/AI调教/AI Coding/AI_Coding全景资料库.md"
+    },
+    {
+      "basename": "飞书备份索引",
+      "path": "知识/飞书/飞书备份索引.md"
+    },
+    {
+      "basename": "小柯的成长实验室-个人档案",
+      "path": "知识/飞书/小柯的成长实验室-个人档案.md"
+    },
+    {
+      "basename": "小柯的成长实验室-公众号",
+      "path": "知识/飞书/小柯的成长实验室-公众号.md"
+    },
+    {
+      "basename": "飞书知识库-小柯的成长实验室",
+      "path": "知识/飞书/飞书知识库-小柯的成长实验室.md"
+    },
+    {
+      "basename": "Agent工具生态配置",
+      "path": "知识/技术/AI调教/Agent工具生态配置.md"
+    },
+    {
+      "basename": "AI调教体系索引",
+      "path": "知识/技术/AI调教/AI调教体系索引.md"
     },
     {
       "basename": "2026-05-15 Vault结构清理",
@@ -149,36 +161,12 @@
       "path": "系统/技能/日常-skill/调研工具.md"
     },
     {
-      "basename": "小柯的成长实验室-个人档案",
-      "path": "知识/小柯的成长实验室-个人档案.md"
-    },
-    {
       "basename": "小柯的成长实验室-愿景",
-      "path": "知识/小柯的成长实验室-愿景.md"
+      "path": "知识/飞书/小柯的成长实验室-愿景.md"
     },
     {
       "basename": "小柯的成长实验室-日志模板",
-      "path": "知识/小柯的成长实验室-日志模板.md"
-    },
-    {
-      "basename": "小柯的成长实验室-公众号",
-      "path": "知识/小柯的成长实验室-公众号.md"
-    },
-    {
-      "basename": "使用案例",
-      "path": "知识/使用案例.md"
-    },
-    {
-      "basename": "模型中转站搭建完整手册",
-      "path": "知识/模型中转站搭建完整手册.md"
-    },
-    {
-      "basename": "公共中转站部署方案",
-      "path": "知识/公共中转站部署方案.md"
-    },
-    {
-      "basename": "飞书知识库-小柯的成长实验室",
-      "path": "知识/飞书知识库-小柯的成长实验室.md"
+      "path": "知识/飞书/小柯的成长实验室-日志模板.md"
     },
     {
       "basename": "README",
