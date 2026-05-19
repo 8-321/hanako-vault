@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "使用说明",
+      "path": "使用说明.md"
+    },
+    {
+      "basename": "B站",
+      "path": "知识/B站.md"
+    },
+    {
+      "basename": "小任务TDD流程",
+      "path": "知识/小任务TDD流程.md"
+    },
+    {
+      "basename": "Agent工具生态配置",
+      "path": "知识/Agent工具生态配置.md"
+    },
+    {
+      "basename": "AI调教体系索引",
+      "path": "知识/AI调教体系索引.md"
+    },
+    {
+      "basename": "飞书备份索引",
+      "path": "知识/飞书备份索引.md"
+    },
+    {
       "basename": "AGENTS七维度全局系统规范",
       "path": "知识/技术/AGENTS七维度全局系统规范.md"
     },
@@ -133,10 +157,6 @@
       "path": "知识/小柯的成长实验室-愿景.md"
     },
     {
-      "basename": "小任务TDD流程",
-      "path": "知识/小任务TDD流程.md"
-    },
-    {
       "basename": "小柯的成长实验室-日志模板",
       "path": "知识/小柯的成长实验室-日志模板.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "2026-05-11",
       "path": "每日笔记/2026-05-11.md"
-    },
-    {
-      "basename": "2026-05-15",
-      "path": "每日笔记/2026-05-15.md"
-    },
-    {
-      "basename": "2026-05-16",
-      "path": "每日笔记/2026-05-16.md"
-    },
-    {
-      "basename": "2026-05-18",
-      "path": "每日笔记/2026-05-18.md"
-    },
-    {
-      "basename": "2026-05-18 ｜ kel 说，不对味",
-      "path": "日记/2026-05-18 ｜ kel 说，不对味.md"
     }
   ],
   "omittedPaths": [],
