@@ -1,4 +1,4 @@
-﻿---
+---
 type: codex-skill-candidate
 id: skill-candidate-2026-05-16-184903-codex-closeout-system
 created: 2026-05-16 18:49:03

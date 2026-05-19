@@ -1,4 +1,4 @@
-﻿---
+---
 type: codex-skill-draft
 created: 2026-05-16 16:26:08
 status: draft

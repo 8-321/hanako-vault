@@ -1,6 +1,166 @@
 {
   "recentFiles": [
     {
+      "basename": "AGENTS七维度全局系统规范",
+      "path": "知识/技术/AGENTS七维度全局系统规范.md"
+    },
+    {
+      "basename": "AI_Coding全景资料库",
+      "path": "知识/技术/AI Coding/AI_Coding全景资料库.md"
+    },
+    {
+      "basename": "2026-05-15 Vault结构清理",
+      "path": "项目/2026-05-15 Vault结构清理.md"
+    },
+    {
+      "basename": "2026-05-15 Codex与Obsidian联动",
+      "path": "项目/2026-05-15 Codex与Obsidian联动.md"
+    },
+    {
+      "basename": "Hanako 控制台",
+      "path": "系统/Hanako 控制台.md"
+    },
+    {
+      "basename": "Codex对话沉淀系统",
+      "path": "系统/Codex对话沉淀系统.md"
+    },
+    {
+      "basename": "总索引-点我",
+      "path": "系统/总索引-点我.md"
+    },
+    {
+      "basename": "资源索引总表",
+      "path": "系统/资源索引总表.md"
+    },
+    {
+      "basename": "API密钥库",
+      "path": "系统/中转站配置/API密钥库.md"
+    },
+    {
+      "basename": "模型映射表",
+      "path": "系统/中转站配置/模型映射表.md"
+    },
+    {
+      "basename": "踩坑记录模板",
+      "path": "系统/模板/模板/踩坑记录模板.md"
+    },
+    {
+      "basename": "黑曜石Vault管家",
+      "path": "系统/技能/黑曜石Vault管家.md"
+    },
+    {
+      "basename": "Skill候选索引",
+      "path": "系统/技能/Skill候选索引.md"
+    },
+    {
+      "basename": "2026-05-15 Codex对话同步到Obsidian",
+      "path": "系统/技能/技能-中文/2026-05-15 Codex对话同步到Obsidian.md"
+    },
+    {
+      "basename": "2026-05-06 Obsidian AI知识中枢搭建",
+      "path": "系统/技能/技能-中文/2026-05-06 Obsidian AI知识中枢搭建.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "系统/技能/技能-英文/conversation-archiver/SKILL.md"
+    },
+    {
+      "basename": "Codex 对话收尾备份与 Skill 草稿生成",
+      "path": "系统/技能/自动生成/候选/2026-05/Codex 对话收尾备份与 Skill 草稿生成.md"
+    },
+    {
+      "basename": "系统化 Codex 对话沉淀流程",
+      "path": "系统/技能/自动生成/候选/2026-05/系统化 Codex 对话沉淀流程.md"
+    },
+    {
+      "basename": "小柯公众号",
+      "path": "系统/技能/自媒体-技能/小柯公众号.md"
+    },
+    {
+      "basename": "微信公众号封图",
+      "path": "系统/技能/自媒体-技能/微信公众号封图.md"
+    },
+    {
+      "basename": "2026-05-14 Codex OpenHanako二开安全底座",
+      "path": "系统/技能/技能-中文/2026-05-14 Codex OpenHanako二开安全底座.md"
+    },
+    {
+      "basename": "2026-05-13 Codex API中转站商业逻辑",
+      "path": "系统/技能/技能-中文/2026-05-13 Codex API中转站商业逻辑.md"
+    },
+    {
+      "basename": "2026-05-09 Hanako日记与Heartbeat整理",
+      "path": "系统/技能/技能-中文/2026-05-09 Hanako日记与Heartbeat整理.md"
+    },
+    {
+      "basename": "2026-05-09 AI中转站成本与代充风险判断",
+      "path": "系统/技能/技能-中文/2026-05-09 AI中转站成本与代充风险判断.md"
+    },
+    {
+      "basename": "2026-05-07 自媒体知识库与头像生成配置",
+      "path": "系统/技能/技能-中文/2026-05-07 自媒体知识库与头像生成配置.md"
+    },
+    {
+      "basename": "2026-05-06 Windows磁盘清理安全边界",
+      "path": "系统/技能/技能-中文/2026-05-06 Windows磁盘清理安全边界.md"
+    },
+    {
+      "basename": "微信小程序 UI 转译提示词",
+      "path": "系统/技能/日常-skill/微信小程序 UI 转译提示词.md"
+    },
+    {
+      "basename": "数学建模图表美化提示词",
+      "path": "系统/技能/日常-skill/数学建模图表美化提示词.md"
+    },
+    {
+      "basename": "解决问题",
+      "path": "系统/技能/日常-skill/解决问题.md"
+    },
+    {
+      "basename": "交互式学习",
+      "path": "系统/技能/日常-skill/交互式学习.md"
+    },
+    {
+      "basename": "调研工具",
+      "path": "系统/技能/日常-skill/调研工具.md"
+    },
+    {
+      "basename": "小柯的成长实验室-个人档案",
+      "path": "知识/小柯的成长实验室-个人档案.md"
+    },
+    {
+      "basename": "小柯的成长实验室-愿景",
+      "path": "知识/小柯的成长实验室-愿景.md"
+    },
+    {
+      "basename": "小任务TDD流程",
+      "path": "知识/小任务TDD流程.md"
+    },
+    {
+      "basename": "小柯的成长实验室-日志模板",
+      "path": "知识/小柯的成长实验室-日志模板.md"
+    },
+    {
+      "basename": "小柯的成长实验室-公众号",
+      "path": "知识/小柯的成长实验室-公众号.md"
+    },
+    {
+      "basename": "使用案例",
+      "path": "知识/使用案例.md"
+    },
+    {
+      "basename": "模型中转站搭建完整手册",
+      "path": "知识/模型中转站搭建完整手册.md"
+    },
+    {
+      "basename": "公共中转站部署方案",
+      "path": "知识/公共中转站部署方案.md"
+    },
+    {
+      "basename": "飞书知识库-小柯的成长实验室",
+      "path": "知识/飞书知识库-小柯的成长实验室.md"
+    },
+    {
       "basename": "README",
       "path": "复盘/README.md"
     },
@@ -35,170 +195,6 @@
     {
       "basename": "2026-05-18 ｜ kel 说，不对味",
       "path": "日记/2026-05-18 ｜ kel 说，不对味.md"
-    },
-    {
-      "basename": "收件箱索引-自媒体",
-      "path": "收件箱/收件箱索引-自媒体.md"
-    },
-    {
-      "basename": "2026-05-16 ｜ kel 要我帮她押一个方向",
-      "path": "日记/2026-05-16 ｜ kel 要我帮她押一个方向.md"
-    },
-    {
-      "basename": "2026-05-17 ｜ kel 想给世界一个提示词入口",
-      "path": "日记/2026-05-17 ｜ kel 想给世界一个提示词入口.md"
-    },
-    {
-      "basename": "2026-05-14 ｜ 今晚只是守着",
-      "path": "日记/2026-05-14 ｜ 今晚只是守着.md"
-    },
-    {
-      "basename": "2026-05-11 ｜ kel 说，东西给你，你帮我管",
-      "path": "日记/2026-05-11 ｜ kel 说，东西给你，你帮我管.md"
-    },
-    {
-      "basename": "潜能探索-奋马职业AI网站小程序",
-      "path": "内容/潜能探索-奋马职业AI网站小程序.md"
-    },
-    {
-      "basename": "2026-05-13",
-      "path": "每日笔记/2026-05-13.md"
-    },
-    {
-      "basename": "2026-05-09",
-      "path": "每日笔记/2026-05-09.md"
-    },
-    {
-      "basename": "Codex 2026-05-11 Codex 对话 (3)",
-      "path": "对话记录/Codex 2026-05-11 Codex 对话 (3).md"
-    },
-    {
-      "basename": "2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成",
-      "path": "收件箱/Codex对话备份/2026-05-16 162608 - Codex 对话收尾备份与 Skill 草稿生成.md"
-    },
-    {
-      "basename": "2026-05-16 184903 - 系统化 Codex 对话沉淀流程",
-      "path": "收件箱/Codex对话备份/2026-05/2026-05-16 184903 - 系统化 Codex 对话沉淀流程.md"
-    },
-    {
-      "basename": "2026-05-15 ｜我在后台守着灯，陪 kel 把工具一点点变聪明",
-      "path": "日记/2026-05-15 ｜我在后台守着灯，陪 kel 把工具一点点变聪明.md"
-    },
-    {
-      "basename": "2026-05-15 ｜ 空白也算一种信息",
-      "path": "日记/2026-05-15 ｜ 空白也算一种信息.md"
-    },
-    {
-      "basename": "2026-05-14 ｜ 能做的做完，不能确认的停住",
-      "path": "日记/2026-05-14 ｜ 能做的做完，不能确认的停住.md"
-    },
-    {
-      "basename": "2026-05-13 ｜我把红字压下去了",
-      "path": "日记/2026-05-13 ｜我把红字压下去了.md"
-    },
-    {
-      "basename": "2026-05-09 ｜ 数据事故后的第一天",
-      "path": "日记/2026-05-09 ｜ 数据事故后的第一天.md"
-    },
-    {
-      "basename": "2026-05-17",
-      "path": "每日笔记/2026-05-17.md"
-    },
-    {
-      "basename": "2026-05-14",
-      "path": "每日笔记/2026-05-14.md"
-    },
-    {
-      "basename": "2026-05-12",
-      "path": "每日笔记/2026-05-12.md"
-    },
-    {
-      "basename": "2026-05-07",
-      "path": "每日笔记/2026-05-07.md"
-    },
-    {
-      "basename": "Codex 2026-05-15 You are running inside Hanako Codex (2)",
-      "path": "对话记录/Codex 2026-05-15 You are running inside Hanako Codex (2).md"
-    },
-    {
-      "basename": "Codex 2026-05-12 记得我是谁吗？",
-      "path": "对话记录/Codex 2026-05-12 记得我是谁吗？.md"
-    },
-    {
-      "basename": "Codex 2026-05-15 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法",
-      "path": "对话记录/Codex 2026-05-15 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法.md"
-    },
-    {
-      "basename": "Codex 2026-05-18 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法",
-      "path": "对话记录/Codex 2026-05-18 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法.md"
-    },
-    {
-      "basename": "小任务TDD流程",
-      "path": "知识/小任务TDD流程.md"
-    },
-    {
-      "basename": "小柯的成长实验室-愿景",
-      "path": "知识/小柯的成长实验室-愿景.md"
-    },
-    {
-      "basename": "小柯的成长实验室-日志模板",
-      "path": "知识/小柯的成长实验室-日志模板.md"
-    },
-    {
-      "basename": "小柯的成长实验室-公众号",
-      "path": "知识/小柯的成长实验室-公众号.md"
-    },
-    {
-      "basename": "小柯的成长实验室-个人档案",
-      "path": "知识/小柯的成长实验室-个人档案.md"
-    },
-    {
-      "basename": "Codex对话沉淀索引",
-      "path": "复盘/Codex对话沉淀索引.md"
-    },
-    {
-      "basename": "月记索引",
-      "path": "复盘/月记/月记索引.md"
-    },
-    {
-      "basename": "duplicate-conversation-cleanup-20260516-161935",
-      "path": "复盘/清理记录/duplicate-conversation-cleanup-20260516-161935.md"
-    },
-    {
-      "basename": "使用说明",
-      "path": "使用说明.md"
-    },
-    {
-      "basename": "主页",
-      "path": "主页.md"
-    },
-    {
-      "basename": "收件箱索引",
-      "path": "收件箱/收件箱索引.md"
-    },
-    {
-      "basename": "收件箱索引-日常",
-      "path": "收件箱/收件箱索引-日常.md"
-    },
-    {
-      "basename": "外部内容扫描报告",
-      "path": "收件箱/外部内容扫描报告.md"
-    },
-    {
-      "basename": "2026-05-15 Codex与Obsidian联动",
-      "path": "项目/2026-05-15 Codex与Obsidian联动.md"
-    },
-    {
-      "basename": "2026-05-15 Vault结构清理",
-      "path": "项目/2026-05-15 Vault结构清理.md"
-    },
-    {
-      "basename": "总索引-点我",
-      "path": "系统/总索引-点我.md"
-    },
-    {
-      "basename": "Hanako 控制台",
-      "path": "系统/Hanako 控制台.md"
     }
   ],
   "omittedPaths": [],
