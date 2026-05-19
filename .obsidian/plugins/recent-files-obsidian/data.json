@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "总索引",
+      "path": "复盘/总索引.md"
+    },
+    {
       "basename": "自动截图一天用电脑发的所有内容整合事项",
       "path": "内容/自动截图一天用电脑发的所有内容整合事项.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Codex 2026-05-15 对话",
       "path": "对话记录/2026-05/Codex 2026-05-15 对话.md"
-    },
-    {
-      "basename": "Codex 2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付 (2)",
-      "path": "对话记录/2026-05/Codex 2026-05-15 制作一个codex和openhanako 的综合体，最终给我交付 (2).md"
     }
   ],
   "omittedPaths": [],
