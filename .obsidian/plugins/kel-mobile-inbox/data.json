@@ -1,5 +1,6 @@
 {
   "archiveFolder": "收件箱/手机收件箱归档",
-  "sourceName": "手机收件箱",
-  "inboxPath": "手机同步入口/手机输入.txt"
+  "sourceName": "Kel Capture",
+  "inboxPath": "手机同步入口/inbox.jsonl",
+  "legacyInboxPath": "手机同步入口/手机输入.txt"
 }
