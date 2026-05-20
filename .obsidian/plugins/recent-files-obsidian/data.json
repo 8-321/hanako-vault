@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "外部内容扫描报告",
-      "path": "收件箱/外部内容扫描报告.md"
+      "basename": "2026-05-18",
+      "path": "每日笔记/2026-05-18.md"
+    },
+    {
+      "basename": "2026-05-06",
+      "path": "每日笔记/2026-05-06.md"
+    },
+    {
+      "basename": "2026-05-19",
+      "path": "收件箱/已整理/AI与工具/2026-05-19.md"
+    },
+    {
+      "basename": "2026-05-19",
+      "path": "收件箱/已整理/自媒体选题/2026-05-19.md"
+    },
+    {
+      "basename": "2026-05-19",
+      "path": "收件箱/已整理/灵感碎片/2026-05-19.md"
+    },
+    {
+      "basename": "2026-05-19",
+      "path": "收件箱/已整理/待办/2026-05-19.md"
+    },
+    {
+      "basename": "2026-05-19-2026-05-19T10-29-09-725Z",
+      "path": "收件箱/手机收件箱归档/2026-05-19-2026-05-19T10-29-09-725Z.md"
     },
     {
       "basename": "手机收件箱",
@@ -13,8 +37,8 @@
       "path": "收件箱/收件箱索引.md"
     },
     {
-      "basename": "2026-05-19-2026-05-19T10-29-09-725Z",
-      "path": "收件箱/手机收件箱归档/2026-05-19-2026-05-19T10-29-09-725Z.md"
+      "basename": "外部内容扫描报告",
+      "path": "收件箱/外部内容扫描报告.md"
     },
     {
       "basename": "总索引",
@@ -175,30 +199,6 @@
     {
       "basename": "月记索引",
       "path": "复盘/月记/月记索引.md"
-    },
-    {
-      "basename": "duplicate-conversation-cleanup-20260516-161935",
-      "path": "复盘/清理记录/duplicate-conversation-cleanup-20260516-161935.md"
-    },
-    {
-      "basename": "Codex 2026-05-18 Automation- Hanako nightly Automation",
-      "path": "对话记录/2026-05/Codex 2026-05-18 Automation- Hanako nightly Automation.md"
-    },
-    {
-      "basename": "潜能探索-奋马职业AI网站小程序",
-      "path": "内容/潜能探索-奋马职业AI网站小程序.md"
-    },
-    {
-      "basename": "Codex 2026-05-15 对话 (QnA)",
-      "path": "对话记录/2026-05/Codex 2026-05-15 对话 (QnA).md"
-    },
-    {
-      "basename": "Codex 2026-05-14 继续，我要看到成品噢",
-      "path": "对话记录/2026-05/Codex 2026-05-14 继续，我要看到成品噢.md"
-    },
-    {
-      "basename": "Codex 2026-05-14 --- OK------",
-      "path": "对话记录/2026-05/Codex 2026-05-14 --- OK------.md"
     }
   ],
   "omittedPaths": [],
