@@ -5,6 +5,14 @@
       "path": "自己学习/设计审美/工具.md"
     },
     {
+      "basename": "SKILL",
+      "path": "系统/Skills/kel-conversation-skill-distillation/SKILL.md"
+    },
+    {
+      "basename": "Codex对话沉淀Skill规则-入口",
+      "path": "收件箱/Codex对话沉淀Skill规则-入口.md"
+    },
+    {
       "basename": "2026-05-18",
       "path": "每日笔记/2026-05-18.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "含-patrol-log",
       "path": "复盘/patrol/含-patrol-log.md"
-    },
-    {
-      "basename": "2026-05-15 Vault结构清理",
-      "path": "项目/2026-05-15 Vault结构清理.md"
-    },
-    {
-      "basename": "2026-05-18 自动化-巡逻巡检",
-      "path": "对话记录/2026-05/2026-05-18 自动化-巡逻巡检.md"
     }
   ],
   "omittedPaths": [],
