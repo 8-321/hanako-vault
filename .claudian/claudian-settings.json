@@ -1,0 +1,33 @@
+﻿{
+    "effortLevel":  "high",
+    "chatViewPlacement":  "right-sidebar",
+    "serviceTier":  "default",
+    "locale":  "zhCN",
+    "providerConfigs":  {
+                            "claude":  {
+                                           "enabled":  false
+                                       },
+                            "codex":  {
+                                          "cliPathsByHost":  {
+
+                                                             },
+                                          "enabled":  true,
+                                          "safeMode":  "workspace-write",
+                                          "customModels":  "",
+                                          "reasoningSummary":  "detailed",
+                                          "installationMethod":  "native-windows",
+                                          "environmentVariables":  "",
+                                          "wslDistroOverridesByHost":  {
+
+                                                                       },
+                                          "environmentHash":  "",
+                                          "cliPath":  "D:\\codex\\codex.exe",
+                                          "installationMethodsByHost":  {
+
+                                                                        },
+                                          "wslDistroOverride":  ""
+                                      }
+                        },
+    "settingsProvider":  "codex",
+    "model":  "gpt-5.5"
+}
