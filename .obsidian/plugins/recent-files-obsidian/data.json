@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Codex 2026-05-21 自己解决，我不想动手，去思考搜索调研怎么解决，不要闭门造车",
+      "path": "对话记录/Codex 2026-05-21 自己解决，我不想动手，去思考搜索调研怎么解决，不要闭门造车.md"
+    },
+    {
+      "basename": "Codex 2026-05-21 先研读文件 (2)",
+      "path": "对话记录/Codex 2026-05-21 先研读文件 (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-21 下载下ubuntu 18.04的 vmware worksrarion，顶配",
+      "path": "对话记录/Codex 2026-05-21 下载下ubuntu 18.04的 vmware worksrarion，顶配.md"
+    },
+    {
+      "basename": "Codex 2026-05-21 我会先按这个项目的真实文件来排查，同时先把你刚发来的服务器、面板、支付密钥当作敏",
+      "path": "对话记录/Codex 2026-05-21 我会先按这个项目的真实文件来排查，同时先把你刚发来的服务器、面板、支付密钥当作敏.md"
+    },
+    {
+      "basename": "Codex 2026-05-21 清理C盘 (2)",
+      "path": "对话记录/Codex 2026-05-21 清理C盘 (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-21 为什么没有钩子",
+      "path": "对话记录/Codex 2026-05-21 为什么没有钩子.md"
+    },
+    {
+      "basename": "Codex 2026-05-21 Automation- Hanako nightly Automation (2)",
+      "path": "对话记录/Codex 2026-05-21 Automation- Hanako nightly Automation (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-20 Automation- Hanako patrol Automation",
+      "path": "对话记录/Codex 2026-05-20 Automation- Hanako patrol Automation.md"
+    },
+    {
+      "basename": "Codex 2026-05-19 怎么样子手机记录的信息可以自动归到黑曜石里面 (2)",
+      "path": "对话记录/Codex 2026-05-19 怎么样子手机记录的信息可以自动归到黑曜石里面 (2).md"
+    },
+    {
+      "basename": "Codex 2026-05-15 Codex 对话 (4)",
+      "path": "对话记录/Codex 2026-05-15 Codex 对话 (4).md"
+    },
+    {
+      "basename": "Codex 2026-05-15 鍥炵瓟 1+1 绛変簬鍑狅紝鏈€鍚庡崟鐙緭鍑-OK",
+      "path": "对话记录/Codex 2026-05-15 鍥炵瓟 1+1 绛変簬鍑狅紝鏈€鍚庡崟鐙緭鍑-OK.md"
+    },
+    {
+      "basename": "Codex 2026-05-15 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法 (2)",
+      "path": "对话记录/Codex 2026-05-15 读脑电波记录想法，这个方向现在还太远。 现在脑机接口还做不到稳定读取复杂想法 (2).md"
+    },
+    {
       "basename": "Codex 2026-05-14 要最顶级的配置，你帮我自己调研github有关项目，自己配置 (2)",
       "path": "对话记录/Codex 2026-05-14 要最顶级的配置，你帮我自己调研github有关项目，自己配置 (2).md"
     },
@@ -81,14 +129,6 @@
       "path": "对话记录/Codex 2026-05-19 Automation- Hanako nightly Automation.md"
     },
     {
-      "basename": "Codex 2026-05-21 我会先按这个项目的真实文件来排查，同时先把你刚发来的服务器、面板、支付密钥当作敏",
-      "path": "对话记录/Codex 2026-05-21 我会先按这个项目的真实文件来排查，同时先把你刚发来的服务器、面板、支付密钥当作敏.md"
-    },
-    {
-      "basename": "Codex 2026-05-21 下载下ubuntu 18.04的 vmware worksrarion，顶配",
-      "path": "对话记录/Codex 2026-05-21 下载下ubuntu 18.04的 vmware worksrarion，顶配.md"
-    },
-    {
       "basename": "资源索引总表",
       "path": "系统/资源索引总表.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "自动截图一天用电脑发的所有内容整合事项",
       "path": "内容/自动截图一天用电脑发的所有内容整合事项.md"
-    },
-    {
-      "basename": "UI大师提示词-来源AI大世界2",
-      "path": "系统/技能/skill日常/UI大师提示词-来源AI大世界2.md"
-    },
-    {
-      "basename": "调研情报skill-来源AI大世界2",
-      "path": "系统/技能/skill日常/调研情报skill-来源AI大世界2.md"
-    },
-    {
-      "basename": "微信小程序 UI 转译提示词",
-      "path": "系统/技能/skill日常/微信小程序 UI 转译提示词.md"
-    },
-    {
-      "basename": "黑曜石Vault管家",
-      "path": "系统/技能/黑曜石Vault管家.md"
-    },
-    {
-      "basename": "数学建模图表美化提示词",
-      "path": "系统/技能/skill日常/数学建模图表美化提示词.md"
-    },
-    {
-      "basename": "解决问题",
-      "path": "系统/技能/skill日常/解决问题.md"
-    },
-    {
-      "basename": "交互式学习",
-      "path": "系统/技能/skill日常/交互式学习.md"
-    },
-    {
-      "basename": "调研工具",
-      "path": "系统/技能/skill日常/调研工具.md"
-    },
-    {
-      "basename": "Hanako 控制台",
-      "path": "系统/Hanako 控制台.md"
-    },
-    {
-      "basename": "小柯的成长实验室-公众号",
-      "path": "知识/飞书/小柯的成长实验室-公众号.md"
     }
   ],
   "omittedPaths": [],
