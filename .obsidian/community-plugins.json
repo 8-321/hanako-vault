@@ -1,15 +1,14 @@
-﻿[
-    "dataview",
-    "templater-obsidian",
-    "calendar",
-    "obsidian-git",
-    "tag-wrangler",
-    "obsidian-icon-folder",
-    "recent-files-obsidian",
-    "quickadd",
-    "metadata-menu",
-    "homepage",
-    "cmdr",
-    "periodic-notes",
-    "realclaudian"
+[
+  "dataview",
+  "templater-obsidian",
+  "calendar",
+  "obsidian-git",
+  "tag-wrangler",
+  "obsidian-icon-folder",
+  "recent-files-obsidian",
+  "quickadd",
+  "metadata-menu",
+  "homepage",
+  "cmdr",
+  "periodic-notes"
 ]
