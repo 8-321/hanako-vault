@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名 1",
+      "path": "未命名 1.canvas"
+    },
+    {
       "basename": "飞书备份索引",
       "path": "知识/飞书/飞书备份索引.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "外部内容扫描报告",
       "path": "收件箱/外部内容扫描报告.md"
-    },
-    {
-      "basename": "总索引",
-      "path": "复盘/总索引.md"
     }
   ],
   "omittedPaths": [],
