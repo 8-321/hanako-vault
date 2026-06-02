@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "duplicate-conversation-cleanup-20260516-161935",
+      "path": "复盘/清理记录/duplicate-conversation-cleanup-20260516-161935.md"
+    },
+    {
+      "basename": "自动完成科研绘图流程",
+      "path": "内容/自动完成科研绘图流程.md"
+    },
+    {
+      "basename": "自动帮助大学生进行日常生活记录APP",
+      "path": "内容/自动帮助大学生进行日常生活记录APP.md"
+    },
+    {
+      "basename": "营销推广",
+      "path": "内容/营销推广.md"
+    },
+    {
+      "basename": "星野APP",
+      "path": "内容/星野APP.md"
+    },
+    {
+      "basename": "潜能探索-奋马职业AI网站小程序",
+      "path": "内容/潜能探索-奋马职业AI网站小程序.md"
+    },
+    {
+      "basename": "我需要乙方，我是甲方，个人工作站",
+      "path": "内容/我需要乙方，我是甲方，个人工作站.md"
+    },
+    {
+      "basename": "4.30 思考",
+      "path": "内容/4.30 思考.md"
+    },
+    {
+      "basename": "2026-05-18",
+      "path": "每日笔记/2026-05-18.md"
+    },
+    {
+      "basename": "2026-05-21",
+      "path": "每日笔记/2026-05-21.md"
+    },
+    {
       "basename": "Codex 2026-05-21 Automation- Hanako nightly Automation (2)",
       "path": "对话记录/Codex 2026-05-21 Automation- Hanako nightly Automation (2).md"
     },
@@ -21,40 +61,8 @@
       "path": "系统/Skills/kel-conversation-skill-distillation/SKILL.md"
     },
     {
-      "basename": "手机收件箱",
-      "path": "收件箱/手机收件箱.md"
-    },
-    {
-      "basename": "收件箱索引",
-      "path": "收件箱/收件箱索引.md"
-    },
-    {
-      "basename": "2026-05-19",
-      "path": "收件箱/已整理/AI与工具/2026-05-19.md"
-    },
-    {
-      "basename": "2026-05-19",
-      "path": "收件箱/已整理/自媒体选题/2026-05-19.md"
-    },
-    {
-      "basename": "2026-05-19",
-      "path": "收件箱/已整理/灵感碎片/2026-05-19.md"
-    },
-    {
-      "basename": "2026-05-19",
-      "path": "收件箱/已整理/待办/2026-05-19.md"
-    },
-    {
       "basename": "2026-05-19 ｜ kel 在同时跑两条船",
       "path": "日记/2026-05-19 ｜ kel 在同时跑两条船.md"
-    },
-    {
-      "basename": "2026-05-18",
-      "path": "每日笔记/2026-05-18.md"
-    },
-    {
-      "basename": "2026-05-21",
-      "path": "每日笔记/2026-05-21.md"
     },
     {
       "basename": "Codex 2026-05-21 自己解决，我不想动手，去思考搜索调研怎么解决，不要闭门造车",
@@ -121,10 +129,6 @@
       "path": "系统/我们五个.md"
     },
     {
-      "basename": "Codex对话沉淀Skill规则-入口",
-      "path": "收件箱/Codex对话沉淀Skill规则-入口.md"
-    },
-    {
       "basename": "飞书知识库-小柯的成长实验室",
       "path": "知识/飞书/飞书知识库-小柯的成长实验室.md"
     },
@@ -167,30 +171,6 @@
     {
       "basename": "Codex 2026-05-20 怎么样子手机记录的信息可以自动归到黑曜石里面",
       "path": "对话记录/Codex 2026-05-20 怎么样子手机记录的信息可以自动归到黑曜石里面.md"
-    },
-    {
-      "basename": "Codex 2026-05-20 是产品红队。工作目录是 D--BELLA KE-项目AI-最小Mvp-LifeI",
-      "path": "对话记录/Codex 2026-05-20 是产品红队。工作目录是 D--BELLA KE-项目AI-最小Mvp-LifeI.md"
-    },
-    {
-      "basename": "Codex 2026-05-20 继续，我要看到成品噢",
-      "path": "对话记录/Codex 2026-05-20 继续，我要看到成品噢.md"
-    },
-    {
-      "basename": "Codex 2026-05-19 Automation- Hanako patrol Automation (2)",
-      "path": "对话记录/Codex 2026-05-19 Automation- Hanako patrol Automation (2).md"
-    },
-    {
-      "basename": "Codex 2026-05-15 调研github相关项目，我想做一个属于我自己的智能体",
-      "path": "对话记录/Codex 2026-05-15 调研github相关项目，我想做一个属于我自己的智能体.md"
-    },
-    {
-      "basename": "Codex 2026-05-14 要最顶级的配置，你帮我自己调研github有关项目，自己配置 (9)",
-      "path": "对话记录/Codex 2026-05-14 要最顶级的配置，你帮我自己调研github有关项目，自己配置 (9).md"
-    },
-    {
-      "basename": "2026-05-06",
-      "path": "每日笔记/2026-05-06.md"
     }
   ],
   "omittedPaths": [],
