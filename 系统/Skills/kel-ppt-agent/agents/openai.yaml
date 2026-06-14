@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "含渡 PPT Agent"
+  short_description: "Turns real materials into SlideFlow decks with prompts, generation, review, and export."
+  default_prompt: "把这份素材做成一套有主线、有事实核查、有审美护栏的 PPT。"
