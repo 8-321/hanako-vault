@@ -1,0 +1,21 @@
+如果你打开的是 react-bits-introduction-cn/index.html，它只是静态中文介绍页。
+我已经把静态页里的左侧名称改成可点击，会跳到官方对应页面。
+
+如果你要“本地真实效果也能点开”：
+1. 解压 react-bits-cn-source.zip
+2. 双击 启动本地可点击版.cmd
+3. 等终端出现 localhost 地址
+4. 用浏览器打开那个地址
+5. 左侧每个动画、组件、背景名称都可以点，能进入对应 demo 和代码页
+
+真实源码位置：
+src/content/TextAnimations
+src/content/Animations
+src/content/Components
+src/content/Backgrounds
+
+Demo 位置：
+src/demo/TextAnimations
+src/demo/Animations
+src/demo/Components
+src/demo/Backgrounds

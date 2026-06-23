@@ -1,0 +1,75 @@
+---
+date: 2026-05-15
+type: daily-intake
+links: 4
+notes: 1
+status: raw
+---
+
+# Daily Intake · 2026-05-15
+
+> 今天的信息先像潮水一样进来，我只留下清晰的河道。
+
+## 今日概览
+
+- 链接：**4**
+- 笔记：**1**
+- 值得优先回看的内容：**4**
+
+## 值得优先回看
+
+- [ ] [轻量信息统一入口候选，AI bookmark everything](https://github.com/karakeep-app/karakeep)
+  - 分数：5/5
+  - 来源：`inbox/links/today-sample.txt`
+  - 指纹：`cdc9b9f05c`
+- [ ] [最终沉淀到 HanakoVault](https://obsidian.md/)
+  - 分数：4/5
+  - 来源：`inbox/links/today-sample.txt`
+  - 指纹：`77fa620f92`
+- [ ] [被动记录今天看过什么，后续可选增强](https://github.com/ActivityWatch/activitywatch)
+  - 分数：3/5
+  - 来源：`inbox/links/today-sample.txt`
+  - 指纹：`beeddea5ee`
+- [ ] [把信息源 RSS 化，先作为未来增强](https://github.com/DIYgod/RSSHub)
+  - 分数：3/5
+  - 来源：`inbox/links/today-sample.txt`
+  - 指纹：`52eac1f376`
+
+## 全部链接
+
+- [轻量信息统一入口候选，AI bookmark everything](https://github.com/karakeep-app/karakeep)
+  - canonical：`https://github.com/karakeep-app/karakeep`
+  - 来源：`inbox/links/today-sample.txt`
+- [被动记录今天看过什么，后续可选增强](https://github.com/ActivityWatch/activitywatch)
+  - canonical：`https://github.com/ActivityWatch/activitywatch`
+  - 来源：`inbox/links/today-sample.txt`
+- [把信息源 RSS 化，先作为未来增强](https://github.com/DIYgod/RSSHub)
+  - canonical：`https://github.com/DIYgod/RSSHub`
+  - 来源：`inbox/links/today-sample.txt`
+- [最终沉淀到 HanakoVault](https://obsidian.md/)
+  - canonical：`https://obsidian.md/`
+  - 来源：`inbox/links/today-sample.txt`
+
+## 今日写下
+
+### 今天的原则
+
+> 来源：`inbox/notes/today-sample.md`
+
+# 今天的原则
+
+大道至简：先不装 Docker，不上复杂数据库，不追求全量监控。
+
+第一步只做一个干净的入口：链接和笔记丢进 inbox，每天生成一页美观的 Daily Intake。
+
+
+## 晚间三问
+
+1. 今天哪一条信息值得进入长期项目？
+2. 今天哪一条信息只是噪声，可以放下？
+3. 今天反复出现的主题是什么？
+
+## 下一步
+
+- [ ] 从“值得优先回看”里选 1 条，写成正式笔记。
+- [ ] 把无价值链接留在原始层，不急着整理。

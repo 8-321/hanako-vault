@@ -1,0 +1,36 @@
+{
+  "name": "desktop-bookmark",
+  "version": "1.0.0",
+  "description": "桌面书签：常驻桌面的待办+想法+时间线工具",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.kel.desktop-bookmark",
+    "productName": "DesktopBookmark",
+    "electronDist": "node_modules/electron/dist",
+    "asar": false,
+    "files": [
+      "main.js",
+      "preload.js",
+      "store.js",
+      "package.json",
+      "renderer/**/*",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "assets/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "portable": {
+      "artifactName": "DesktopBookmark.exe"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.4.11",
+    "electron-builder": "^25.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "botToken": "把 Telegram Bot Token 填这里",
+  "allowedUserIds": [],
+  "lastUpdateId": 0,
+  "autoReply": true
+}

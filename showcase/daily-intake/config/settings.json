@@ -1,0 +1,23 @@
+{
+  "vaultRoot": "D:/BELLA KE/项目AI/调教AI/HanakoVault",
+  "outputSubdir": "00-Inbox/Daily-Intake",
+  "title": "Daily Intake",
+  "timezone": "Asia/Shanghai",
+  "minImportanceKeywordHints": [
+    "AI",
+    "Agent",
+    "Hanako",
+    "Obsidian",
+    "知识库",
+    "自动化",
+    "GitHub",
+    "写作",
+    "自媒体",
+    "哲学",
+    "心理学",
+    "轻化工程"
+  ],
+  "fetchLinkMeta": true,
+  "fetchTimeoutSeconds": 8,
+  "mobileInboxMode": "sync-folder-first"
+}

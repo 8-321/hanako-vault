@@ -1,0 +1,25 @@
+{
+  "project": "小柯AI实验室流水线",
+  "generated_at": "2026-06-03",
+  "next_issue": "009",
+  "current_week": "week-01",
+  "rules": [
+    "自动生成可发稿和归档，不自动发布公众号",
+    "发布前由kel最后确认",
+    "每篇只抓一个主问题"
+  ],
+  "last_generated": {
+    "issue": "008",
+    "date": "2026-06-04",
+    "draft": "drafts/008.md",
+    "wide": "cover-wide-best/008.png",
+    "square": "cover-square-best/008.png",
+    "combo": "cover-combo-best/008.png"
+  },
+  "cover_default": "best",
+  "cover_dirs": {
+    "wide": "cover-wide-best",
+    "square": "cover-square-best",
+    "combo": "cover-combo-best"
+  }
+}

@@ -1,0 +1,1405 @@
+{
+  "generated_at": "2026-06-07 13:13:19",
+  "roots": [
+    "E:\\1\\xwechat_files",
+    "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家"
+  ],
+  "total_files": 49207,
+  "total_size": 75125139768,
+  "by_group": {
+    "其他": {
+      "count": 46812,
+      "size": 65721140886
+    },
+    "数据库": {
+      "count": 220,
+      "size": 1970943112
+    },
+    "图片": {
+      "count": 1591,
+      "size": 65801339
+    },
+    "文档": {
+      "count": 376,
+      "size": 1393415900
+    },
+    "语音": {
+      "count": 24,
+      "size": 124977236
+    },
+    "压缩包": {
+      "count": 50,
+      "size": 517673015
+    },
+    "视频": {
+      "count": 93,
+      "size": 5326678615
+    },
+    "网页": {
+      "count": 41,
+      "size": 4509665
+    }
+  },
+  "by_month": {
+    "2026-06": {
+      "count": 15193,
+      "size": 41702780872
+    },
+    "2026-05": {
+      "count": 32784,
+      "size": 30472460616
+    },
+    "2026-04": {
+      "count": 1,
+      "size": 24814
+    },
+    "2026-03": {
+      "count": 5,
+      "size": 81617452
+    },
+    "2025-11": {
+      "count": 2,
+      "size": 89620971
+    },
+    "2025-08": {
+      "count": 114,
+      "size": 580549201
+    },
+    "2025-07": {
+      "count": 35,
+      "size": 870212743
+    },
+    "2025-06": {
+      "count": 2,
+      "size": 25444998
+    },
+    "2025-05": {
+      "count": 12,
+      "size": 33226984
+    },
+    "2025-04": {
+      "count": 1,
+      "size": 68
+    },
+    "2025-03": {
+      "count": 15,
+      "size": 17592845
+    },
+    "2025-02": {
+      "count": 8,
+      "size": 4565584
+    },
+    "2025-01": {
+      "count": 7,
+      "size": 18005898
+    },
+    "2024-10": {
+      "count": 7,
+      "size": 10458641
+    },
+    "2024-09": {
+      "count": 47,
+      "size": 229659640
+    },
+    "2024-08": {
+      "count": 25,
+      "size": 73953105
+    },
+    "2024-07": {
+      "count": 26,
+      "size": 65513445
+    },
+    "2024-06": {
+      "count": 355,
+      "size": 586810188
+    },
+    "2024-05": {
+      "count": 231,
+      "size": 238084711
+    },
+    "2024-04": {
+      "count": 337,
+      "size": 24556992
+    }
+  },
+  "top_dirs": {
+    "xwechat_files\\Backup": {
+      "count": 25340,
+      "size": 63360872807
+    },
+    "xwechat_files\\wxid_fnqnnhrkzxso22_fc04": {
+      "count": 22632,
+      "size": 8985450648
+    },
+    "微信聊天文件搬家\\Users": {
+      "count": 1222,
+      "size": 2778635043
+    },
+    "xwechat_files\\all_users": {
+      "count": 13,
+      "size": 181270
+    }
+  },
+  "top_files": [
+    [
+      662892838,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\ea738c50ae235f06d4a522c66bbb862c_raw.mp4"
+    ],
+    [
+      662892838,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\e587417c39cd5dd0681133de236dd5c4_raw.mp4"
+    ],
+    [
+      581185964,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\555bce2987b1f4d6874a89ead5cdbb92_raw.mp4"
+    ],
+    [
+      374468273,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\fc6a6f8bbb9672b9a8b849e398096f5634db5a035543dab5a8f50f5052bcd6ff\\Media\\4950037962100306551_m"
+    ],
+    [
+      374468273,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\bd02507ba670ebdc7d1e7404155870ae87f789ed561aecf4b9fd3db1faec6f23\\Media\\4422054388002339858_m"
+    ],
+    [
+      374468017,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\5_电波剪辑(改）(2).mp4"
+    ],
+    [
+      343066812,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\b29c3fec7dbf817584e19dcd2863c6c37c0e4f81b906814a49132bdf54bef9e7\\Media\\5623640946317818252_m"
+    ],
+    [
+      304749894,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\83237566052d690f580e26bd6e1a6fc97c0e4f81b906814a49132bdf54bef9e7\\Media\\3188482666560895681_m"
+    ],
+    [
+      283115520,
+      "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG1.db"
+    ],
+    [
+      260241465,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\b29c3fec7dbf817584e19dcd2863c6c37c0e4f81b906814a49132bdf54bef9e7\\Media\\8273428017549238821_m"
+    ],
+    [
+      257976886,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\a539327e76937f8156a5120eeb36229c7c0e4f81b906814a49132bdf54bef9e7\\Media\\489920530516836913_m"
+    ],
+    [
+      251044957,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\b29c3fec7dbf817584e19dcd2863c6c37c0e4f81b906814a49132bdf54bef9e7\\Media\\3407445609888675890_m"
+    ],
+    [
+      248866672,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\5b74e09549da2ae2d286ad622da3e4f77c0e4f81b906814a49132bdf54bef9e7\\Media\\8303095264121617750_m"
+    ],
+    [
+      242012284,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\01d2e059f4dbc8fd7c45d029c5b93f2412db60f25a5b8bc0f065068911b0222c\\Media\\1479274495556400981_fav_nested.1"
+    ],
+    [
+      234696919,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\db2dc5f9c829659094674d27306c4f06_raw.mp4"
+    ],
+    [
+      234533141,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\a4924ec2b9340828964b41fe1c9d3b19_raw.mp4"
+    ],
+    [
+      234296615,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\2811b16e95016a930467347b9acda079_raw.mp4"
+    ],
+    [
+      233549805,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\cfdf71eab4a0e4e6846a6272b578f7b1_raw.mp4"
+    ],
+    [
+      233535704,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\5d2e66e5981bbda7e9fc22c375479c5e_raw.mp4"
+    ],
+    [
+      232718041,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\c149252389dd0d264df90e6295e1e8d4_raw.mp4"
+    ],
+    [
+      232542136,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\42891e39c4d1226b8c3ff91fad3bde6c\\SendTemp\\423_1779896286_send_temp"
+    ],
+    [
+      223712449,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\e5464e4b330738f462bed308ec69db205cf1feb0fe58e52860672c732fb67cec\\Media\\7598680586876147030_m"
+    ],
+    [
+      220200960,
+      "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\bak\\MSG2_1753405105.bakdb"
+    ],
+    [
+      220200960,
+      "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG2.db"
+    ],
+    [
+      215697178,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\7427a4d61bc20abf83060fa6235726a37c0e4f81b906814a49132bdf54bef9e7\\Media\\4448579323913557234_m"
+    ],
+    [
+      215697178,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\7427a4d61bc20abf83060fa6235726a37c0e4f81b906814a49132bdf54bef9e7\\Media\\4448579323913557234_m"
+    ],
+    [
+      210487860,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\aabc6856b1675591d11a485c161659d972a401297e1a8b9ab37f102e64946b17\\Media\\7666430134984428555_m"
+    ],
+    [
+      210487860,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\aabc6856b1675591d11a485c161659d972a401297e1a8b9ab37f102e64946b17\\Media\\1467038485407159749_m"
+    ],
+    [
+      210487860,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\fc6a6f8bbb9672b9a8b849e398096f5634db5a035543dab5a8f50f5052bcd6ff\\Media\\6743833851022497461_m"
+    ],
+    [
+      210487604,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\ff10c31694c20eeccaf7a3a46de3110d.mp4"
+    ],
+    [
+      199765462,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\722c637903f697aa649550edbcff0c9f16c239f8982844599b5128ed504e4ffa\\Media\\3580285783163027876_m"
+    ],
+    [
+      199213685,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\a539327e76937f8156a5120eeb36229c7c0e4f81b906814a49132bdf54bef9e7\\Media\\3072778777137755228_m"
+    ],
+    [
+      199213685,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\5b74e09549da2ae2d286ad622da3e4f77c0e4f81b906814a49132bdf54bef9e7\\Media\\1653162750357932088_m"
+    ],
+    [
+      189386268,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\c92eb5d5a5d3f053ef9d9960f7f3d5a172a401297e1a8b9ab37f102e64946b17\\Media\\4237685270402255882_m"
+    ],
+    [
+      188473344,
+      "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Emotion.db"
+    ],
+    [
+      185730261,
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\奎.7z"
+    ],
+    [
+      182874378,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\d657f467c2d38baa37587997c14655db7c0e4f81b906814a49132bdf54bef9e7\\Media\\2491749992980661123_m"
+    ],
+    [
+      182874378,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\d657f467c2d38baa37587997c14655db7c0e4f81b906814a49132bdf54bef9e7\\Media\\2491749992980661123_m"
+    ],
+    [
+      180015117,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\83237566052d690f580e26bd6e1a6fc97c0e4f81b906814a49132bdf54bef9e7\\Media\\5692762552361147817_m"
+    ],
+    [
+      174518512,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\c92eb5d5a5d3f053ef9d9960f7f3d5a172a401297e1a8b9ab37f102e64946b17\\Media\\1357973723742748941_m"
+    ],
+    [
+      174199846,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\83237566052d690f580e26bd6e1a6fc97c0e4f81b906814a49132bdf54bef9e7\\Media\\8455336717673328234_m"
+    ],
+    [
+      172810348,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\9267acb0c5d53cbf68203f1bf27b4ccd36a5a820e85e8825ef43579213d0f80a\\Media\\5013838542464021852_m"
+    ],
+    [
+      172810348,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\4080d0e39f96c0e9156855bc29e819367c0e4f81b906814a49132bdf54bef9e7\\Media\\7454312679188055208_m"
+    ],
+    [
+      165872188,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\7b3cf14302f60745a266d82fe953a4c77c0e4f81b906814a49132bdf54bef9e7\\Media\\4101813163899596511_m"
+    ],
+    [
+      158621537,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\1dfe39d99b9b1dcad42b9033764f2d24\\Media\\2885333118018800380_m"
+    ],
+    [
+      158621537,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\1dfe39d99b9b1dcad42b9033764f2d24\\Media\\2885333118018800380_m"
+    ],
+    [
+      157286400,
+      "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PublicMsg.db"
+    ],
+    [
+      157259112,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\7b3cf14302f60745a266d82fe953a4c77c0e4f81b906814a49132bdf54bef9e7\\Media\\2915934159115096783_m"
+    ],
+    [
+      150490367,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\2\\9d1f46ceb8120092c387155a542ad04d7c0e4f81b906814a49132bdf54bef9e7\\Media\\6454268044956378074_m"
+    ],
+    [
+      148987355,
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\7b3cf14302f60745a266d82fe953a4c77c0e4f81b906814a49132bdf54bef9e7\\Media\\8326311321914149352_m"
+    ]
+  ],
+  "db_files": [
+    {
+      "path": "E:\\1\\xwechat_files\\all_users\\login\\wxid_fnqnnhrkzxso22\\key_info.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\all_users\\login\\wxid_fnqnnhrkzxso22\\key_info.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\all_users\\login\\wxid_fnqnnhrkzxso22\\key_info.db-wal",
+      "size": 20632
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\bizchat\\bizchat.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\contact\\contact.db",
+      "size": 28270592
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\contact\\contact_fts.db",
+      "size": 14069760
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\emoticon\\emoticon.db",
+      "size": 3350528
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\favorite\\favorite.db",
+      "size": 577536
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\favorite\\favorite_fts.db",
+      "size": 217088
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\general\\general.db",
+      "size": 3104768
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\hardlink\\hardlink.db",
+      "size": 544768
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\head_image\\head_image.db",
+      "size": 18268160
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\biz_message_0.db",
+      "size": 57872384
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\media_0.db",
+      "size": 20385792
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\message_0.db",
+      "size": 106606592
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\message_fts.db",
+      "size": 24330240
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\message_resource.db",
+      "size": 6340608
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\weclaw.db",
+      "size": 8192
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\session\\session.db",
+      "size": 1507328
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\sns\\sns.db",
+      "size": 4136960
+    },
+    {
+      "path": "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\solitaire\\solitaire.db",
+      "size": 790528
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Applet.db",
+      "size": 1216512
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\BizChat.db",
+      "size": 86016
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\BizChatMsg.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\ChatMsg.db",
+      "size": 98304
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\ChatRoomUser.db",
+      "size": 2588672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\ClientGeneral.db",
+      "size": 24576
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\CustomerService.db",
+      "size": 53248
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Emotion.db",
+      "size": 188473344
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Favorite.db",
+      "size": 7639040
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\FTSContact.db",
+      "size": 6336512
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\FTSFavorite.db",
+      "size": 1167360
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\FTSMsg.db",
+      "size": 73728
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\FunctionMsg.db",
+      "size": 61440
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\HardLinkFile.db",
+      "size": 45056
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\HardLinkImage.db",
+      "size": 40960
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\HardLinkVideo.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\ImageTranslate.db",
+      "size": 12288
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Media.db",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\MicroMsg.db",
+      "size": 24395776
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Misc.db",
+      "size": 7639040
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\MultiSearchChatMsg.db",
+      "size": 5406720
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\NewTips.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\OpenIMContact.db",
+      "size": 184320
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\OpenIMMedia.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\OpenIMMsg.db",
+      "size": 81920
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\OpenIMResource.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\PreDownload.db",
+      "size": 118784
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\PublicMsg.db",
+      "size": 52428800
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\PublicMsgMedia.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Sns.db",
+      "size": 2580480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\StoreEmotion.db",
+      "size": 610304
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Voip.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\xInfo.db",
+      "size": 16384
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Multi\\FTSMSG0.db",
+      "size": 5074944
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Multi\\MediaMSG0.db",
+      "size": 5734400
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\huang197657\\Msg\\Multi\\MSG0.db",
+      "size": 62914560
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Applet.db",
+      "size": 811008
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\BizChat.db",
+      "size": 77824
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\BizChatMsg.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\ChatMsg.db",
+      "size": 98304
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\ChatRoomUser.db",
+      "size": 1859584
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\ClientGeneral.db",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\CustomerService.db",
+      "size": 53248
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Emotion.db",
+      "size": 33177600
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Favorite.db",
+      "size": 3801088
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\FTSContact.db",
+      "size": 4501504
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\FTSFavorite.db",
+      "size": 503808
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\FTSMsg.db",
+      "size": 73728
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\FunctionMsg.db",
+      "size": 61440
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\HardLinkFile.db",
+      "size": 65536
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\HardLinkImage.db",
+      "size": 40960
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\HardLinkVideo.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\ImageTranslate.db",
+      "size": 12288
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Media.db",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\MicroMsg.db",
+      "size": 24195072
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Misc.db",
+      "size": 13312000
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\MultiSearchChatMsg.db",
+      "size": 3891200
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\NewTips.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\OpenIMContact.db",
+      "size": 143360
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\OpenIMMedia.db",
+      "size": 159744
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\OpenIMMsg.db",
+      "size": 110592
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\OpenIMResource.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\PreDownload.db",
+      "size": 40960
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\PublicMsg.db",
+      "size": 52428800
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\PublicMsgMedia.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Sns.db",
+      "size": 2351104
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\StoreEmotion.db",
+      "size": 172032
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Voip.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\xInfo.db",
+      "size": 24576
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Multi\\FTSMSG0.db",
+      "size": 8265728
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Multi\\MediaMSG0.db",
+      "size": 11079680
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\kexiaohui1937\\Msg\\Multi\\MSG0.db",
+      "size": 62914560
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\WMPF\\mpfastload\\mpkv.db",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Applet.db",
+      "size": 1372160
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Applet.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Applet.db-wal",
+      "size": 1569752
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\BizChat.db",
+      "size": 77824
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\BizChat.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\BizChat.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\BizChatMsg.db",
+      "size": 151552
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\BizChatMsg.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\BizChatMsg.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ChatMsg.db",
+      "size": 98304
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ChatMsg.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ChatMsg.db-wal",
+      "size": 32992
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ChatRoomUser.db",
+      "size": 1945600
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ChatRoomUser.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ChatRoomUser.db-wal",
+      "size": 4239512
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ClientGeneral.db",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ClientGeneral.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ClientGeneral.db-wal",
+      "size": 164832
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\CustomerService.db",
+      "size": 57344
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\CustomerService.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\CustomerService.db-wal",
+      "size": 32992
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Emotion.db",
+      "size": 42844160
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Emotion.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Emotion.db-wal",
+      "size": 4251872
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Favorite.db",
+      "size": 364544
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Favorite.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Favorite.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSContact.db",
+      "size": 3432448
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSContact.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSContact.db-wal",
+      "size": 4120032
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSFavorite.db",
+      "size": 102400
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSFavorite.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSFavorite.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSMsg.db",
+      "size": 73728
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSMsg.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FTSMsg.db-wal",
+      "size": 8272
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FunctionMsg.db",
+      "size": 65536
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FunctionMsg.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\FunctionMsg.db-wal",
+      "size": 510912
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkFile.db",
+      "size": 188416
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkFile.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkFile.db-wal",
+      "size": 201912
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkImage.db",
+      "size": 286720
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkImage.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkImage.db-wal",
+      "size": 140112
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkVideo.db",
+      "size": 45056
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkVideo.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\HardLinkVideo.db-wal",
+      "size": 24752
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ImageTranslate.db",
+      "size": 12288
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ImageTranslate.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\ImageTranslate.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Media.db",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Media.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Media.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\MicroMsg.db",
+      "size": 22331392
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\MicroMsg.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\MicroMsg.db-wal",
+      "size": 8252392
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Misc.db",
+      "size": 13930496
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Misc.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Misc.db-wal",
+      "size": 5228312
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\MultiSearchChatMsg.db",
+      "size": 20152320
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\MultiSearchChatMsg.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\MultiSearchChatMsg.db-wal",
+      "size": 4206552
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\NewTips.db",
+      "size": 28672
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\NewTips.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\NewTips.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMContact.db",
+      "size": 380928
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMContact.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMContact.db-wal",
+      "size": 210152
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMMedia.db",
+      "size": 2494464
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMMedia.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMMedia.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMMsg.db",
+      "size": 14274560
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMMsg.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMMsg.db-wal",
+      "size": 3563832
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMResource.db",
+      "size": 53248
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMResource.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\OpenIMResource.db-wal",
+      "size": 449112
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PreDownload.db",
+      "size": 40960
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PreDownload.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PreDownload.db-wal",
+      "size": 362592
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PublicMsg.db",
+      "size": 157286400
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PublicMsg.db-shm",
+      "size": 65536
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PublicMsg.db-wal",
+      "size": 27270312
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PublicMsgMedia.db",
+      "size": 131072
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PublicMsgMedia.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\PublicMsgMedia.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Sns.db",
+      "size": 19140608
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Sns.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Sns.db-wal",
+      "size": 4161232
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\StoreEmotion.db",
+      "size": 77824
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\StoreEmotion.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\StoreEmotion.db-wal",
+      "size": 78312
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Voip.db",
+      "size": 20480
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Voip.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Voip.db-wal",
+      "size": 4120032
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\xInfo.db",
+      "size": 69632
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\xinfo.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\xinfo.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG0.db",
+      "size": 7344128
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG0.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG0.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG1.db",
+      "size": 43290624
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG1.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG1.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG2.db",
+      "size": 13230080
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG2.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\FTSMSG2.db-wal",
+      "size": 4132392
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG0.db",
+      "size": 12705792
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG0.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG0.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG1.db",
+      "size": 25952256
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG1.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG1.db-wal",
+      "size": 0
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG2.db",
+      "size": 18898944
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG2.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MediaMSG2.db-wal",
+      "size": 4202432
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG0.db",
+      "size": 62914560
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG0.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG0.db-wal",
+      "size": 164832
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG1.db",
+      "size": 283115520
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG1.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG1.db-wal",
+      "size": 49472
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG2.db",
+      "size": 220200960
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG2.db-shm",
+      "size": 32768
+    },
+    {
+      "path": "E:\\腾讯电脑管家软件搬家\\C盘清理文件搬家\\微信聊天文件搬家\\Users\\huang\\Documents\\WeChat Files\\wxid_fnqnnhrkzxso22\\Msg\\Multi\\MSG2.db-wal",
+      "size": 8272992
+    }
+  ],
+  "sample_files": {
+    "其他": [
+      "E:\\1\\xwechat_files\\all_users\\whatsnew.dat",
+      "E:\\1\\xwechat_files\\all_users\\config\\client_config",
+      "E:\\1\\xwechat_files\\all_users\\config\\client_config.crc",
+      "E:\\1\\xwechat_files\\all_users\\config\\global_config",
+      "E:\\1\\xwechat_files\\all_users\\config\\global_config.crc",
+      "E:\\1\\xwechat_files\\all_users\\config\\upgrade_v4",
+      "E:\\1\\xwechat_files\\all_users\\config\\upgrade_v4.crc",
+      "E:\\1\\xwechat_files\\all_users\\head_imgs\\0\\2852954145",
+      "E:\\1\\xwechat_files\\all_users\\head_imgs\\3612532327\\737599612",
+      "E:\\1\\xwechat_files\\all_users\\sqlite\\lock.ini",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\roam_device_info.dat",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\alt_name.dat",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\backup.attr",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\backup_time.dat",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\detail.dat",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\pkg.attr",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\pkg.lock",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\pkg_info.dat",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\un_fin_id.dat",
+      "E:\\1\\xwechat_files\\Backup\\wxid_fnqnnhrkzxso22\\b952cd1465c997474d159b811ee9dcfb\\files\\1\\0015ca5993b265d45bb2c2cc073b7b5c4c48e97d30d47a2becbcd134af49f407\\ChatPackage\\1773289290000-1773293837880"
+    ],
+    "数据库": [
+      "E:\\1\\xwechat_files\\all_users\\login\\wxid_fnqnnhrkzxso22\\key_info.db",
+      "E:\\1\\xwechat_files\\all_users\\login\\wxid_fnqnnhrkzxso22\\key_info.db-shm",
+      "E:\\1\\xwechat_files\\all_users\\login\\wxid_fnqnnhrkzxso22\\key_info.db-wal",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\bizchat\\bizchat.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\contact\\contact.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\contact\\contact_fts.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\emoticon\\emoticon.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\favorite\\favorite.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\favorite\\favorite_fts.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\general\\general.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\hardlink\\hardlink.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\head_image\\head_image.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\biz_message_0.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\media_0.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\message_0.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\message_fts.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\message_resource.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\message\\weclaw.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\session\\session.db",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\db_storage\\sns\\sns.db"
+    ],
+    "图片": [
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\business\\InputTemp\\2026-05\\265d551e-d81f-48bc-b451-d6562ea049bd\\265d551e-d81f-48bc-b451-d6562ea049bd.png",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\215_1779622146_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\216_1779622147_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\221_1779624489_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\222_1779625763_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\224_1779669061_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\225_1779669062_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\226_1779669062_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\227_1779669063_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\229_1779674434_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\233_1779675665_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\235_1779694856_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\236_1779695802_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\238_1779698215_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\239_1779710183_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\240_1779710599_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\241_1779761845_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\248_1779775324_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\266_1779805464_thumb.jpg",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\cache\\2026-05\\Message\\01af561ed085f2bb1f21a67fe46d79d2\\Thumb\\269_1779806461_thumb.jpg"
+    ],
+    "文档": [
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\0001(2).txt",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\1751957880205_JsvqhV.xlsx",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\1778122728604.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\1779708641184.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\1779761911577593(1).pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\1779761911577593.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\1779761991443125(1).pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\1779761991443125.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\2025-2026-2 武术队训练计划-规定项目(1).pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\2025-2026-2 武术队训练计划-规定项目.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\2025-2026-2武术队全国比赛备赛计划.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\2025—2026学年第二学期小学四年级英语第四单元作业.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI 时代自由开发者的生态位重塑.docx",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI 时代自由开发者的生态位重塑_补全第一节.docx",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI人才缺口深度研究报告.docx",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI人才缺口深度研究报告_.pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI知识库搭建方法论(1).pdf",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI科创讲座(1).pptx",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI视频带农货——手机上的“带货新农具”(2)(1).pptx",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI视频带农货——手机上的“带货新农具”(2).pptx"
+    ],
+    "语音": [
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\2025—2026学年第二学期小学四年级英语第四单元作业听力音频(1).MP3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\attach_20260529011532_1779988532739_39120(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\四下 Unit5 Period2 校本听力音频(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\四下 Unit5 Period2 校本听力音频(3).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\四下 Unit5 Period2 校本听力音频(4).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\四下 Unit5 Period3 校本听力音频(2).MP3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\四下 Unit5 Period3 校本听力音频.MP3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\四下5月综合练习听力(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\电波5.27_缩混.mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\红绣鞋合唱录音（部分）.m4a",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\attach_20260602202915_1780403355686_3328.mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\attach_20260603000603_1780416363153_25328(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\attach_20260603001103_1780416663221_16128(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\attach_20260603012140_1780420900293_25328(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\attach_20260605000207_1780588927026_16128(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\attach_20260606072622_1780701982975_37796(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\attach_20260606074800_1780703280222_2076(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\yueguang_v1(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\凌晨一点发消息(1).mp3",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\四下 Unit 6 Period 1校本听力音频(3).MP3"
+    ],
+    "压缩包": [
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\20260521-服务器后端修复.zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\3D自助打印小程序转接包-20260428-205644(1).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\3D自助打印小程序转接包-20260428-205644(2)(1).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\3D自助打印小程序转接包-20260428-205644(3).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\3D自助打印小程序转接包-20260428-205644.zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\deepseek小说指令(1).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\Kimi_Agent_Deployment_v15(1).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\Kimi_Agent_空间门互动 (2).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\Kimi_Agent_空间门互动.zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\PitchDeckAgent.7z",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\program(1).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\program(2).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\program.zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\train(1)(1).zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\zgailab.com_nginx.zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\奎.7z",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\宋姿雯-已发布设计图.zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\智微办团队+智微办.7z",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\李涤萍 已发布设计图.zip",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\李艺敏-已发布设计图.zip"
+    ],
+    "视频": [
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\5_电波剪辑(改）(2).mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\云台仿真动画.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\加工花絮.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\升降机构仿真动画.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\底盘动画仿真.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\底盘差速数据仿真.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\智擎揽运介绍视频.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\机构爆炸动画.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\机械旋转展示动画.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\机械爪仿真动画.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\自主巡检_无.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\自主巡检_有.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\自主避障导航.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\货舱仿真动画.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\零件爆炸与组装.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\霹雳火爪子仿真动画.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\绿通\\屏幕录制 2026-03-12 004544.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\绿通\\屏幕录制 2026-03-12 004621.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相关视频(1)\\相关视频\\绿通\\绿通——升降梯数据·仿真.mp4",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\video\\2026-05\\02ca042d962734b7b160d5fba0b37b63.mp4"
+    ],
+    "网页": [
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\AI编程工具完全指南(1).html",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\lu-yan(2).html",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\WorkBuddy十大场景直播课程.html",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-05\\相思枫叶丹_绘本 (1).html",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\msg\\file\\2026-06\\星云(1).html",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\1b3cfbcca5d5641949aad47b3b48438b..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\30c7ca7ef89f6ab4a344761682a2d559..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\3da2ca6fbfa0c52904abd9db53c927c6..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\429a2af2a712e5a896d4c85c7f4ec19e..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\43b81a3a231624c7d05e185a3b465c34..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\4690493b9fa198a02cdb7d0c22cff2ec..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\4ad5f5839e7f532de786c2d2fda38c2b..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\4d5d14b76cdb3c4be82e7fd01b2e48df..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\4fa166f173bc3e7f6e0a36137f4d679d..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\50c20a62495aa5003b5819520199ff58..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\5fc77b14c848905f075cd18472502edb..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\643d79c91ff5d43f8f7511909087f5ea..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\6b55f14750ad270c57b0f63bdf5b3322..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\6b82968bd0ca8f7e8976e6f9bccc43ff..htm",
+      "E:\\1\\xwechat_files\\wxid_fnqnnhrkzxso22_fc04\\temp\\Ann\\6c4c4bbb0ea71aa636db5dde2623043b..htm"
+    ]
+  }
+}

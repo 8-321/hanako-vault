@@ -1,0 +1,4 @@
+https://github.com/karakeep-app/karakeep 轻量信息统一入口候选，AI bookmark everything
+https://github.com/ActivityWatch/activitywatch 被动记录今天看过什么，后续可选增强
+https://github.com/DIYgod/RSSHub 把信息源 RSS 化，先作为未来增强
+https://obsidian.md/ 最终沉淀到 HanakoVault

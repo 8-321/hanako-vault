@@ -1,0 +1,23 @@
+{
+  "name": "@ligeos/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/aws-lambda": "^6.1.1",
+    "@fastify/cors": "^11.1.0",
+    "fastify": "^5.6.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.156",
+    "@types/node": "^24.7.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

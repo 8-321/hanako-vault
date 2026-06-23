@@ -1,0 +1,24 @@
+{
+  "report": "D:\\Hanako\\kel-self-distillation\\wechat-v1.1\\Kel本人模型-v1.1-微信增量稿.md",
+  "evidence": "D:\\Hanako\\kel-self-distillation\\wechat-v1.1\\微信证据单元-v1.1.md",
+  "my_texts": 2742,
+  "kel_moments_posts": 14,
+  "kel_moments_comments": 60,
+  "themes": {
+    "AI Agent 与工具链": 92,
+    "内容创作与传播": 60,
+    "项目与产品实践": 97,
+    "学校组织与活动协作": 138,
+    "商业与外部协作": 21,
+    "自我叙事与精神感受": 57,
+    "风险意识与边界": 19
+  },
+  "styles": {
+    "小白化解释": 8,
+    "温和请求": 47,
+    "直接推进": 171,
+    "风险前置": 9,
+    "系统化总结": 20,
+    "可爱缓冲": 230
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "seed-brain-replica",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A functional clean-room prototype inspired by AI note + second-brain products.",
+  "scripts": {
+    "start": "python -m http.server 5177",
+    "serve": "python -m http.server 5177"
+  },
+  "keywords": ["ai-notes", "second-brain", "prototype", "pkm"],
+  "license": "UNLICENSED"
+}
