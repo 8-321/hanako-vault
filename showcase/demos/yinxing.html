@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>引星 · 手势 3D 粒子场 | heart / tree / flower</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="scene"></canvas>
+
+  <div class="title-block">
+    <div class="title-cn">引星</div>
+    <div class="title-en">gesture driven 3D particle field</div>
+  </div>
+
+  <div class="status-line" id="statusLine">mouse mode · drag to rotate · wheel to open / close</div>
+  <div class="hint-line">open hand → flower  ·  half → tree  ·  fist → heart</div>
+
+  <video id="webcam" playsinline muted autoplay></video>
+
+  <script src="vendor/three.min.js"></script>
+  <script src="vendor/hands.min.js"></script>
+  <script src="vendor/camera_utils.js"></script>
+  <script src="vendor/drawing_utils.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
