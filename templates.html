@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>模板库 — RELAY · 接力</title>
+<meta name="description" content="所有AI生活操作系统模板。免费下载，即拿即用。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<section class="hero" style="padding-bottom:var(--s-8);">
+  <div class="wrap">
+    <h1 class="h-display">
+      <span class="line"><span>模板<em>档案库</em></span></span>
+    </h1>
+    <div class="hero__sub">
+      <span style="color:var(--ink-dim);">TEMPLATE ARCHIVE // 所有模板免费</span>
+      <span class="hero__cursor"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FILTER BAR ===== -->
+<section class="wrap">
+  <div class="filterbar reveal" data-d="0" id="filterChips">
+    <div class="filters">
+      <span class="chip" data-dir="入门">入门</span>
+      <span class="chip" data-dir="效率">效率</span>
+      <span class="chip" data-dir="学习">学习</span>
+      <span class="chip" data-dir="创作">创作</span>
+      <span style="color:var(--ink-faint);margin:0 4px;">|</span>
+      <span class="chip" data-cohort="新手">新手</span>
+      <span class="chip" data-cohort="进阶">进阶</span>
+    </div>
+    <div class="search">
+      <span class="search__icon">⌕</span>
+      <input type="text" id="gallerySearch" placeholder="检索模板…">
+    </div>
+  </div>
+
+  <div class="result-count reveal" data-d="1" id="resultCount">
+    检索到 <span>0</span> 条档案记录
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="wrap">
+  <div class="gallery-grid reveal" data-d="2" id="caseGrid"></div>
+  <div class="pager" id="pager"></div>
+</section>
+
+<!-- Footer injected by ui.js -->
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    ARCHIVE.initGallery('caseGrid', 'filterChips', 'pager');
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RELAY · 接力 — AI生活操作系统工具箱</title>
+<meta name="description" content="把搭建个人AI系统的路铺好。所有模板免费开放。没有注册墙。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero__grid">
+      <div>
+        <h1 class="h-display">
+          <span class="line"><span>先<em>把路踩出来</em></span></span>
+          <span class="line"><span>再把<em>棒</em>交给你</span></span>
+        </h1>
+        <div class="hero__sub">
+          <span class="type-target" id="typeTarget"></span>
+          <span class="hero__cursor"></span>
+        </div>
+        <form class="hero-search" action="templates.html" method="get">
+          <span class="hero-search__icon">⌕</span>
+          <input type="text" name="q" placeholder="检索模板库… 试试「日记」「AI助手」「复盘」">
+        </form>
+      </div>
+      <div>
+        <p class="hero__desc reveal" data-d="1">
+          不是教你用AI。是<em style="color:var(--bronze);font-style:normal;">把路铺好，你走就行</em>。
+        </p>
+        <p class="hero__desc reveal" data-d="3" style="margin-top:var(--s-4);color:var(--ink-dim);font-size:14px;">
+          每一个模板，都来自真实的踩坑和迭代。不是凭空想出来的"最佳实践"，是<em style="color:var(--bronze);font-style:normal;">先走一步的人</em>留下的路标。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee">
+  <div class="marquee__track"></div>
+</div>
+
+<!-- ===== STATS ===== -->
+<section class="wrap">
+  <div class="stats reveal" data-d="1">
+    <div class="stat">
+      <div class="stat__num"><span data-count="6">0</span><span class="u">个</span></div>
+      <div class="stat__label">可用模板</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num"><span data-count="3402">0</span><span class="u">次</span></div>
+      <div class="stat__label">最高浏览量</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num"><span data-count="4">0</span><span class="u">类</span></div>
+      <div class="stat__label">场景覆盖</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num"><span data-count="0">0</span><span class="u">元</span></div>
+      <div class="stat__label">永远免费</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURED BENTO ===== -->
+<section class="wrap">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">精选档案</div>
+    <a href="templates.html" class="section-head__more">查看全部模板 →</a>
+  </div>
+
+  <div class="bento reveal" data-d="1" id="bentoGrid">
+    <!-- card--feat (2x2) + 2 regular cards, rendered by script -->
+  </div>
+</section>
+
+<!-- ===== PHILOSOPHY ===== -->
+<section class="wrap" style="margin-top:var(--s-24);margin-bottom:var(--s-16);">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">RELAY 是什么</div>
+  </div>
+
+  <div class="about-grid reveal" data-d="1">
+    <div class="about-lead">
+      <p>我是一个普通人。我不比你先知，我只是<em>比你早走了几步</em>。</p>
+      <p style="margin-top:var(--s-4);">我把踩过的坑标出来，把跑通的路铺成模板，放进这个档案库。</p>
+      <p style="margin-top:var(--s-4);">你来，拿一个模板，跑通。然后<em>回头标一个新的坑</em>，把棒交给下一个。</p>
+    </div>
+    <div class="tenets">
+      <div class="tenet">
+        <div class="tenet__title">不是教会你，是传给你</div>
+        <div class="tenet__desc">工具＞教程。一个能直接用的模板，胜过10小时的课。</div>
+      </div>
+      <div class="tenet">
+        <div class="tenet__title">不建围墙，不设付费门</div>
+        <div class="tenet__desc">所有模板永远免费。你不需要"加入生态"才能用。</div>
+      </div>
+      <div class="tenet">
+        <div class="tenet__title">用完即走，走了再回来</div>
+        <div class="tenet__desc">最好的工具，是让你不再需要我。但如果卡住了，我还在。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer injected by ui.js -->
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+  // Hero typing
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+      ARCHIVE.initTyping(
+        document.getElementById('typeTarget'),
+        ['搭AI系统，从第一个模板开始。', '不需要会编程。', '不需要买订阅。', '路铺好了，走就行。'],
+        90, 1600
+      );
+    }, 1200);
+  });
+
+  // Bento: featured (card--feat = t03) + 2 regular
+  (function renderBento() {
+    var grid = document.getElementById('bentoGrid');
+    if (!grid) return;
+    // Make sure data is loaded
+    if (!window.TEMPLATES) return setTimeout(renderBento, 100);
+
+    var t = window.TEMPLATES;
+    // t03 = AI助手 (featured), t01 = 日记, t05 = 复盘
+    var feat = t.find(function(x){return x.id==='t03'});
+    var others = t.filter(function(x){return x.id==='t01'||x.id==='t05'});
+
+    if (!feat) return;
+
+    // Build featured card (2x2)
+    var featHTML =
+      '<div class="card card--feat" tabindex="0" role="button" data-id="'+feat.id+'" onclick="ARCHIVE.openCase(\''+feat.id+'\')" onkeydown="if(event.key===\'Enter\')ARCHIVE.openCase(\''+feat.id+'\')" style="display:flex;flex-direction:column;">'+
+        '<div class="card__media" style="background-image:'+ARCHIVE.coverFor(feat)+'">'+
+          '<span class="card__tag">'+feat.direction+'</span>'+
+          '<span class="media-label">TEMPLATE // '+feat.id+'</span>'+
+        '</div>'+
+        '<div class="card__body">'+
+          '<div class="card__title">'+feat.title+'</div>'+
+          '<div class="card__meta">'+
+            '<span class="card__chip">'+feat.type+'</span>'+
+            (feat.tags?feat.tags.slice(0,3).map(function(tg){return '<span class="card__chip">#'+tg+'</span>';}).join(''):'')+
+          '</div>'+
+          '<p class="card__desc">'+feat.summary+'</p>'+
+          '<div class="card__foot">'+
+            '<span class="card__stars">★ '+feat.stars+'</span>'+
+            '<span>'+feat.views.toLocaleString()+' 次查看</span>'+
+          '</div>'+
+        '</div>'+
+      '</div>';
+
+    // regular cards
+    var regHTML = others.map(function(o){
+      return ARCHIVE.cardHTML(o);
+    }).join('');
+
+    grid.innerHTML = featHTML + regHTML;
+  })();
+</script>
+
+</body>
+</html>

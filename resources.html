@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工具箱与踩坑 — RELAY · 接力</title>
+<meta name="description" content="AI工具推荐清单 + 真实踩坑记录。免费工具优先，安全第一。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<section class="hero" style="padding-bottom:var(--s-8);">
+  <div class="wrap">
+    <h1 class="h-display">
+      <span class="line"><span>工具箱 <em>&</em> 踩坑记录</span></span>
+    </h1>
+    <div class="hero__sub">
+      <span style="color:var(--ink-dim);">TOOLKIT & PITFALLS // 免费工具优先 · 踩过的坑替你标好</span>
+      <span class="hero__cursor"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATEGORY FILTER ===== -->
+<section class="wrap">
+  <div class="cat-list reveal" data-d="0" id="resCatList">
+    <span class="chip is-on" data-cat="">全部</span>
+    <span class="chip" data-cat="AI工具">AI工具</span>
+    <span class="chip" data-cat="笔记工具">笔记工具</span>
+    <span class="chip" data-cat="数据安全">⚠ 数据安全</span>
+    <span class="chip" data-cat="方法论">方法论</span>
+    <span class="chip" data-cat="教程">教程</span>
+  </div>
+
+  <div class="result-count reveal" data-d="1" id="resultCount">
+    共 <span>0</span> 条资源
+  </div>
+</section>
+
+<!-- ===== RESOURCE GRID ===== -->
+<section class="wrap">
+  <div class="res-grid reveal" data-d="2" id="resGrid"></div>
+</section>
+
+<!-- ===== SAFETY NOTE ===== -->
+<section class="wrap" style="margin-top:var(--s-12);margin-bottom:var(--s-16);">
+  <div class="detail__quote reveal" data-d="3">
+    <p style="font-size:15px;">丢过8GB数据的人才知道备份有多重要。</p>
+    <p style="margin-top:var(--s-3);font-size:13px;color:var(--ink-dim);">
+      这些踩坑记录不是"最佳实践"——是真实代价换来的。<em style="color:var(--bronze);font-style:normal;">你不必用同样的代价再学一次。</em>
+    </p>
+  </div>
+</section>
+
+<!-- Footer injected by ui.js -->
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    ARCHIVE.initResources('resGrid', 'resCatList');
+  });
+</script>
+
+</body>
+</html>
