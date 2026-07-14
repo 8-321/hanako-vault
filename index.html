@@ -109,6 +109,15 @@
 
 <!-- Footer injected by ui.js -->
 
+<!-- ===== 匠录精选 ===== -->
+<section class="wrap" style="margin-bottom:var(--s-16);">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title"><em style="color:var(--bronze);font-style:normal;">匠</em>录 · CRAFT</div>
+    <a href="craft.html" class="section-head__more">查看全部匠录 →</a>
+  </div>
+  <div class="bento reveal" data-d="1" id="craftBento"></div>
+</section>
+
 <script src="assets/js/data.js"></script>
 <script src="assets/js/ui.js"></script>
 <script>
@@ -117,7 +126,7 @@
     setTimeout(function() {
       ARCHIVE.initTyping(
         document.getElementById('typeTarget'),
-        ['搭AI系统，从第一个模板开始。', '不需要会编程。', '不需要买订阅。', '路铺好了，走就行。'],
+        ['搭AI系统，从第一个模板开始。', '匠录：从纸片到像素，从编钟到波形。', '不需要会编程。', '路铺好了，走就行。'],
         90, 1600
       );
     }, 1200);
@@ -164,6 +173,15 @@
     }).join('');
 
     grid.innerHTML = featHTML + regHTML;
+  })();
+
+  // Craft Bento on home page
+  (function renderCraftBento() {
+    var grid = document.getElementById('craftBento');
+    if (!grid) return;
+    if (!window.TEMPLATES) return setTimeout(renderCraftBento, 100);
+    var crafts = window.TEMPLATES.filter(function(x){return x.direction==='古技';}).slice(0,3);
+    grid.innerHTML = crafts.map(function(c){return window.ARCHIVE.cardHTML? window.ARCHIVE.cardHTML(c):'';}).join('');
   })();
 </script>
 

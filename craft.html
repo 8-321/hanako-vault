@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>匠录 — RELAY · 接力</title>
+<meta name="description" content="古老原型的数字复刻。每个CRAFT对应一个古老知识与一个创意工具的精华。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<section class="hero" style="padding-bottom:var(--s-8);">
+  <div class="wrap">
+    <h1 class="h-display">
+      <span class="line"><span><em>匠</em>录 · CRAFT ARCHIVE</span></span>
+    </h1>
+    <div class="hero__sub">
+      <span style="color:var(--ink-dim);">CRAFT // 古老原型的数字复刻 — PS · AI · AE · PR · AU</span>
+      <span class="hero__cursor"></span>
+    </div>
+    <p class="hero__desc reveal" data-d="1" style="margin-top:var(--s-6);max-width:600px;">
+      每个数字工具都有一个被遗忘的祖先。<br>
+      图层来自拼贴。路径来自几何。关键帧来自走马灯。剪辑来自壁画。波形来自编钟。<br>
+      <em style="color:var(--bronze);font-style:normal;">学了它们的过去，你会更懂它们的现在。</em>
+    </p>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="gallery-grid reveal" data-d="2" id="craftGrid"></div>
+</section>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var grid = document.getElementById('craftGrid');
+    if(!grid)return;
+    var crafts = window.TEMPLATES.filter(function(t){return t.direction==='古技';});
+    grid.innerHTML = crafts.length
+      ? crafts.map(function(c){return window.ARCHIVE.cardHTML? window.ARCHIVE.cardHTML(c):'';}).join('')
+      : '<div class="gallery-empty">未检索到匹配档案</div>';
+  });
+</script>
+
+</body>
+</html>
