@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>展示台 — RELAY · 接力</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.showcase-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(340px,1fr)); gap:var(--s-5); position:relative; z-index:1; }
+.showcase-item { background:var(--bg-elev); border:1px solid var(--bronze-line); border-radius:var(--r-md); overflow:hidden; transition:all var(--t-med); }
+.showcase-item:hover { border-color:var(--bronze); box-shadow:var(--glow-bronze); transform:translateY(-4px); }
+.showcase-preview { aspect-ratio:21/12; background-size:cover; background-position:center; position:relative; }
+.showcase-preview .play { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,0.3); opacity:0; transition:opacity var(--t-med); }
+.showcase-item:hover .play { opacity:1; }
+.showcase-preview .play span { width:48px; height:48px; border-radius:50%; border:2px solid var(--bronze); display:flex; align-items:center; justify-content:center; font-size:20px; color:var(--bronze); }
+.showcase-body { padding:var(--s-5); }
+.showcase-body h3 { font-family:var(--font-display); font-size:17px; font-weight:600; margin-bottom:var(--s-1); }
+.showcase-body .meta { font-family:var(--font-mono); font-size:10px; color:var(--ink-dim); letter-spacing:1px; margin-bottom:var(--s-2); }
+.showcase-body p { font-size:13px; color:var(--ink-soft); line-height:1.7; }
+.showcase-tags { display:flex; gap:var(--s-2); margin-top:var(--s-3); flex-wrap:wrap; }
+.showcase-tags span { font-size:10px; padding:2px 8px; border:1px solid var(--bronze-line); border-radius:var(--r-sm); color:var(--ink-dim); font-family:var(--font-mono); letter-spacing:1px; }
+</style>
+</head>
+<body>
+
+<section class="hero" style="padding-bottom:var(--s-8);">
+  <div class="wrap">
+    <h1 class="h-display">
+      <span class="line"><span>作品<em>展示台</em></span></span>
+    </h1>
+    <div class="hero__sub">
+      <span style="color:var(--ink-dim);">SHOWCASE // 真正的设计在这里。点击可玩。</span>
+    </div>
+    <p class="hero__desc reveal" data-d="1" style="margin-top:var(--s-6);max-width:600px;">
+      不是模拟图，不是概念稿。<br>
+      是真实的、已发布的、双击就能打开的交互作品。
+    </p>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="showcase-grid reveal" data-d="2" id="showcaseGrid"></div>
+</section>
+
+<section class="wrap" style="margin-top:var(--s-16);margin-bottom:var(--s-16);">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">含渡 · 工具箱</div>
+  </div>
+  <p style="font-size:14px;color:var(--ink-soft);margin-bottom:var(--s-6);">含渡是完整的方法论体系。下面的子Skill也在展示台里。</p>
+  <div class="showcase-grid" id="handuGrid"></div>
+</section>
+
+<script src="assets/js/ui.js"></script>
+<script>
+var SHOWCASE = [
+  {id:'zaozisi', title:'造字司', dir:'zaozisi', desc:'汉字造字互动游戏。拖拽字根入墨池，按会意规则生成新字。古风界面，把汉字构形转成可玩的交互机制。', tags:['HTML/CSS/JS','互动','古风'], tech:'零依赖'},
+  {id:'yinxing', title:'引星', dir:'yinxing', desc:'Three.js 3D粒子交互系统。手势控制粒子形态(心/树/花)，MediaPipe手部识别。绿色系高级配色。', tags:['Three.js','手势识别','3D粒子'], tech:'Three.js + MediaPipe'},
+  {id:'nuofire', title:'傩火', dir:'nuofire', desc:'非遗傩面具主题古风互动场域。尘雾/火星/裂纹/鼓波交互，C4D古风动画+TouDesigner风格。', tags:['Canvas','古风','非遗'], tech:'零依赖'},
+  {id:'han-interactive', title:'含互动动画', dir:'han-interactive', desc:'Hanako品牌互动动效原型。含字转向、醒来动画、粒子光晕、情绪光谱滑块。', tags:['品牌动效','CSS/JS','交互'], tech:'零依赖'},
+  {id:'desktop-bookmark', title:'桌面书签', dir:'desktop-bookmark', desc:'极简悬浮桌面书签工具。毛玻璃质感，悬浮入口快速拨号。Electron构建，11+版本迭代。', tags:['Electron','桌面工具','毛玻璃'], tech:'Electron'},
+  {id:'seedbrain', title:'SeedBrain 复刻', dir:'seedbrain', desc:'得到大脑类AI记录与创作产品功能复刻。记录采集+知识组织+AI能力+学习闭环。', tags:['Vite','JS','原型'], tech:'Vite + localStorage'}
+];
+var HANDU_ITEMS = [
+  {id:'handu-system', title:'含渡·系统', dir:'handu-system', desc:'核心方法论。留停删转试五步法，诊断你卡在哪六种混乱。', tags:['方法','核心']},
+  {id:'handu-diagnosis', title:'含渡·诊断', dir:'handu-diagnosis', desc:'判断你当前的主混乱类型。6种AI生活系统混乱诊断工具。', tags:['诊断']},
+  {id:'handu-starter-kit', title:'含渡·启动包', dir:'handu-starter-kit', desc:'10步从0到AI系统。面向纯新手的完整启动流程。', tags:['新手','启动']},
+  {id:'handu-pacing', title:'含渡·陪跑', dir:'handu-pacing', desc:'固定节奏，避免反复重启。每周/每日执行框架。', tags:['节奏','执行']},
+  {id:'handu-review', title:'含渡·复盘', dir:'handu-review', desc:'周一收束，项目一结。系统化复盘方法论。', tags:['复盘','收束']},
+  {id:'handu-productization', title:'含渡·产品化', dir:'handu-productization', desc:'把方法变成可交付的产品。从方法论到可卖的产品。', tags:['产品化']}
+];
+
+(function render(){
+  var grid = document.getElementById('showcaseGrid');
+  grid.innerHTML = SHOWCASE.map(function(s){
+    var imgUrl = 'assets/images/showcase-'+s.id+'.jpg';
+    return '<a href="showcase/'+s.dir+'/" target="_blank" class="showcase-item" style="text-decoration:none;">'+
+      '<div class="showcase-preview" style="background:'+(s.id==='seedbrain'?'var(--bg-elev)':'var(--bg-elev)')+'">'+
+        '<div class="play"><span>▶</span></div>'+
+      '</div>'+
+      '<div class="showcase-body">'+
+        '<h3>'+s.title+'</h3>'+
+        '<div class="meta">'+s.tech+'</div>'+
+        '<p>'+s.desc+'</p>'+
+        '<div class="showcase-tags">'+s.tags.map(function(t){return '<span>'+t+'</span>';}).join('')+'</div>'+
+      '</div>'+
+    '</a>';
+  }).join('');
+
+  var hg = document.getElementById('handuGrid');
+  hg.innerHTML = HANDU_ITEMS.map(function(s){
+    return '<a href="showcase/'+s.dir+'/" target="_blank" class="showcase-item" style="text-decoration:none;">'+
+      '<div class="showcase-body">'+
+        '<h3>'+s.title+'</h3>'+
+        '<p>'+s.desc+'</p>'+
+        '<div class="showcase-tags">'+s.tags.map(function(t){return '<span>'+t+'</span>';}).join('')+'</div>'+
+      '</div>'+
+    '</a>';
+  }).join('');
+})();
+</script>
+
+</body>
+</html>
