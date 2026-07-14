@@ -12,6 +12,57 @@
   const $ = (sel, ctx) => (ctx||document).querySelector(sel);
   const $$ = (sel, ctx) => [...(ctx||document).querySelectorAll(sel)];
 
+  // ===== RELAY TRACKING (localStorage) =====
+  window.RELAY = window.RELAY || {};
+
+  // 获取接力计数
+  window.RELAY.getCount = function(id) {
+    return parseInt(localStorage.getItem('rl-c-'+id) || '0');
+  };
+
+  // 标记走完一条路径
+  window.RELAY.complete = function(id) {
+    var c = window.RELAY.getCount(id) + 1;
+    localStorage.setItem('rl-c-'+id, c);
+    var my = JSON.parse(localStorage.getItem('rl-my') || '[]');
+    if (my.indexOf(id) === -1) { my.push(id); localStorage.setItem('rl-my', JSON.stringify(my)); }
+    return c;
+  };
+
+  // 我走过的路径
+  window.RELAY.myPaths = function() {
+    return JSON.parse(localStorage.getItem('rl-my') || '[]');
+  };
+
+  // 留路标
+  window.RELAY.leaveMarker = function(id, text, type) {
+    var markers = JSON.parse(localStorage.getItem('rl-m-'+id) || '[]');
+    markers.push({text:text, type:type||'tip', date:new Date().toISOString().slice(0,10)});
+    localStorage.setItem('rl-m-'+id, JSON.stringify(markers));
+    // 我的记录
+    var mym = JSON.parse(localStorage.getItem('rl-my-m') || '[]');
+    mym.push({templateId:id, text:text, type:type||'tip'});
+    localStorage.setItem('rl-my-m', JSON.stringify(mym));
+  };
+
+  // 获取某路径的所有路标
+  window.RELAY.getMarkers = function(id) {
+    return JSON.parse(localStorage.getItem('rl-m-'+id) || '[]');
+  };
+
+  // 我留过的所有路标
+  window.RELAY.myMarkers = function() {
+    return JSON.parse(localStorage.getItem('rl-my-m') || '[]');
+  };
+
+  // 获取某路径的完成者列表（限制在本地）
+  window.RELAY.getCompleters = function(id) {
+    var c = window.RELAY.getCount(id);
+    var my = window.RELAY.myPaths();
+    var userCompleted = my.indexOf(id) !== -1;
+    return { count:c, you:userCompleted };
+  };
+
   // ===== CURRENT PAGE =====
   function currentPageId() {
     const p = location.pathname.split('/').pop() || 'index.html';
@@ -19,6 +70,7 @@
     if (p === 'templates.html') return 'templates';
     if (p === 'resources.html') return 'resources';
     if (p === 'about.html') return 'about';
+    if (p === 'my-relay.html') return 'myrelay';
     return 'home';
   }
 
@@ -247,10 +299,19 @@
           <p class="card__desc">${t.summary}</p>
           <div class="card__foot">
             <span class="card__stars">★ ${t.stars}</span>
-            <span>${t.views?.toLocaleString()} 次查看</span>
+            <span class="card__relay-count" data-id="${t.id}">${window.RELAY.getCount(t.id)} 人走过</span>
           </div>
         </div>
       </div>`;
+  };
+
+  // 刷新卡片接力数
+  window.RELAY.refreshCounts = function() {
+    var els = document.querySelectorAll('.card__relay-count');
+    els.forEach(function(el) {
+      var id = el.dataset.id;
+      if (id) el.textContent = window.RELAY.getCount(id) + ' 人走过';
+    });
   };
 
   // ===== DECRYPT SCRAMBLE =====
@@ -541,13 +602,51 @@
     if (!walkState) return;
     var t = window.TEMPLATES.find(function(x){return x.id===walkState.id;});
     if (!t) return;
+    var id = walkState.id;
+    var total = window.RELAY.complete(id);
     walkState = null;
+    window.RELAY.refreshCounts();
+
     var panel = $('#modal-panel', modalRoot);
     panel.innerHTML = `
       <button class="modal-panel__close" onclick="ARCHIVE.closeModal()" aria-label="关闭">✕</button>
       ${renderCertificate(t)}
+      <div class="detail__body" style="padding-top:0;">
+        <div class="decrypt-bar" style="color:var(--phosphor);text-align:center;">你已走通 · 第 ${total} 位接力者</div>
+
+        <div class="walk-marker-form" style="margin-top:var(--s-6);border-top:1px solid var(--bronze-line);padding-top:var(--s-5);">
+          <div style="font-family:var(--font-mono);font-size:11px;color:var(--bronze);letter-spacing:2px;margin-bottom:var(--s-3);">+ 留一个路标</div>
+          <div style="display:flex;gap:var(--s-2);margin-bottom:var(--s-3);">
+            <span class="chip" data-mtype="tip" onclick="this.parentElement.querySelectorAll('.chip').forEach(function(c){c.classList.remove('is-on')});this.classList.add('is-on');">💡 技巧</span>
+            <span class="chip" data-mtype="pitfall" onclick="this.parentElement.querySelectorAll('.chip').forEach(function(c){c.classList.remove('is-on')});this.classList.add('is-on');">⚠ 踩坑</span>
+            <span class="chip" data-mtype="note" onclick="this.parentElement.querySelectorAll('.chip').forEach(function(c){c.classList.remove('is-on')});this.classList.add('is-on');">✏ 笔记</span>
+          </div>
+          <textarea id="markerInput" placeholder="写下你在这条路上遇到的事…" style="width:100%;background:var(--bg);border:1px solid var(--bronze-line);border-radius:var(--r-sm);padding:var(--s-4);color:var(--ink);font-family:var(--font-body);font-size:13px;resize:vertical;min-height:80px;outline:none;"></textarea>
+          <div style="display:flex;gap:var(--s-3);margin-top:var(--s-3);">
+            <button class="btn--primary" onclick="ARCHIVE.saveMarker('${id}')">留路标 →</button>
+            <button class="btn--ghost" onclick="ARCHIVE.closeModal()">关闭</button>
+          </div>
+        </div>
+      </div>
     `;
     panel.scrollTop = 0;
+  };
+
+  window.saveMarker = function(id) {
+    var input = document.getElementById('markerInput');
+    if (!input || !input.value.trim()) return;
+    var active = document.querySelector('.walk-marker-form .chip.is-on');
+    var type = active ? active.dataset.mtype : 'tip';
+    window.RELAY.leaveMarker(id, input.value.trim(), type);
+    input.value = '';
+    input.placeholder = '✓ 路标已留。你可以再写一个，或关闭。';
+  };
+
+  window.closeModal = function() {
+    if (!modalRoot) return;
+    modalRoot.classList.remove('is-open');
+    document.body.style.overflow = '';
+    walkState = null;
   };
 
   window.closeModal = function() {
@@ -863,7 +962,12 @@
     initResources: window.initResources,
     initTyping: window.initTyping,
     initTerminal: window.initTerminal,
-    goPage: window.goPage
+    goPage: window.goPage,
+    saveMarker: window.saveMarker,
+    walkNext: window.walkNext,
+    walkPrev: window.walkPrev,
+    walkStart: window.walkStart,
+    walkFinish: window.walkFinish
   };
 
   // ===== DOM READY =====

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的接力 — RELAY</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<section class="hero" style="padding-bottom:var(--s-8);">
+  <div class="wrap">
+    <h1 class="h-display">
+      <span class="line"><span>我的<em>接力</em></span></span>
+    </h1>
+    <div class="hero__sub">
+      <span style="color:var(--ink-dim);">MY RELAY // 你走过的路，留过的路标</span>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">已走通的路径</div>
+  </div>
+  <div class="gallery-grid" id="myGallery" style="min-height:100px;"></div>
+  <div class="gallery-empty" id="myEmpty" style="display:none;">还没有走完任何路径。去<a href="templates.html" style="color:var(--bronze);text-decoration:underline;">模板库</a>开始第一条。</div>
+</section>
+
+<section class="wrap" style="margin-top:var(--s-12);margin-bottom:var(--s-16);">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">我留的路标</div>
+  </div>
+  <div id="myMarkers"></div>
+  <div class="gallery-empty" id="markerEmpty" style="display:none;">还没有留过路标。走完一条路径后，记得给下一个人留个标记。</div>
+</section>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var paths = window.RELAY.myPaths();
+    var gallery = document.getElementById('myGallery');
+    var empty = document.getElementById('myEmpty');
+
+    if (paths.length) {
+      empty.style.display = 'none';
+      var list = window.TEMPLATES.filter(function(t){return paths.indexOf(t.id) !== -1;});
+      gallery.innerHTML = list.length
+        ? list.map(function(t){return window.ARCHIVE.cardHTML? window.ARCHIVE.cardHTML(t) : '';}).join('')
+        : '<div class="gallery-empty">已完成的路径不在当前模板库中</div>';
+    } else {
+      gallery.style.display = 'none';
+      empty.style.display = 'block';
+    }
+
+    var markers = window.RELAY.myMarkers();
+    var mDiv = document.getElementById('myMarkers');
+    var mEmpty = document.getElementById('markerEmpty');
+    if (markers.length) {
+      mEmpty.style.display = 'none';
+      mDiv.innerHTML = '<div style="display:grid;grid-template-columns:1fr;gap:var(--s-3);">' +
+        markers.map(function(m){
+          var t = window.TEMPLATES.find(function(x){return x.id===m.templateId;});
+          var tname = t ? t.title : m.templateId;
+          return '<div style="background:var(--bg-elev);border:1px solid var(--bronze-line);border-radius:var(--r-sm);padding:var(--s-4);display:flex;gap:var(--s-3);align-items:flex-start;">' +
+            '<span style="font-size:16px;flex-shrink:0;">'+(m.type==='pitfall'?'⚠️':m.type==='note'?'✏️':'💡')+'</span>'+
+            '<div><div style="font-size:13px;color:var(--ink-soft);margin-bottom:var(--s-1);">'+m.text+'</div>'+
+            '<div style="font-family:var(--font-mono);font-size:10px;color:var(--ink-faint);">'+tname+' · '+(m.type==='pitfall'?'踩坑':'技巧')+'</div></div></div>';
+        }).join('') + '</div>';
+    } else {
+      mEmpty.style.display = 'block';
+    }
+  });
+</script>
+
+</body>
+</html>

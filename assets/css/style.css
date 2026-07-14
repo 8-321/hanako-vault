@@ -885,6 +885,10 @@ ul,ol { list-style:none; }
   margin-left:auto;
 }
 
+/* Marker form */
+.walk-marker-form textarea:focus { border-color:var(--bronze); }
+.walk-marker-form textarea::placeholder { color:var(--ink-faint); }
+
 /* Walk certificate */
 .walk-cert { text-align:center; padding:var(--s-4) 0 var(--s-6); }
 .walk-cert__img {
