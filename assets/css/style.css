@@ -338,7 +338,9 @@ ul,ol { list-style:none; }
   font-family: var(--font-display); font-size:clamp(32px, 4vw, 48px);
   font-weight:600; line-height:1; color:var(--bronze);
   display:flex; align-items:baseline; gap:2px;
+  animation:statPulse 2.4s ease-in-out infinite;
 }
+@keyframes statPulse { 0%,100%{opacity:1} 50%{opacity:.65} }
 .stat__num .u { font-size:14px; color:var(--ink-dim); }
 .stat__label {
   font-family: var(--font-mono); font-size:11px; color:var(--ink-dim);
