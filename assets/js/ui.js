@@ -132,7 +132,7 @@
     nav.innerHTML = `
       <div class="nav__inner">
         <a href="index.html" class="nav__sigil">
-          <div class="nav__sigil-ring"></div>
+          <div class="nav__sigil-ring">R</div>
           <span class="nav__brand">${window.SITE.brand}</span>
           <span class="nav__id">${window.SITE.id}</span>
         </a>

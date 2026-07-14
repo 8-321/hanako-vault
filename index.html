@@ -3,107 +3,195 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RELAY · 控制中心</title>
-<meta name="description" content="个人AI系统操作中枢。所有系统状态一览。">
+<title>RELAY · 接力 — AI生活操作系统工具箱</title>
+<meta name="description" content="把搭建个人AI系统的路铺好。所有模板免费开放。没有注册墙。">
 <link rel="stylesheet" href="assets/css/style.css">
-<style>
-/* 控制中心专用样式 */
-.dash-header { padding:100px 0 40px; text-align:center; position:relative; z-index:1; }
-.dash-header h1 { font-size:clamp(28px,4vw,42px); font-weight:600; letter-spacing:3px; }
-.dash-header .sub { font-size:13px; color:var(--ink-dim); font-family:var(--font-mono); letter-spacing:2px; margin-top:var(--s-4); }
-.dash-header .status-bar { display:flex; justify-content:center; gap:var(--s-8); margin-top:var(--s-8); flex-wrap:wrap; }
-.dash-header .status-bar span { font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); letter-spacing:1px; display:flex; align-items:center; gap:6px; }
-.dot { width:8px; height:8px; border-radius:50%; display:inline-block; }
-.dot--g { background:var(--phosphor); box-shadow:0 0 8px rgba(116,240,192,0.4); }
-.dot--y { background:#E8B85D; box-shadow:0 0 8px rgba(232,184,93,0.3); }
-.dot--w { background:var(--ink-faint); }
-
-.sys-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(340px,1fr)); gap:var(--s-4); position:relative; z-index:1; }
-.sys-card { background:var(--card); border:1px solid var(--bronze-line); border-radius:var(--r-md); padding:var(--s-5); position:relative; overflow:hidden; transition:all var(--t-med); cursor:pointer; }
-.sys-card:hover { border-color:var(--bronze); box-shadow:var(--shadow-soft); }
-.sys-card__head { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:var(--s-3); }
-.sys-card__name { font-family:var(--font-display); font-size:16px; font-weight:600; }
-.sys-card__status { font-family:var(--font-mono); font-size:10px; letter-spacing:1px; display:flex; align-items:center; gap:5px; padding:3px 8px; border-radius:var(--r-sm); }
-.sys-card__status--online { color:var(--phosphor); background:rgba(116,240,192,0.06); border:1px solid rgba(116,240,192,0.12); }
-.sys-card__status--ready { color:#E8B85D; background:rgba(232,184,93,0.06); border:1px solid rgba(232,184,93,0.12); }
-.sys-card__status--unknown { color:var(--ink-faint); background:rgba(255,255,255,0.03); border:1px solid var(--bronze-line); }
-.sys-card__desc { font-size:13px; color:var(--ink-soft); line-height:1.7; margin-bottom:var(--s-4); }
-.sys-card__actions { display:flex; gap:var(--s-2); flex-wrap:wrap; }
-.sys-card__actions a { font-family:var(--font-mono); font-size:11px; padding:5px 12px; border:1px solid var(--bronze-line); border-radius:var(--r-sm); color:var(--ink-soft); text-decoration:none; transition:all var(--t-fast); }
-.sys-card__actions a:hover { border-color:var(--bronze); color:var(--bronze); }
-.sys-card__extra { font-family:var(--font-mono); font-size:10px; color:var(--ink-faint); margin-top:var(--s-3); letter-spacing:1px; }
-
-.quick-bar { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px,1fr)); gap:var(--s-3); margin:var(--s-10) 0; position:relative; z-index:1; }
-.quick-item { background:var(--card); border:1px solid var(--bronze-line); border-radius:var(--r-sm); padding:var(--s-4); text-align:center; transition:all var(--t-fast); cursor:pointer; }
-.quick-item:hover { border-color:var(--bronze); }
-.quick-item .num { font-family:var(--font-display); font-size:28px; font-weight:600; color:var(--bronze); }
-.quick-item .label { font-family:var(--font-mono); font-size:10px; color:var(--ink-dim); letter-spacing:1px; margin-top:var(--s-1); }
-
-@media (max-width:640px) { .sys-grid { grid-template-columns:1fr; } .quick-bar { grid-template-columns:1fr 1fr; } }
-</style>
 </head>
 <body>
 
-<section class="dash-header">
+<!-- ===== HERO ===== -->
+<section class="hero">
   <div class="wrap">
-    <h1><em style="color:var(--bronze);font-style:normal;">RELAY</em> 控制中心</h1>
-    <div class="sub">OBSERVER-07 // 系统运行中枢</div>
-    <div class="status-bar">
-      <span><span class="dot dot--g"></span> 在线</span>
-      <span><span class="dot dot--y"></span> 就绪</span>
-      <span><span class="dot dot--w"></span> 待确认</span>
+    <div class="hero__grid">
+      <div>
+        <h1 class="h-display">
+          <span class="line"><span>先<em>把路踩出来</em></span></span>
+          <span class="line"><span>再把<em>棒</em>交给你</span></span>
+        </h1>
+        <div class="hero__sub">
+          <span class="type-target" id="typeTarget"></span>
+          <span class="hero__cursor"></span>
+        </div>
+        <form class="hero-search" action="templates.html" method="get">
+          <span class="hero-search__icon">⌕</span>
+          <input type="text" name="q" placeholder="检索模板库… 试试「日记」「AI助手」「复盘」">
+        </form>
+      </div>
+      <div>
+        <p class="hero__desc reveal" data-d="1">
+          不是教你用AI。是<em style="color:var(--bronze);font-style:normal;">把路铺好，你走就行</em>。
+        </p>
+        <p class="hero__desc reveal" data-d="3" style="margin-top:var(--s-4);color:var(--ink-dim);font-size:14px;">
+          每一个模板，都来自真实的踩坑和迭代。不是凭空想出来的"最佳实践"，是<em style="color:var(--bronze);font-style:normal;">先走一步的人</em>留下的路标。
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="wrap" style="margin-bottom:var(--s-8);">
-  <div class="quick-bar" id="quickBar"></div>
+<!-- ===== MARQUEE ===== -->
+<div class="marquee">
+  <div class="marquee__track"></div>
+</div>
+
+<!-- ===== STATS ===== -->
+<section class="wrap">
+  <div class="stats reveal" data-d="1">
+    <div class="stat">
+      <div class="stat__num"><span data-count="6">0</span><span class="u">个</span></div>
+      <div class="stat__label">可用模板</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num"><span data-count="3402">0</span><span class="u">次</span></div>
+      <div class="stat__label">最高浏览量</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num"><span data-count="4">0</span><span class="u">类</span></div>
+      <div class="stat__label">场景覆盖</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num"><span data-count="0">0</span><span class="u">元</span></div>
+      <div class="stat__label">永远免费</div>
+    </div>
+  </div>
 </section>
 
+<!-- ===== FEATURED BENTO ===== -->
+<section class="wrap">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">精选档案</div>
+    <a href="templates.html" class="section-head__more">查看全部模板 →</a>
+  </div>
+
+  <div class="bento reveal" data-d="1" id="bentoGrid">
+    <!-- card--feat (2x2) + 2 regular cards, rendered by script -->
+  </div>
+</section>
+
+<!-- ===== PHILOSOPHY ===== -->
+<section class="wrap" style="margin-top:var(--s-24);margin-bottom:var(--s-16);">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">RELAY 是什么</div>
+  </div>
+
+  <div class="about-grid reveal" data-d="1">
+    <div class="about-lead">
+      <p>我是一个普通人。我不比你先知，我只是<em>比你早走了几步</em>。</p>
+      <p style="margin-top:var(--s-4);">我把踩过的坑标出来，把跑通的路铺成模板，放进这个档案库。</p>
+      <p style="margin-top:var(--s-4);">你来，拿一个模板，跑通。然后<em>回头标一个新的坑</em>，把棒交给下一个。</p>
+    </div>
+    <div class="tenets">
+      <div class="tenet">
+        <div class="tenet__title">不是教会你，是传给你</div>
+        <div class="tenet__desc">工具＞教程。一个能直接用的模板，胜过10小时的课。</div>
+      </div>
+      <div class="tenet">
+        <div class="tenet__title">不建围墙，不设付费门</div>
+        <div class="tenet__desc">所有模板永远免费。你不需要"加入生态"才能用。</div>
+      </div>
+      <div class="tenet">
+        <div class="tenet__title">用完即走，走了再回来</div>
+        <div class="tenet__desc">最好的工具，是让你不再需要我。但如果卡住了，我还在。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 提交CTA ===== -->
+<section class="wrap" style="text-align:center;margin-bottom:var(--s-16);">
+  <div class="reveal" data-d="2">
+    <p style="font-size:14px;color:var(--ink-soft);margin-bottom:var(--s-5);">你走通了一条路？把经验写成模板，交给下一个。</p>
+    <a href="submit.html" class="btn--primary">✦ 提交模板</a>
+  </div>
+</section>
+
+<!-- ===== 匠录精选 ===== -->
 <section class="wrap" style="margin-bottom:var(--s-16);">
-  <div class="sec-label" style="margin-bottom:var(--s-5);">· 系统状态 ·</div>
-  <div class="sys-grid" id="sysGrid"></div>
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title"><em style="color:var(--bronze);font-style:normal;">匠</em>录 · CRAFT</div>
+    <a href="craft.html" class="section-head__more">查看全部匠录 →</a>
+  </div>
+  <div class="bento reveal" data-d="1" id="craftBento"></div>
 </section>
 
 <script src="assets/js/data.js"></script>
 <script src="assets/js/ui.js"></script>
 <script>
-var SYSTEMS = [
-  {id:'feishu',name:'飞书API',status:'online',desc:'AppID/Secret已配置，tenant_access_token可用。可读写Bitable/Docx。关联公众号发布脚本。',actions:[{label:'打开飞书',url:'https://uitts15fuet.feishu.cn/base/DRRybu0kTacRA3syXrXcXvYbnHh'}],extra:'最后调用: 今日'},
-  {id:'github',name:'GitHub Pages',status:'online',desc:'hanako-vault仓库，gh-pages分支。RELAY控制中心在此运行。SSH已认证。',actions:[{label:'打开仓库',url:'https://github.com/8-321/hanako-vault'},{label:'SSH',url:'#'}],extra:'推送: 今日'},
-  {id:'hanako',name:'Hanako 智能体',status:'online',desc:'含系五角色(含/含舟/含章/含枢/含野)，心跳巡检+日记+备份+记忆系统。完整Agent生态。',actions:[{label:'本地路径',url:'#'}],extra:'D:\\Hanako'},
-  {id:'wechat-auto',name:'公众号自动化',status:'ready',desc:'kel-publication-workflow技能。观点→稿→封面→上传草稿箱→核验。关联writer技能。',actions:[{label:'查看SKILL',url:'#'}],extra:'D:\\Hanako\\.agents\\skills'},
-  {id:'miniapp',name:'微信小程序 ×4',status:'ready',desc:'3D小程序 / TeamRadarLab / 微信一键登入 / 最小Mvp(LifeInbox)。源码在D盘项目目录。',actions:[{label:'3D小程序',url:'#'},{label:'TeamRadarLab',url:'#'}],extra:'D:\\BELLA KE\\项目AI'},
-  {id:'handu',name:'含渡方法论',status:'ready',desc:'15+子Skill体系。留停删转试五步法+诊断/裁决/陪跑/复盘/产品化/自我定义。',actions:[{label:'系统宪法',url:'#'}],extra:'D:\\Hanako\\.agents\\skills\\handu*'},
-  {id:'content',name:'自媒体管线',status:'ready',desc:'kel-ai-lab-writer写作技能+公众号流水线。真实实验口吻，自剖式AI实践复盘。',actions:[{label:'writer SKILL',url:'#'}],extra:'技能就绪'},
-  {id:'ui',name:'UI设计系统',status:'ready',desc:'OBSERVER-07档案风格(深空黑+古铜金)。含互动动画/造字司/傩火等设计沉淀。',actions:[{label:'风格圣经',url:'showcase.html'}],extra:'已在运行'},
-  {id:'yinxing',name:'引星·手势粒子',status:'online',desc:'Three.js + MediaPipe 手势识别3D粒子场。可打开可玩的互动Demo。',actions:[{label:'打开体验',url:'showcase/yinxing/'}],extra:'唯一保留Demo'},
-  {id:'ecom',name:'AI电商换装',status:'unknown',desc:'在Codex/Feishu中有提及，未找到本地项目目录。需要确认项目位置。',actions:[{label:'告诉我位置',url:'#'}],extra:'待确认'}
-];
+  // Hero typing
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+      ARCHIVE.initTyping(
+        document.getElementById('typeTarget'),
+        ['搭AI系统，从第一个模板开始。', '匠录：从纸片到像素，从编钟到波形。', '不需要会编程。', '路铺好了，走就行。'],
+        90, 1600
+      );
+    }, 1200);
+  });
 
-var QUICK = [
-  {num:3,label:'在线系统'},{num:6,label:'就绪系统'},{num:1,label:'待确认'},{num:3,label:'本地项目'}
-];
+  // Bento: featured (card--feat = t03) + 2 regular
+  (function renderBento() {
+    var grid = document.getElementById('bentoGrid');
+    if (!grid) return;
+    // Make sure data is loaded
+    if (!window.TEMPLATES) return setTimeout(renderBento, 100);
 
-(function(){
-  var sg = document.getElementById('sysGrid');
-  sg.innerHTML = SYSTEMS.map(function(s){
-    var stCls = 'sys-card__status--' + s.status;
-    var stLabel = {online:'● ONLINE','ready':'◐ READY',unknown:'○ UNKNOWN'}[s.status];
-    return '<div class="sys-card">'+
-      '<div class="sys-card__head">'+
-        '<div class="sys-card__name">'+s.name+'</div>'+
-        '<div class="sys-card__status '+stCls+'"><span class="dot dot--'+{online:'g',ready:'y',unknown:'w'}[s.status]+'"></span> '+stLabel+'</div>'+
-      '</div>'+
-      '<div class="sys-card__desc">'+s.desc+'</div>'+
-      '<div class="sys-card__actions">'+s.actions.map(function(a){return '<a href="'+a.url+'" '+(a.url==='#'?'onclick="alert(\'待配置\');return false;"':'target="_blank"')+'>'+a.label+'</a>';}).join('')+'</div>'+
-      '<div class="sys-card__extra">'+s.extra+'</div>'+
-    '</div>';
-  }).join('');
+    var t = window.TEMPLATES;
+    // t03 = AI助手 (featured), t01 = 日记, t05 = 复盘
+    var feat = t.find(function(x){return x.id==='t03'});
+    var others = t.filter(function(x){return x.id==='t01'||x.id==='t05'});
 
-  var qb = document.getElementById('quickBar');
-  qb.innerHTML = QUICK.map(function(q){return '<div class="quick-item"><div class="num">'+q.num+'</div><div class="label">'+q.label+'</div></div>';}).join('');
-})();
+    if (!feat) return;
+
+    function cardBg(c){return 'url(\'assets/images/card-'+c.id+'.jpg\'), '+ARCHIVE.coverFor(c);}
+
+    // Build featured card (2x2)
+    var featHTML =
+      '<div class="card card--feat" tabindex="0" role="button" data-id="'+feat.id+'" onclick="ARCHIVE.openCase(\''+feat.id+'\')" onkeydown="if(event.key===\'Enter\')ARCHIVE.openCase(\''+feat.id+'\')" style="display:flex;flex-direction:column;">'+
+        '<div class="card__media" style="background-image:'+cardBg(feat)+';background-size:cover,cover;background-position:center,center;">'+
+          '<span class="card__tag">'+feat.direction+'</span>'+
+          '<span class="media-label">TEMPLATE // '+feat.id+'</span>'+
+          '<div class="card__watermark-mask"></div>'+
+        '</div>'+
+        '<div class="card__body">'+
+          '<div class="card__title">'+feat.title+'</div>'+
+          '<div class="card__meta">'+
+            '<span class="card__chip">'+feat.type+'</span>'+
+            (feat.tags?feat.tags.slice(0,3).map(function(tg){return '<span class="card__chip">#'+tg+'</span>';}).join(''):'')+
+          '</div>'+
+          '<p class="card__desc">'+feat.summary+'</p>'+
+          '<div class="card__foot">'+
+            '<span class="card__stars">★ '+feat.stars+'</span>'+
+            '<span>'+feat.views.toLocaleString()+' 次查看</span>'+
+          '</div>'+
+        '</div>'+
+      '</div>';
+
+    // regular cards
+    var regHTML = others.map(function(o){
+      return ARCHIVE.cardHTML(o);
+    }).join('');
+
+    grid.innerHTML = featHTML + regHTML;
+  })();
+
+  // Craft Bento on home page
+  (function renderCraftBento() {
+    var grid = document.getElementById('craftBento');
+    if (!grid) return;
+    if (!window.TEMPLATES) return setTimeout(renderCraftBento, 100);
+    var crafts = window.TEMPLATES.filter(function(x){return x.direction==='古技';}).slice(0,3);
+    grid.innerHTML = crafts.map(function(c){return window.ARCHIVE.cardHTML? window.ARCHIVE.cardHTML(c):'';}).join('');
+  })();
 </script>
 
 </body>
