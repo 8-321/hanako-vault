@@ -142,7 +142,6 @@
               <span class="idx">${n.idx}</span> ${n.label}
             </a>
           `).join('')}
-          <a href="templates.html" class="btn--primary">进入档案库 →</a>
         </div>
         <button class="nav__burger" aria-label="菜单">
           <span></span><span></span><span></span>
@@ -192,6 +191,8 @@
             <a href="craft.html">匠录</a>
             <a href="showcase.html">展示台</a>
             <a href="submit.html">提交模板</a>
+            <a href="resources.html">工具箱</a>
+            <a href="my-relay.html">我的接力</a>
             <a href="index.html">首页</a>
           </div>
           <div class="footer__col">
