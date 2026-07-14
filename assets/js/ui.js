@@ -229,11 +229,14 @@
 
   // ===== CARD HTML =====
   window.cardHTML = function(t) {
+    var imgUrl = 'assets/images/card-' + t.id + '.jpg';
+    var bgStyle = 'background-image:url(' + imgUrl + '), ' + window.coverFor(t) + ';background-size:cover,cover;background-position:center,center;';
     return `
       <div class="card" tabindex="0" role="button" data-id="${t.id}" onclick="ARCHIVE.openCase('${t.id}')" onkeydown="if(event.key==='Enter')ARCHIVE.openCase('${t.id}')">
-        <div class="card__media" style="background-image:${window.coverFor(t)}">
+        <div class="card__media" style="${bgStyle}">
           <span class="card__tag">${t.direction}</span>
-          <span class="media-label">TEMPLATE // ${t.id}</span>
+          <span class="media-label">${t.id.startsWith('c')?'CRAFT':'TEMPLATE'} // ${t.id}</span>
+          <div class="card__watermark-mask"></div>
         </div>
         <div class="card__body">
           <div class="card__title">${t.title}</div>
@@ -429,7 +432,8 @@
     // Show decrypt sequence first
     panel.innerHTML = `
       <button class="modal-panel__close" onclick="ARCHIVE.closeModal()" aria-label="关闭">✕</button>
-      <div class="detail__media" style="background-image:${window.coverFor(t)}">
+      <div class="detail__media" style="background-image:url('assets/images/card-${t.id}.jpg'), ${window.coverFor(t)};background-size:cover,cover;background-position:center,center;">
+        <div class="card__watermark-mask"></div>
         <div class="detail__play">▶</div>
       </div>
       <div class="detail__body" style="text-align:center;padding:var(--s-12) var(--s-8);">
@@ -453,7 +457,9 @@
           if (t.walkthrough && t.walkthrough.length) {
             panel.innerHTML = `
               <button class="modal-panel__close" onclick="ARCHIVE.closeModal()" aria-label="关闭">✕</button>
-              <div class="detail__media" style="background-image:${window.coverFor(t)};aspect-ratio:21/7;"></div>
+              <div class="detail__media" style="background-image:url('assets/images/card-${t.id}.jpg'), ${window.coverFor(t)};background-size:cover,cover;background-position:center,center;aspect-ratio:21/7;">
+                <div class="card__watermark-mask"></div>
+              </div>
               ${renderWalkOverview(t)}
             `;
             walkState = { id:id, step:-1 };
@@ -473,7 +479,8 @@
   function showLegacyArchive(panel, t) {
     panel.innerHTML = `
       <button class="modal-panel__close" onclick="ARCHIVE.closeModal()" aria-label="关闭">✕</button>
-      <div class="detail__media" style="background-image:${window.coverFor(t)}">
+      <div class="detail__media" style="background-image:url('assets/images/card-${t.id}.jpg'), ${window.coverFor(t)};background-size:cover,cover;background-position:center,center;">
+        <div class="card__watermark-mask"></div>
         <div class="detail__play">▶</div>
       </div>
       <div class="detail__body">

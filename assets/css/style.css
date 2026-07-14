@@ -426,6 +426,18 @@ ul,ol { list-style:none; }
 }
 .card__stars { display:flex; align-items:center; gap:4px; color:var(--bronze-dim); }
 
+/* 水印遮罩 — 覆盖豆包类水印（右下角区域） */
+.card__watermark-mask {
+  position:absolute; bottom:0; right:0;
+  width:120px; height:40px;
+  background: linear-gradient(135deg, transparent 40%, rgba(10,10,10,0.92) 70%);
+  pointer-events:none;
+  z-index:2;
+}
+@media (max-width:480px) {
+  .card__watermark-mask { width:80px; height:32px; }
+}
+
 /* Card featured (Bento用) */
 .card--feat .card__media { aspect-ratio:auto; flex:1; }
 .card--feat .card__title { font-size:clamp(24px, 3vw, 32px); }

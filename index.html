@@ -146,12 +146,15 @@
 
     if (!feat) return;
 
+    function cardBg(c){return 'url(\'assets/images/card-'+c.id+'.jpg\'), '+ARCHIVE.coverFor(c);}
+
     // Build featured card (2x2)
     var featHTML =
       '<div class="card card--feat" tabindex="0" role="button" data-id="'+feat.id+'" onclick="ARCHIVE.openCase(\''+feat.id+'\')" onkeydown="if(event.key===\'Enter\')ARCHIVE.openCase(\''+feat.id+'\')" style="display:flex;flex-direction:column;">'+
-        '<div class="card__media" style="background-image:'+ARCHIVE.coverFor(feat)+'">'+
+        '<div class="card__media" style="background-image:'+cardBg(feat)+';background-size:cover,cover;background-position:center,center;">'+
           '<span class="card__tag">'+feat.direction+'</span>'+
           '<span class="media-label">TEMPLATE // '+feat.id+'</span>'+
+          '<div class="card__watermark-mask"></div>'+
         '</div>'+
         '<div class="card__body">'+
           '<div class="card__title">'+feat.title+'</div>'+
