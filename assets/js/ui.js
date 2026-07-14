@@ -71,6 +71,7 @@
     if (p === 'resources.html') return 'resources';
     if (p === 'about.html') return 'about';
     if (p === 'my-relay.html') return 'myrelay';
+    if (p === 'submit.html') return 'submit';
     return 'home';
   }
 
@@ -187,7 +188,8 @@
           <div class="footer__col">
             <div class="footer__col-title">档案库</div>
             <a href="templates.html">全部模板</a>
-            <a href="resources.html">工具箱</a>
+            <a href="craft.html">匠录</a>
+            <a href="submit.html">提交模板</a>
             <a href="index.html">首页</a>
           </div>
           <div class="footer__col">

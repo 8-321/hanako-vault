@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>提交模板 — RELAY · 接力</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.submit-form { max-width:640px; margin:0 auto; }
+.submit-form label { display:block; font-family:var(--font-mono); font-size:11px; color:var(--sage); letter-spacing:2px; margin-bottom:var(--s-2); margin-top:var(--s-6); }
+.submit-form input,.submit-form textarea,.submit-form select { width:100%; background:var(--bg-elev); border:1px solid var(--bronze-line); border-radius:var(--r-sm); padding:var(--s-3) var(--s-4); color:var(--ink); font-family:var(--font-body); font-size:14px; outline:none; transition:border-color var(--t-fast); }
+.submit-form input:focus,.submit-form textarea:focus { border-color:var(--bronze); }
+.submit-form textarea { min-height:120px; resize:vertical; }
+.submit-form .hint { font-size:12px; color:var(--ink-faint); margin-top:var(--s-1); }
+#submitPreview { display:none; background:var(--bg-elev); border:1px solid var(--bronze-line); border-radius:var(--r-md); padding:var(--s-5); margin-top:var(--s-6); }
+.submit-entry { background:var(--card); border:1px solid var(--bronze-line); border-radius:var(--r-md); padding:var(--s-5); margin-bottom:var(--s-4); }
+.submit-entry h4 { font-family:var(--font-display); font-size:16px; font-weight:600; margin-bottom:var(--s-1); }
+.submit-entry .meta { font-family:var(--font-mono); font-size:10px; color:var(--ink-dim); letter-spacing:1px; }
+.submit-entry .desc { font-size:13px; color:var(--ink-soft); margin:var(--s-2) 0; }
+.submit-entry .status { font-family:var(--font-mono); font-size:10px; padding:2px 8px; border-radius:var(--r-sm); display:inline-block; }
+.status--draft { background:rgba(201,169,110,0.1); color:var(--bronze); }
+</style>
+</head>
+<body>
+
+<section class="hero" style="padding-bottom:var(--s-8);">
+  <div class="wrap">
+    <h1 class="h-display">
+      <span class="line"><span>提交<em>模板</em></span></span>
+    </h1>
+    <div class="hero__sub">
+      <span style="color:var(--ink-dim);">你走通了一条路？把棒传下去。</span>
+    </div>
+  </div>
+</section>
+
+<section class="wrap submit-form">
+  <label>模板名称</label>
+  <input type="text" id="sTitle" placeholder="比如：考研复习AI管线">
+  <div class="hint">一句话说清楚这个模板做什么</div>
+
+  <label>适用方向</label>
+  <select id="sDir">
+    <option value="学习">学习</option>
+    <option value="效率">效率</option>
+    <option value="创作">创作</option>
+    <option value="入门">入门</option>
+    <option value="古技">古技（匠录）</option>
+    <option value="其他">其他</option>
+  </select>
+
+  <label>类型</label>
+  <select id="sType">
+    <option value="工作流">工作流</option>
+    <option value="提示词">提示词</option>
+    <option value="配置">配置</option>
+    <option value="复刻">复刻</option>
+  </select>
+
+  <label>一句话描述</label>
+  <input type="text" id="sSummary" placeholder="30字以内，让人一眼知道值不值得看">
+
+  <label>详细内容（支持HTML）</label>
+  <textarea id="sContent" placeholder="写下完整的操作步骤、提示词、注意事项……"></textarea>
+
+  <label>你的名字或昵称（可选）</label>
+  <input type="text" id="sAuthor" placeholder="留空则匿名接力">
+
+  <div style="margin-top:var(--s-6);display:flex;gap:var(--s-3);flex-wrap:wrap;">
+    <button class="btn--primary" onclick="submitDraft()">✦ 提交为草稿</button>
+    <button class="btn--ghost" onclick="previewDraft()">预览</button>
+  </div>
+
+  <div id="submitPreview">
+    <div style="font-family:var(--font-mono);font-size:11px;color:var(--bronze);letter-spacing:2px;margin-bottom:var(--s-3);">预览</div>
+    <div id="previewContent"></div>
+  </div>
+</section>
+
+<section class="wrap" style="margin-top:var(--s-16);margin-bottom:var(--s-16);">
+  <div class="section-head reveal" data-d="0">
+    <div class="section-head__title">我的草稿</div>
+  </div>
+  <div id="myDrafts"></div>
+  <div id="draftEmpty" class="gallery-empty" style="display:none;">还没有草稿。提交一个试试。</div>
+</section>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+  const DRAFTS_KEY = 'rl-drafts';
+
+  function getDrafts() { return JSON.parse(localStorage.getItem(DRAFTS_KEY) || '[]'); }
+  function saveDrafts(d) { localStorage.setItem(DRAFTS_KEY, JSON.stringify(d)); }
+
+  function submitDraft() {
+    var title = document.getElementById('sTitle').value.trim();
+    var summary = document.getElementById('sSummary').value.trim();
+    var content = document.getElementById('sContent').value.trim();
+    if (!title) { alert('模板名称不能为空'); return false; }
+
+    var draft = {
+      id: 'd' + Date.now().toString(36),
+      title: title,
+      direction: document.getElementById('sDir').value,
+      type: document.getElementById('sType').value,
+      summary: summary || '暂无描述',
+      content: content || '暂无内容',
+      author: document.getElementById('sAuthor').value.trim() || '匿名接力者',
+      date: new Date().toISOString().slice(0,10),
+      status: 'draft'
+    };
+    var drafts = getDrafts();
+    drafts.unshift(draft);
+    saveDrafts(drafts);
+    renderDrafts();
+    document.getElementById('sTitle').value = '';
+    document.getElementById('sSummary').value = '';
+    document.getElementById('sContent').value = '';
+  }
+
+  function previewDraft() {
+    var title = document.getElementById('sTitle').value.trim();
+    var pv = document.getElementById('submitPreview');
+    var pc = document.getElementById('previewContent');
+    if (!title) { alert('至少填一个名称才能预览'); return; }
+    pv.style.display = 'block';
+    pc.innerHTML = '<div class="submit-entry">' +
+      '<h4>'+title+'</h4>' +
+      '<div class="meta">'+document.getElementById('sDir').value+' · '+document.getElementById('sType').value+'</div>' +
+      '<div class="desc">'+(document.getElementById('sSummary').value.trim()||'—')+'</div>' +
+      '<div style="font-size:12px;color:var(--ink-soft);margin-top:var(--s-2);">'+(document.getElementById('sContent').value.trim().slice(0,200)+'…')+'</div>' +
+      '</div>';
+  }
+
+  function deleteDraft(id) {
+    var drafts = getDrafts().filter(function(d){return d.id!==id;});
+    saveDrafts(drafts);
+    renderDrafts();
+  }
+
+  function exportDraft(id) {
+    var d = getDrafts().find(function(x){return x.id===id;});
+    if (!d) return;
+    var txt = '## ' + d.title + '\n方向: ' + d.direction + ' | 类型: ' + d.type + '\n描述: ' + d.summary + '\n作者: ' + d.author + '\n---\n' + d.content.replace(/<[^>]+>/g,'');
+    navigator.clipboard.writeText(txt).then(function(){
+      alert('已复制到剪贴板，可以粘贴到GitHub Issue中提交');
+    });
+  }
+
+  function renderDrafts() {
+    var drafts = getDrafts();
+    var container = document.getElementById('myDrafts');
+    var empty = document.getElementById('draftEmpty');
+    if (drafts.length) {
+      empty.style.display = 'none';
+      container.innerHTML = drafts.map(function(d){
+        return '<div class="submit-entry">' +
+          '<div style="display:flex;justify-content:space-between;align-items:flex-start;">' +
+            '<div><h4>'+d.title+'</h4>' +
+            '<div class="meta">'+d.direction+' · '+d.type+' · '+d.date+' · '+d.author+'</div></div>' +
+            '<span class="status status--draft">草稿</span>' +
+          '</div>' +
+          '<div class="desc">'+d.summary+'</div>' +
+          '<div style="margin-top:var(--s-3);display:flex;gap:var(--s-2);">' +
+            '<button class="btn--ghost" style="padding:4px 12px;font-size:11px;" onclick="exportDraft(\''+d.id+'\')">📋 复制</button>' +
+            '<button class="btn--ghost" style="padding:4px 12px;font-size:11px;color:var(--cinnabar);" onclick="deleteDraft(\''+d.id+'\')">删除</button>' +
+          '</div>' +
+        '</div>';
+      }).join('');
+    } else {
+      container.innerHTML = '';
+      empty.style.display = 'block';
+    }
+  }
+
+  renderDrafts();
+</script>
+
+</body>
+</html>

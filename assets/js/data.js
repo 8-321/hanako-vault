@@ -11,7 +11,8 @@ window.NAV_ITEMS = [
   { label:'匠录',    idx:'03', href:'craft.html',    id:'craft' },
   { label:'工具箱',  idx:'04', href:'resources.html', id:'resources' },
   { label:'我的接力',idx:'05', href:'my-relay.html',  id:'myrelay' },
-  { label:'关于',    idx:'06', href:'about.html',     id:'about' },
+  { label:'提交模板',idx:'06', href:'submit.html',    id:'submit' },
+  { label:'关于',    idx:'07', href:'about.html',     id:'about' },
 ];
 
 window.TEMPLATES = [];
