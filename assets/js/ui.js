@@ -188,6 +188,7 @@
           <div class="footer__col">
             <div class="footer__col-title">档案库</div>
             <a href="templates.html">全部模板</a>
+            <a href="community.html">社区</a>
             <a href="craft.html">匠录</a>
             <a href="showcase.html">展示台</a>
             <a href="submit.html">提交模板</a>

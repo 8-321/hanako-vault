@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>社区 — RELAY · 接力</title>
+<meta name="description" content="社区提交的模板与工作流。真实人，真实路。">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== --><div id="nav"></div>
+
+<section class="hero" style="padding-bottom:var(--s-8);">
+  <div class="wrap">
+    <h1 class="h-display">
+      <span class="line"><span>社区<em>档案库</em></span></span>
+    </h1>
+    <div class="hero__sub" style="margin-bottom:var(--s-6);">
+      <span style="color:var(--ink-dim);">COMMUNITY // 你提交的模板，别人在跑</span>
+      <span class="hero__cursor"></span>
+    </div>
+    <div class="filterbar" id="filterChips">
+      <span class="chip active" data-filter="all">全部</span>
+      <span class="chip" data-filter="学习">学习</span>
+      <span class="chip" data-filter="效率">效率</span>
+      <span class="chip" data-filter="创作">创作</span>
+      <span class="chip" data-filter="入门">入门</span>
+      <span class="chip" data-filter="古技">古技</span>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div style="text-align:right;margin-bottom:var(--s-5);">
+    <span id="cmCount" style="font-family:var(--font-mono);font-size:12px;color:var(--ink-dim);"></span>
+  </div>
+  <div id="communityGrid" class="template-grid">
+    <div class="loading" style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">LOADING // 正在加载社区模板...</div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== --><div id="footer"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+// API地址
+const API = 'https://relay-api.onrender.com';
+
+async function loadCommunity() {
+  const grid = document.getElementById('communityGrid');
+  const count = document.getElementById('cmCount');
+  try {
+    const r = await fetch(API + '/api/templates');
+    const data = await r.json();
+    if (!data.success || !data.items.length) {
+      grid.innerHTML = '<div style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">NO SUBMISSIONS // 还没有人提交模板。你来做第一个？<br><a href="submit.html" class="btn&#45;&#45;primary" style="display:inline-block;margin-top:var(--s-4);">✦ 提交模板</a></div>';
+      count.textContent = '0 个社区模板';
+      return;
+    }
+    count.textContent = data.items.length + ' 个社区模板';
+    window.communityItems = data.items;
+    renderGrid(data.items);
+  } catch(e) {
+    // API不可用，显示本地提交模板入口
+    grid.innerHTML = '<div style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">社区后端初始化中...<br><span style="font-size:11px;opacity:0.6;">先去看看模板库？</span><br><a href="submit.html" class="btn&#45;&#45;primary" style="display:inline-block;margin-top:var(--s-4);">✦ 提交模板</a></div>';
+    count.textContent = '连接中...';
+  }
+}
+
+function renderGrid(items) {
+  const grid = document.getElementById('communityGrid');
+  grid.innerHTML = items.map(t => {
+    const likes = t.likes || 0;
+    const runs = t.runs || 0;
+    return '<div class="cm-card" data-dir="'+(t.direction||'其他')+'">'+
+      '<div class="cm-card__head">'+
+        '<div class="cm-card__dir">'+(t.direction||'其他')+'</div>'+
+        '<div class="cm-card__status">'+(t.status === 'approved' ? '✓ 已跑通' : '○ 待验证')+'</div>'+
+      '</div>'+
+      '<div class="cm-card__title">'+(t.title||'未命名')+'</div>'+
+      '<div class="cm-card__summary">'+(t.summary||'')+'</div>'+
+      '<div class="cm-card__meta">'+
+        '<span class="cm-card__author">'+(t.author||'匿名')+'</span>'+
+        '<span class="cm-card__date">'+(t.date||'')+'</span>'+
+      '</div>'+
+      '<div class="cm-card__actions">'+
+        '<button class="cm-btn cm-btn--like" data-id="'+t.id+'" onclick="actLike(this)">♡ <span>'+likes+'</span></button>'+
+        '<button class="cm-btn cm-btn--run" data-id="'+t.id+'" onclick="actRun(this)">→ 我也跑了 <span>'+(runs||'')+'</span></button>'+
+      '</div>'+
+    '</div>';
+  }).join('');
+}
+
+async function actLike(btn) {
+  const id = btn.dataset.id;
+  const span = btn.querySelector('span');
+  let n = parseInt(span.textContent) || 0;
+  span.textContent = n + 1;
+  btn.classList.add('liked');
+  btn.querySelector('span').textContent = n + 1;
+  try {
+    await fetch(API + '/api/like', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})});
+  } catch(e) {}
+}
+
+async function actRun(btn) {
+  const id = btn.dataset.id;
+  const span = btn.querySelector('span');
+  let n = parseInt(span.textContent) || 0;
+  span.textContent = n + 1;
+  try {
+    await fetch(API + '/api/run', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})});
+  } catch(e) {}
+}
+
+// 筛选
+document.addEventListener('click', function(e) {
+  const chip = e.target.closest('.chip');
+  if (!chip || !chip.dataset.filter) return;
+  document.querySelectorAll('#filterChips .chip').forEach(c => c.classList.remove('active'));
+  chip.classList.add('active');
+  const f = chip.dataset.filter;
+  if (!window.communityItems) return;
+  const filtered = f === 'all' ? window.communityItems : window.communityItems.filter(t => t.direction === f);
+  renderGrid(filtered);
+});
+
+loadCommunity();
+</script>
+</body>
+</html>
