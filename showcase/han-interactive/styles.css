@@ -20,7 +20,7 @@ body {
   width: 100%;
   min-height: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: auto !important;
   font-family: "LXGW WenKai", "STKaiti", "KaiTi", "Microsoft YaHei", serif;
   color: var(--ink);
   background: var(--paper);
@@ -98,7 +98,7 @@ input {
     0 32px 80px rgba(68, 52, 35, .18),
     inset 0 1px 0 rgba(255, 255, 255, .58),
     inset 0 -1px 0 rgba(63, 48, 32, .06);
-  overflow: hidden;
+  overflow: auto !important;
   transform: perspective(1200px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
   transition: transform .45s cubic-bezier(.2, .8, .2, 1), box-shadow .35s ease;
 }
@@ -201,7 +201,7 @@ input {
     inset 0 1px 0 rgba(255, 255, 255, .34);
   display: grid;
   place-items: center;
-  overflow: hidden;
+  overflow: auto !important;
   transition: filter .25s ease;
 }
 

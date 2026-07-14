@@ -21,7 +21,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: auto !important;
   color: var(--ink);
   font-family: "LXGW WenKai", "STKaiti", "KaiTi", "Microsoft YaHei", serif;
   background: var(--paper);
@@ -132,7 +132,7 @@ h1 {
     0 24px 70px rgba(78, 54, 29, .14),
     inset 0 1px 0 rgba(255, 255, 255, .5),
     inset 0 -1px 0 rgba(68, 49, 30, .05);
-  overflow: hidden;
+  overflow: auto !important;
 }
 
 .panel-title {
@@ -402,7 +402,7 @@ h1 {
   color: #fff7e8;
   box-shadow: 0 28px 70px rgba(52, 39, 25, .22), inset 0 1px 0 rgba(255, 255, 255, .3);
   transition: transform .22s ease, box-shadow .22s ease;
-  overflow: hidden;
+  overflow: auto !important;
 }
 
 .pool-core::after {
