@@ -3,8 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>展示台 — RELAY · 接力</title>
-<meta name="description" content="真正的交互作品。造字司、引星、傩火、含动画——可打开、可玩、可复刻。">
+<title>运行中系统 — RELAY · 接力</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -12,75 +11,48 @@
 <section class="hero" style="padding-bottom:var(--s-8);">
   <div class="wrap">
     <h1 class="h-display">
-      <span class="line"><span>作品<em>展示台</em></span></span>
+      <span class="line"><span>运行中<em>系统</em></span></span>
     </h1>
     <div class="hero__sub">
-      <span style="color:var(--ink-dim);">SHOWCASE // 不是概念稿。是真实发布、双击可玩的交互作品。</span>
+      <span style="color:var(--ink-dim);">LIVE SYSTEMS // 已跑通管线 + 可用接口 + 本地项目</span>
     </div>
   </div>
 </section>
 
 <section class="wrap">
-  <div class="bento reveal" data-d="1" id="showcaseBento"></div>
-</section>
-
-<section class="wrap" style="margin-top:var(--s-16);margin-bottom:var(--s-16);">
-  <div class="section-head reveal" data-d="0">
-    <div class="section-head__title"><em style="color:var(--bronze);font-style:normal;">含</em>渡 · 工具箱</div>
-  </div>
-  <p style="font-size:14px;color:var(--ink-soft);margin-bottom:var(--s-6);line-height:1.8;">15+子技能体系。留停删转试五步法，从诊断到产品化。<br>点击任意一个可查看详细内容。</p>
-  <div class="res-grid" id="handuGrid"></div>
+  <div class="gallery-grid" id="sysGrid"></div>
 </section>
 
 <script src="assets/js/data.js"></script>
 <script src="assets/js/ui.js"></script>
 <script>
-var SHOWCASE = [
-  {id:'zaozisi', title:'造字司', dir:'zaozisi', desc:'汉字造字互动。拖字根入墨池，按会意规则生成新字。', tags:['HTML','互动','古风'], type:'互动游戏', stars:5.0, views:0, glyph:'字'},
-  {id:'yinxing', title:'引星', dir:'yinxing', desc:'Three.js 3D粒子。手势控制形态变幻(心/树/花)。', tags:['Three.js','手势','粒子'], type:'3D交互', stars:5.0, views:0, glyph:'星'},
-  {id:'nuofire', title:'傩火', dir:'nuofire', desc:'非遗傩面具古风场域。尘雾/火星/裂纹/鼓波交互。', tags:['Canvas','古风','非遗'], type:'沉浸场域', stars:5.0, views:0, glyph:'傩'},
-  {id:'han-interactive', title:'含互动动画', dir:'han-interactive', desc:'Hanako品牌动效原型。含字转向、醒来动画、粒子光晕。', tags:['品牌','动效','交互'], type:'动效原型', stars:5.0, views:0, glyph:'含'},
-  {id:'desktop-bookmark', title:'桌面书签', dir:'desktop-bookmark', desc:'极简悬浮毛玻璃书签。Electron构建，11+版本迭代。', tags:['Electron','毛玻璃','工具'], type:'桌面工具', stars:5.0, views:0, glyph:'签'},
-  {id:'seedbrain', title:'SeedBrain 复刻', dir:'seedbrain', desc:'得到大脑类AI产品功能复刻。采集+组织+AI+闭环。', tags:['Vite','原型','复刻'], type:'功能复刻', stars:5.0, views:0, glyph:'脑'}
-];
-var HANDU = [
-  {name:'含渡·系统',dir:'handu-system',desc:'核心方法论。留停删转试五步法。'},
-  {name:'含渡·诊断',dir:'handu-diagnosis',desc:'判断你当前的主混乱类型。6种AI生活系统混乱诊断。'},
-  {name:'含渡·启动包',dir:'handu-starter-kit',desc:'10步从0到AI系统。纯新手完整启动流程。'},
-  {name:'含渡·陪跑',dir:'handu-pacing',desc:'固定节奏避免反复重启。每周/每日执行框架。'},
-  {name:'含渡·复盘',dir:'handu-review',desc:'周一收束，项目一结。系统化复盘方法论。'},
-  {name:'含渡·产品化',dir:'handu-productization',desc:'把方法变成可交付的产品。方法论→可卖产品。'},
-  {name:'含渡·自我定义',dir:'handu-self-definition',desc:'你是谁的总纲。AI系统的人格定义方法。'},
-  {name:'含渡·裁决',dir:'handu-decision',desc:'留停删转试做减法的决策工具。'}
+var SYSTEMS = [
+  {id:'s01', icon:'◇', title:'飞书CLI + Agent', desc:'AppID/Secret已配，tenant_access_token可用。可读写Bitable/Docx。飞书→公众号发布脚本就绪。', tags:['Feishu','API','运行中'], type:'API连接'},
+  {id:'s02', icon:'☰', title:'公众号发布管线', desc:'kel-publication-workflow技能。观点→稿→封面→上传草稿箱→核验。关联kel-ai-lab-writer。', tags:['公众号','发布','SKILL'], type:'自动管线'},
+  {id:'s03', icon:'◲', title:'微信小程序(4个)', desc:'3D小程序 / TeamRadarLab / 微信一键登入 / 最小Mvp(LifeInbox)。源码在D:/BELLA KE/。', tags:['小程序','微信','前端'], type:'源码就绪'},
+  {id:'s04', icon:'○', title:'个人智能体·Hanako', desc:'含系多Agent体系：含/含舟/含章/含枢/含野。心跳巡检+日记+备份+记忆系统。', tags:['Agent','多角色','运行中'], type:'核心系统'},
+  {id:'s05', icon:'▧', title:'UI设计 + 动效', desc:'OBSERVER-07档案风格体系(深空黑+古铜金)。含互动动画/造字司/傩火等设计沉淀。', tags:['UI','动效','档案风'], type:'设计系统'},
+  {id:'s06', icon:'⬡', title:'AI电商·换装', desc:'未找到本地项目目录。需要你提供位置或信息。', tags:['AI','电商','未找到'], type:'待确认'},
+  {id:'s07', icon:'⊟', title:'个人系统中枢·含渡', desc:'15+子Skill。留停删转试五步法+诊断/裁决/陪跑/复盘/产品化/自我定义。', tags:['系统','方法论','就绪'], type:'方法体系'},
+  {id:'s08', icon:'◈', title:'自媒体管线', desc:'kel-ai-lab-writer写作技能。选题→大纲→初稿→发布→复盘。真实实验口吻。', tags:['内容','写作','SKILL'], type:'内容管线'},
+  {id:'s09', icon:'✦', title:'引星·手势粒子场', desc:'Three.js + MediaPipe。唯一保留的互动Demo。可打开可玩。', tags:['3D','手势','Demo'], type:'互动作品'}
 ];
 
 (function(){
-  var bento = document.getElementById('showcaseBento');
-  bento.innerHTML = SHOWCASE.map(function(s,i){
-    var cls = i===0?'card card--feat':'card';
-    var hasGlyph = i===0?'style="display:flex;flex-direction:column;"':'';
-    return '<div class="'+cls+'" tabindex="0" role="button" onclick="window.open(\'showcase/'+s.dir+'/\',\'_blank\')" onkeydown="if(event.key===\'Enter\')window.open(\'showcase/'+s.dir+'/\',\'_blank\')" '+hasGlyph+'>'+
-      '<div class="card__media" style="background:'+['var(--bg-elev-2)','var(--surface)','var(--surface)','var(--bg-elev)','var(--surface)','var(--bg-elev-2)'][i]+'">'+
-        '<span class="card__tag" style="background:rgba(10,10,10,0.85);backdrop-filter:blur(8px);">'+s.type+'</span>'+
-        '<span class="media-label">SHOWCASE // '+s.id+'</span>'+
-        '<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:var(--font-display);font-size:'+(i===0?'72':'48')+'px;color:rgba(201,169,110,0.15);">'+s.glyph+'</div>'+
-        '<div style="position:absolute;bottom:var(--s-4);left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:10px;color:var(--bronze);letter-spacing:2px;opacity:0.7;">点击打开</div>'+
+  var grid = document.getElementById('sysGrid');
+  grid.innerHTML = SYSTEMS.map(function(s){
+    var isLink = (s.id==='s09');
+    return '<div class="card" tabindex="0" role="button" onclick="'+(isLink?'window.open(\'showcase/yinxing/\',\'_blank\')':'alert(\''+s.desc+'\')')+'" onkeydown="if(event.key===\'Enter\')'+(isLink?'window.open(\'showcase/yinxing/\',\'_blank\')':'alert(\''+s.desc+'\')')+'">'+
+      '<div class="card__media" style="background:var(--bg-elev)">'+
+        '<span class="card__tag">'+s.type+'</span>'+
+        '<span class="media-label">SYSTEM // '+s.id+'</span>'+
+        '<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:36px;color:rgba(201,169,110,0.12);">'+s.icon+'</div>'+
       '</div>'+
       '<div class="card__body">'+
         '<div class="card__title">'+s.title+'</div>'+
-        '<div class="card__meta">'+s.tags.map(function(t){return '<span class="card__chip">#'+t+'</span>';}).join('')+'</div>'+
         '<p class="card__desc">'+s.desc+'</p>'+
+        '<div class="card__meta">'+s.tags.map(function(t){return '<span class="card__chip">#'+t+'</span>';}).join('')+'</div>'+
       '</div>'+
-    '</div>';
-  }).join('');
-
-  var hg = document.getElementById('handuGrid');
-  hg.innerHTML = HANDU.map(function(h){
-    return '<div class="res-card" onclick="window.open(\'showcase/'+h.dir+'/\',\'_blank\')" style="cursor:pointer;">'+
-      '<div class="res-card__icon" style="font-size:18px;">⊡</div>'+
-      '<div class="res-card__title">'+h.name+'</div>'+
-      '<p class="res-card__desc">'+h.desc+'</p>'+
-      '<div class="res-card__foot"><span class="res-card__type" style="cursor:pointer;">打开 →</span></div>'+
     '</div>';
   }).join('');
 })();
