@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>桌面书签</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 书签折叠态 ===== -->
+  <div id="bookmark" class="bookmark">
+    <div class="bookmark-inner">
+      <span class="bookmark-mark">引</span>
+    </div>
+  </div>
+
+  <!-- ===== 展开面板 ===== -->
+  <div id="panel" class="panel hidden">
+    <!-- 拖拽标题栏 -->
+    <div id="titlebar" class="titlebar">
+      <span class="titlebar-label">桌面书签</span>
+      <div class="titlebar-actions">
+        <button id="btn-search" class="btn-icon search-icon" title="搜索">
+          <span class="icon-search"></span>
+        </button>
+        <button id="btn-collapse" class="btn-icon" title="折叠">◀</button>
+      </div>
+    </div>
+    <div id="search-bar" class="search-bar hidden">
+      <input type="text" id="search-input" class="input-main" placeholder="搜索待办、想法、知识...">
+    </div>
+
+    <!-- 标签栏 -->
+    <div class="tabs">
+      <button class="tab active" data-tab="todo">
+        <span class="ui-icon icon-todo"></span> 待办
+      </button>
+      <button class="tab" data-tab="ideas">
+        <span class="ui-icon icon-idea"></span> 想法
+      </button>
+      <button class="tab" data-tab="knowledge">
+        <span class="ui-icon icon-knowledge"></span> 知识
+      </button>
+      <button class="tab" data-tab="timeline">
+        时间
+      </button>
+      <button class="tab" data-tab="trash">
+        <span class="ui-icon icon-restore"></span> 恢复
+      </button>
+      <button class="tab" data-tab="report">
+        <span class="ui-icon icon-report"></span> 报告
+      </button>
+    </div>
+
+    <!-- 待办面板 -->
+    <div id="tab-todo" class="tab-content active">
+      <div class="todo-input-area">
+        <input type="text" id="todo-input" class="input-main" placeholder="添加待办，回车确认..." autofocus>
+        <input type="text" id="todo-category" class="input-cat cat-input" placeholder="分类（可选，如 工作/项目A）" autocomplete="off">
+      </div>
+      <div id="todo-cat-filter" class="cat-filter"></div>
+      <div id="todo-list" class="todo-list"></div>
+      <div class="todo-footer">
+        <span id="todo-count" class="count-label">0 项待办</span>
+        <button id="btn-clear-done" class="btn-text">清除已完成</button>
+      </div>
+    </div>
+
+    <!-- 想法面板 -->
+    <div id="tab-ideas" class="tab-content">
+      <div class="ideas-input-area">
+        <textarea id="ideas-input" class="input-idea" placeholder="回车保存，Shift+Enter 换行..." rows="2"></textarea>
+        <input type="text" id="ideas-category" class="input-cat cat-input" placeholder="分类（可选）" autocomplete="off">
+        <button id="btn-save-idea" class="btn-primary">记录</button>
+      </div>
+      <div id="ideas-cat-filter" class="cat-filter"></div>
+      <div id="ideas-list" class="ideas-list"></div>
+    </div>
+
+    <!-- 知识面板 -->
+    <div id="tab-knowledge" class="tab-content">
+      <div class="knowledge-input-area">
+        <textarea id="knowledge-input" class="input-idea" placeholder="回车保存，Shift+Enter 换行..." rows="2"></textarea>
+        <input type="text" id="knowledge-category" class="input-cat cat-input" placeholder="分类（可选）" autocomplete="off">
+        <button id="btn-save-knowledge" class="btn-primary">记录</button>
+      </div>
+      <div id="knowledge-cat-filter" class="cat-filter"></div>
+      <div id="knowledge-list" class="knowledge-list"></div>
+    </div>
+
+    <!-- 时间线面板 -->
+    <div id="tab-timeline" class="tab-content">
+      <div class="timeline-container" id="timeline-container"></div>
+    </div>
+
+    <!-- 恢复面板 -->
+    <div id="tab-trash" class="tab-content">
+      <div id="trash-list" class="trash-list"></div>
+    </div>
+
+    <!-- 报告面板 -->
+    <div id="tab-report" class="tab-content">
+      <div class="report-actions">
+        <button id="btn-daily-report" class="btn-primary">日报</button>
+        <button id="btn-weekly-report" class="btn-secondary">周报</button>
+        <button id="btn-yearly-report" class="btn-secondary">年报</button>
+      </div>
+      <textarea id="report-output" class="report-output" readonly></textarea>
+      <button id="btn-copy-report" class="btn-primary">复制文字</button>
+      <div id="saved-reports" class="saved-reports"></div>
+    </div>
+
+    <!-- 底部设置 -->
+    <div class="settings-bar">
+      <label class="setting-item">
+        <span>透明度</span>
+        <input type="range" id="opacity-slider" min="30" max="100" value="92" class="slider">
+      </label>
+      <label class="setting-item">
+        <span>主题</span>
+        <select id="theme-select" class="theme-select">
+          <option value="ink">墨色</option>
+          <option value="paper">纸色</option>
+          <option value="cinnabar">朱砂</option>
+          <option value="jade">青黛</option>
+          <option value="dark">暗夜</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+  <!-- 自定义分类下拉 -->
+  <div id="cat-menu" class="cat-menu hidden"></div>
+</body>
+</html>
