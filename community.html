@@ -6,72 +6,132 @@
 <title>社区 — RELAY · 接力</title>
 <meta name="description" content="社区提交的模板与工作流。真实人，真实路。">
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+.grid3 {
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:var(--s-4); position:relative; z-index:1;
+}
+.cm-card {
+  background:var(--bg-card); border:1px solid var(--bronze-line);
+  border-radius:var(--r-md); padding:var(--s-5);
+  display:flex; flex-direction:column; gap:var(--s-3);
+  transition:all var(--t-fast);
+}
+.cm-card:hover { border-color:var(--bronze); }
+.cm-card__head { display:flex; justify-content:space-between; align-items:center; }
+.cm-card__dir {
+  font-family:var(--font-mono); font-size:11px; color:var(--bronze);
+  background:var(--bronze-faint); padding:2px 10px; border-radius:999px;
+}
+.cm-card__status { font-family:var(--font-mono); font-size:11px; color:var(--ink-dim); }
+.cm-card__title { font-family:var(--font-display); font-size:16px; font-weight:600; color:var(--ink); line-height:1.4; }
+.cm-card__summary { font-size:13px; color:var(--ink-soft); line-height:1.6; }
+.cm-card__meta { display:flex; justify-content:space-between; font-family:var(--font-mono); font-size:11px; color:var(--ink-dim); }
+.cm-card__actions { display:flex; gap:var(--s-3); margin-top:auto; }
+.cm-btn {
+  padding:6px 14px; border-radius:999px; border:1px solid var(--bronze-line);
+  background:transparent; color:var(--ink-soft); font-family:var(--font-mono); font-size:12px;
+  cursor:pointer; transition:all var(--t-fast); display:flex; align-items:center; gap:4px;
+}
+.cm-btn:hover { border-color:var(--bronze); color:var(--bronze); background:var(--bronze-faint); }
+.cm-btn.liked { border-color:#e74c3c; color:#e74c3c; background:rgba(231,76,60,0.08); }
+</style>
 </head>
 <body>
-
-<!-- ===== NAV ===== --><div id="nav"></div>
+<div id="nav"></div>
 
 <section class="hero" style="padding-bottom:var(--s-8);">
   <div class="wrap">
-    <h1 class="h-display">
-      <span class="line"><span>社区<em>档案库</em></span></span>
-    </h1>
+    <h1 class="h-display"><span class="line"><span>社区<em>档案库</em></span></span></h1>
     <div class="hero__sub" style="margin-bottom:var(--s-6);">
-      <span style="color:var(--ink-dim);">COMMUNITY // 你提交的模板，别人在跑</span>
+      <span style="color:var(--ink-dim);">COMMUNITY // 你走过的路，别人也在走</span>
       <span class="hero__cursor"></span>
     </div>
     <div class="filterbar" id="filterChips">
-      <span class="chip active" data-filter="all">全部</span>
-      <span class="chip" data-filter="学习">学习</span>
-      <span class="chip" data-filter="效率">效率</span>
-      <span class="chip" data-filter="创作">创作</span>
-      <span class="chip" data-filter="入门">入门</span>
-      <span class="chip" data-filter="古技">古技</span>
+      <span class="chip active" data-f="all">全部</span>
+      <span class="chip" data-f="学习">学习</span>
+      <span class="chip" data-f="效率">效率</span>
+      <span class="chip" data-f="创作">创作</span>
+      <span class="chip" data-f="入门">入门</span>
+      <span class="chip" data-f="古技">古技</span>
+    </div>
+    <div style="margin-top:var(--s-3);font-family:var(--font-mono);font-size:11px;color:var(--ink-dim);">
+      <span id="cmCount"></span>
+      <span id="serverStatus" style="margin-left:var(--s-4);opacity:0.5;"></span>
     </div>
   </div>
 </section>
 
 <section class="wrap">
-  <div style="text-align:right;margin-bottom:var(--s-5);">
-    <span id="cmCount" style="font-family:var(--font-mono);font-size:12px;color:var(--ink-dim);"></span>
-  </div>
-  <div id="communityGrid" class="template-grid">
-    <div class="loading" style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">LOADING // 正在加载社区模板...</div>
+  <div id="communityGrid" class="grid3">
+    <div class="loading" style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">LOADING // 正在加载...</div>
   </div>
 </section>
 
-<!-- ===== FOOTER ===== --><div id="footer"></div>
+<div id="footer"></div>
 
 <script src="assets/js/data.js"></script>
 <script src="assets/js/ui.js"></script>
 <script>
-// API地址
-const API = 'https://relay-api.onrender.com';
+const API = 'http://localhost:3001';
+const STORAGE_KEY = 'relay_community';
 
+// 本地存储操作
+function getLocalItems() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); }
+  catch(e) { return []; }
+}
+function saveLocalItems(items) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+}
+
+// 从本地+服务器合并
 async function loadCommunity() {
   const grid = document.getElementById('communityGrid');
   const count = document.getElementById('cmCount');
+  const status = document.getElementById('serverStatus');
+
+  // 先显示本地数据
+  let items = getLocalItems();
+  let serverItems = [];
+  let serverOk = false;
+
+  // 尝试从服务器获取
   try {
-    const r = await fetch(API + '/api/templates');
+    const r = await fetch(API + '/api/templates', { signal: AbortSignal.timeout(3000) });
     const data = await r.json();
-    if (!data.success || !data.items.length) {
-      grid.innerHTML = '<div style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">NO SUBMISSIONS // 还没有人提交模板。你来做第一个？<br><a href="submit.html" class="btn&#45;&#45;primary" style="display:inline-block;margin-top:var(--s-4);">✦ 提交模板</a></div>';
-      count.textContent = '0 个社区模板';
-      return;
+    if (data.success && data.items.length) {
+      serverItems = data.items.filter(s => s.title);
+      serverOk = true;
     }
-    count.textContent = data.items.length + ' 个社区模板';
-    window.communityItems = data.items;
-    renderGrid(data.items);
-  } catch(e) {
-    // API不可用，显示本地提交模板入口
-    grid.innerHTML = '<div style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">社区后端初始化中...<br><span style="font-size:11px;opacity:0.6;">先去看看模板库？</span><br><a href="submit.html" class="btn&#45;&#45;primary" style="display:inline-block;margin-top:var(--s-4);">✦ 提交模板</a></div>';
-    count.textContent = '连接中...';
+  } catch(e) { /* server not available */ }
+
+  // 合并：服务器数据优先，本地数据补充
+  if (serverOk) {
+    const localIds = new Set(items.map(i => i._localId));
+    const merged = [...serverItems];
+    items.filter(i => !localIds.has(i.id)).forEach(i => merged.push(i));
+    items = merged;
+    status.textContent = '● 在线';
+    status.style.color = 'var(--phosphor)';
+  } else {
+    status.textContent = '○ 离线模式（本地存储）';
+    status.style.color = 'var(--ink-dim)';
   }
+
+  count.textContent = items.length + ' 个社区模板';
+  window._cmItems = items;
+  renderGrid(items);
 }
 
 function renderGrid(items) {
   const grid = document.getElementById('communityGrid');
+  if (!items.length) {
+    grid.innerHTML = '<div style="text-align:center;padding:var(--s-16) 0;color:var(--ink-dim);font-family:var(--font-mono);font-size:13px;">还没有人留下路标。<br><a href="submit.html" style="display:inline-block;margin-top:var(--s-4);padding:8px 20px;border:1px solid var(--bronze);border-radius:999px;color:var(--bronze);">✦ 提交你的模板</a></div>';
+    return;
+  }
   grid.innerHTML = items.map(t => {
+    const id = t.id || t._localId;
     const likes = t.likes || 0;
     const runs = t.runs || 0;
     return '<div class="cm-card" data-dir="'+(t.direction||'其他')+'">'+
@@ -82,50 +142,63 @@ function renderGrid(items) {
       '<div class="cm-card__title">'+(t.title||'未命名')+'</div>'+
       '<div class="cm-card__summary">'+(t.summary||'')+'</div>'+
       '<div class="cm-card__meta">'+
-        '<span class="cm-card__author">'+(t.author||'匿名')+'</span>'+
-        '<span class="cm-card__date">'+(t.date||'')+'</span>'+
+        '<span>'+(t.author||'匿名')+'</span>'+
+        '<span>'+(t.date||'')+'</span>'+
       '</div>'+
       '<div class="cm-card__actions">'+
-        '<button class="cm-btn cm-btn--like" data-id="'+t.id+'" onclick="actLike(this)">♡ <span>'+likes+'</span></button>'+
-        '<button class="cm-btn cm-btn--run" data-id="'+t.id+'" onclick="actRun(this)">→ 我也跑了 <span>'+(runs||'')+'</span></button>'+
+        '<button class="cm-btn" data-id="'+id+'" onclick="actLike(this)">♡ <span>'+likes+'</span></button>'+
+        '<button class="cm-btn" data-id="'+id+'" onclick="actRun(this)">→ 我也跑了 <span>'+(runs||'')+'</span></button>'+
       '</div>'+
     '</div>';
   }).join('');
 }
 
 async function actLike(btn) {
-  const id = btn.dataset.id;
   const span = btn.querySelector('span');
-  let n = parseInt(span.textContent) || 0;
-  span.textContent = n + 1;
+  span.textContent = (parseInt(span.textContent)||0) + 1;
   btn.classList.add('liked');
-  btn.querySelector('span').textContent = n + 1;
-  try {
-    await fetch(API + '/api/like', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})});
-  } catch(e) {}
+  try { await fetch(API+'/api/like',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:btn.dataset.id}),signal:AbortSignal.timeout(2000)}); }
+  catch(e) {}
 }
 
 async function actRun(btn) {
-  const id = btn.dataset.id;
   const span = btn.querySelector('span');
-  let n = parseInt(span.textContent) || 0;
-  span.textContent = n + 1;
-  try {
-    await fetch(API + '/api/run', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})});
-  } catch(e) {}
+  span.textContent = (parseInt(span.textContent)||0) + 1;
+  try { await fetch(API+'/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:btn.dataset.id}),signal:AbortSignal.timeout(2000)}); }
+  catch(e) {}
 }
 
 // 筛选
 document.addEventListener('click', function(e) {
   const chip = e.target.closest('.chip');
-  if (!chip || !chip.dataset.filter) return;
+  if (!chip || !chip.dataset.f) return;
   document.querySelectorAll('#filterChips .chip').forEach(c => c.classList.remove('active'));
   chip.classList.add('active');
-  const f = chip.dataset.filter;
-  if (!window.communityItems) return;
-  const filtered = f === 'all' ? window.communityItems : window.communityItems.filter(t => t.direction === f);
-  renderGrid(filtered);
+  const f = chip.dataset.f;
+  if (!window._cmItems) return;
+  renderGrid(f === 'all' ? window._cmItems : window._cmItems.filter(t => (t.direction||'其他') === f));
 });
+
+// 本地提交模板也加入社区
+(function loadLocalSubmissions() {
+  const saved = getLocalItems();
+  if (!saved.length) {
+    // 检查提交页的草稿
+    try {
+      const drafts = JSON.parse(localStorage.getItem('relay_drafts') || '[]');
+      if (drafts.length) {
+        const items = getLocalItems();
+        const existing = new Set(items.map(i => i._localId));
+        drafts.forEach((d, idx) => {
+          if (!existing.has('local_'+idx)) {
+            items.push({_localId:'local_'+idx, title:d.title||'', direction:d.direction||'', summary:d.summary||'', author:d.author||'你', date:new Date().toISOString().slice(0,10), likes:0, runs:0, status:'pending'});
+          }
+        });
+        saveLocalItems(items);
+      }
+    } catch(e) {}
+  }
+})();
 
 loadCommunity();
 </script>
