@@ -117,6 +117,24 @@
     document.getElementById('sTitle').value = '';
     document.getElementById('sSummary').value = '';
     document.getElementById('sContent').value = '';
+
+    // 同步到社区
+    syncToCommunity(draft);
+  }
+
+  function syncToCommunity(draft) {
+    // 存到本地社区
+    try {
+      var cm = JSON.parse(localStorage.getItem('relay_community') || '[]');
+      cm.unshift({_localId:draft.id, title:draft.title, direction:draft.direction, summary:draft.summary, author:draft.author, date:draft.date, likes:0, runs:0, status:'pending'});
+      localStorage.setItem('relay_community', JSON.stringify(cm));
+    } catch(e) {}
+
+    // 尝试推送到API服务器
+    fetch('http://localhost:3001/api/submit', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({title:draft.title, direction:draft.direction, type:draft.type, summary:draft.summary, content:draft.content, author:draft.author})
+    }).catch(function(){}); // 服务器不可用也没关系
   }
 
   function previewDraft() {
