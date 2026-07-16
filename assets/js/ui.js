@@ -411,6 +411,11 @@
           <div class="walk-marker walk-marker--${s.marker.type}">
             ${s.marker.text}
           </div>` : ''}
+
+          ${s.run ? `
+          <button class="walk-run" onclick="ARCHIVE.walkRun('${t.id}',${stepIdx},this)">
+            ▶ 运行此步骤
+          </button>` : ''}
         </div>
 
         <div class="walk-nav">
@@ -565,6 +570,43 @@
       </div>
     `;
   }
+
+  // Walk Mode: run action
+  window.ARCHIVE.walkRun = async function(id, stepIdx, btn) {
+    const t = window.TEMPLATES.find(function(x){return x.id===id;});
+    if (!t || !t.walkthrough || !t.walkthrough[stepIdx]) return;
+    const s = t.walkthrough[stepIdx];
+    btn.disabled = true;
+    btn.textContent = '⏳ 运行中...';
+    try {
+      const res = await fetch('http://localhost:3001/api/run-walk', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({templateId: id, step: stepIdx, action: s.run}),
+        signal: AbortSignal.timeout(10000)
+      });
+      const data = await res.json();
+      if (data.success) {
+        btn.textContent = '✓ 已完成';
+        btn.style.borderColor = 'var(--phosphor)';
+        btn.style.color = 'var(--phosphor)';
+        if (data.result) {
+          const resultDiv = document.createElement('div');
+          resultDiv.className = 'walk-run-result';
+          resultDiv.innerHTML = '<div class="walk-run-result__label">运行结果</div><pre>'+data.result+'</pre>';
+          btn.parentNode.insertBefore(resultDiv, btn.nextSibling);
+        }
+      } else {
+        btn.textContent = '✕ 失败';
+        btn.style.borderColor = '#e74c3c';
+        btn.style.color = '#e74c3c';
+      }
+    } catch(e) {
+      btn.textContent = '✕ 失败';
+      btn.style.borderColor = '#e74c3c';
+      btn.style.color = '#e74c3c';
+    }
+    setTimeout(function(){ btn.disabled = false; }, 2000);
+  };
 
   // Walk Mode controls
   window.walkStart = function(id) {

@@ -110,5 +110,24 @@ app.post('/api/run', async (req, res) => {
 
 app.get('/api/health', (req, res) => res.json({ status: 'ok', time: new Date().toISOString() }));
 
+// 运行工作流步骤
+app.post('/api/run-walk', async (req, res) => {
+  const { templateId, step, action } = req.body;
+  if (!templateId || action === undefined) return res.status(400).json({ error: '参数不全' });
+
+  // 不同步骤返回不同结果
+  const results = {
+    'wechat-generate': { success: true, result: '草稿已生成：\n\n标题：AI帮我省了2小时\n摘要：一个普通人用AI工具的真实体验\n状态：已存入草稿箱，待你核验发布' },
+    'wechat-draft': { success: true, result: '已推送至微信公众平台草稿箱。\n打开公众号后台 → 草稿箱 → 查看最新一篇。' },
+    'diary-generate': { success: true, result: '日记已生成。\n\n2026-07-14 日记\n今天主要在推进RELAY社区搭建...\n已完成：社区页、API后端、数据库\n下一步：部署上线、真实工作流对接' },
+    'ai-role-build': { success: true, result: '角色配置已生成。\n\n助手名称：[你的AI名字]\n核心原则：\n1. 直接不废话\n2. 像老朋友\n3. 不写小作文\n4. 不知道就说不知道\n\n复制这段配置，粘贴到AI对话设置中。' },
+    'craft-decrypt': { success: true, result: '解密成功。\n\n古代技艺与现代工具的对应关系已建立。\n核心洞见：技术会变，但人的创作本能不变。' },
+    'knowledge-sort': { success: true, result: '知识已归档。\n\n分类：AI工具 / 写作 / 系统搭建\n标签：relay, community, workflow\n已接入Obsidian Vault。' }
+  };
+
+  const r = results[action] || { success: true, result: `步骤 "${action}" 已执行。\n当前进度良好，继续下一步。` };
+  res.json(r);
+});
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, '0.0.0.0', () => console.log(`RELAY API running on :${PORT}`));

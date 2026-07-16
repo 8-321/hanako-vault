@@ -878,6 +878,22 @@ ul,ol { list-style:none; }
   color:var(--cinnabar);
 }
 
+.walk-run {
+  display:inline-block; padding:8px 16px; border-radius:999px;
+  border:1px solid var(--bronze); background:transparent;
+  color:var(--bronze); font-family:var(--font-mono); font-size:12px;
+  cursor:pointer; transition:all var(--t-fast); margin-top:var(--s-3);
+}
+.walk-run:hover { background:var(--bronze-faint); }
+.walk-run:disabled { opacity:0.5; pointer-events:none; }
+.walk-run-result { margin-top:var(--s-3); }
+.walk-run-result__label { font-family:var(--font-mono); font-size:10px; color:var(--bronze-dim); letter-spacing:2px; margin-bottom:var(--s-2); }
+.walk-run-result pre {
+  background:var(--bg); border:1px solid var(--bronze-line);
+  border-radius:var(--r-sm); padding:var(--s-4); font-family:var(--font-mono);
+  font-size:12px; line-height:1.8; color:var(--ink-soft); white-space:pre-wrap;
+}
+
 .walk-nav {
   display:flex; justify-content:space-between; gap:var(--s-3);
   padding-bottom:var(--s-4);

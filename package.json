@@ -1,0 +1,24 @@
+{
+  "name": "relay-site",
+  "version": "1.0.0",
+  "description": "> AI生活操作系统开放工具箱。  \r > 先走一步的人留下的路标。",
+  "main": ".tmp-static-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8-321/hanako-vault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8-321/hanako-vault/issues"
+  },
+  "homepage": "https://github.com/8-321/hanako-vault#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
