@@ -572,7 +572,7 @@
   }
 
   // Walk Mode: run action
-  window.ARCHIVE.walkRun = async function(id, stepIdx, btn) {
+  window.walkRun = async function(id, stepIdx, btn) {
     const t = window.TEMPLATES.find(function(x){return x.id===id;});
     if (!t || !t.walkthrough || !t.walkthrough[stepIdx]) return;
     const s = t.walkthrough[stepIdx];
@@ -1015,7 +1015,8 @@
     walkNext: window.walkNext,
     walkPrev: window.walkPrev,
     walkStart: window.walkStart,
-    walkFinish: window.walkFinish
+    walkFinish: window.walkFinish,
+    walkRun: window.walkRun
   };
 
   // ===== DOM READY =====
